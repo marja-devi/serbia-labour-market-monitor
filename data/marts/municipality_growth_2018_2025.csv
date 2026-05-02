@@ -1,0 +1,345 @@
+municipality_code,municipality_name,earnings_type,macro_region_name,statistical_region_name,administrative_district_name,local_unit_type,city_group_name,value_2018_rsd,value_2025_rsd,absolute_growth_rsd,growth_pct
+70017,Aleksandrovac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,52564.0,112396.0,59832.0,113.83
+70017,Aleksandrovac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,38151.0,81403.0,43252.0,113.37
+70025,Aleksinac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,56300.0,119381.0,63081.0,112.04
+70025,Aleksinac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,40856.0,86408.0,45552.0,111.49
+70033,Aranđelovac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,61717.0,129123.0,67406.0,109.22
+70033,Aranđelovac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,44672.0,93406.0,48734.0,109.09
+70041,Arilje,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,51151.0,112473.0,61322.0,119.88
+70041,Arilje,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,37100.0,81523.0,44423.0,119.74
+70050,Babušnica,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,57308.0,117978.0,60670.0,105.87
+70050,Babušnica,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,41540.0,85464.0,43924.0,105.74
+70068,Bajina Bašta,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,54775.0,116000.0,61225.0,111.78
+70068,Bajina Bašta,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,39709.0,83884.0,44175.0,111.25
+70076,Batočina,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,54179.0,119994.0,65815.0,121.48
+70076,Batočina,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,39248.0,86906.0,47658.0,121.43
+70084,Bela Palanka,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,52572.0,112474.0,59902.0,113.94
+70084,Bela Palanka,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,38293.0,81633.0,43340.0,113.18
+70092,Barajevo,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,59653.0,131453.0,71800.0,120.36
+70092,Barajevo,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,43223.0,95017.0,51794.0,119.83
+70106,Voždovac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,87022.0,196547.0,109525.0,125.86
+70106,Voždovac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,62898.0,142554.0,79656.0,126.64
+70114,Vračar,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,108485.0,247679.0,139194.0,128.31
+70114,Vračar,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,78619.0,181664.0,103045.0,131.07
+70122,Grocka,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,59864.0,134810.0,74946.0,125.19
+70122,Grocka,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,43336.0,97460.0,54124.0,124.89
+70149,Zvezdara,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,86516.0,193909.0,107393.0,124.13
+70149,Zvezdara,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,62515.0,140610.0,78095.0,124.92
+70157,Zemun,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,76986.0,176912.0,99926.0,129.8
+70157,Zemun,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,55668.0,128136.0,72468.0,130.18
+70165,Lazarevac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,89607.0,153137.0,63530.0,70.9
+70165,Lazarevac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,64243.0,110208.0,45965.0,71.55
+70173,Mladenovac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,58054.0,127809.0,69755.0,120.16
+70173,Mladenovac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,42055.0,92374.0,50319.0,119.65
+70181,Novi Beograd,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,104079.0,239519.0,135440.0,130.13
+70181,Novi Beograd,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,75469.0,174881.0,99412.0,131.73
+70190,Obrenovac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,70944.0,142555.0,71611.0,100.94
+70190,Obrenovac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,51135.0,103072.0,51937.0,101.57
+70203,Palilula (Beograd),gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,76299.0,171190.0,94891.0,124.37
+70203,Palilula (Beograd),net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,55125.0,123940.0,68815.0,124.83
+70211,Rakovica,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,77501.0,170449.0,92948.0,119.93
+70211,Rakovica,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,55977.0,123175.0,67198.0,120.05
+70220,Savski venac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,92859.0,237093.0,144234.0,155.33
+70220,Savski venac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,67111.0,174381.0,107270.0,159.84
+70238,Sopot,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,57814.0,130389.0,72575.0,125.53
+70238,Sopot,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,41867.0,94299.0,52432.0,125.23
+70246,Stari grad,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,102793.0,255495.0,152702.0,148.55
+70246,Stari grad,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,74332.0,187785.0,113453.0,152.63
+70254,Čukarica,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,82053.0,179883.0,97830.0,119.23
+70254,Čukarica,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,59273.0,130315.0,71042.0,119.86
+70262,Blace,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,52142.0,109361.0,57219.0,109.74
+70262,Blace,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,37919.0,79317.0,41398.0,109.17
+70289,Bogatić,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,53339.0,114774.0,61435.0,115.18
+70289,Bogatić,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,38712.0,83259.0,44547.0,115.07
+70297,Bojnik,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,49887.0,103243.0,53356.0,106.95
+70297,Bojnik,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,36290.0,74982.0,38692.0,106.62
+70319,Boljevac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,59721.0,132940.0,73219.0,122.6
+70319,Boljevac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,43260.0,95921.0,52661.0,121.73
+70327,Bor,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,73589.0,175793.0,102204.0,138.88
+70327,Bor,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,53023.0,126444.0,73421.0,138.47
+70335,Bosilegrad,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,54151.0,109406.0,55255.0,102.04
+70335,Bosilegrad,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,39340.0,78994.0,39654.0,100.8
+70343,Brus,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,52032.0,115947.0,63915.0,122.84
+70343,Brus,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,37810.0,84085.0,46275.0,122.39
+70351,Bujanovac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,52617.0,109503.0,56886.0,108.11
+70351,Bujanovac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,38286.0,79392.0,41106.0,107.37
+70360,Valjevo,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,61524.0,134345.0,72821.0,118.36
+70360,Valjevo,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,44508.0,97011.0,52503.0,117.96
+70378,Varvarin,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,50011.0,114972.0,64961.0,129.89
+70378,Varvarin,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,36260.0,83158.0,46898.0,129.34
+70386,Velika Plana,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Podunavska oblast,municipality,,57038.0,122301.0,65263.0,114.42
+70386,Velika Plana,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Podunavska oblast,municipality,,41362.0,88550.0,47188.0,114.09
+70394,Veliko Gradište,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,53646.0,116681.0,63035.0,117.5
+70394,Veliko Gradište,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,38708.0,84114.0,45406.0,117.3
+70408,Vladimirci,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,52304.0,116352.0,64048.0,122.45
+70408,Vladimirci,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,38068.0,84585.0,46517.0,122.19
+70416,Vladičin Han,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,56838.0,120104.0,63266.0,111.31
+70416,Vladičin Han,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,41240.0,86927.0,45687.0,110.78
+70424,Vlasotince,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,48332.0,105413.0,57081.0,118.1
+70424,Vlasotince,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,35243.0,76469.0,41226.0,116.98
+70432,Vranje,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,58450.0,119243.0,60793.0,104.01
+70432,Vranje,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,42356.0,86353.0,43997.0,103.87
+70459,Vrnjačka Banja,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,53212.0,115765.0,62553.0,117.55
+70459,Vrnjačka Banja,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,38544.0,83730.0,45186.0,117.23
+70467,Gadžin Han,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,47156.0,108273.0,61117.0,129.61
+70467,Gadžin Han,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,34391.0,78586.0,44195.0,128.51
+70475,Golubac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,53235.0,113712.0,60477.0,113.6
+70475,Golubac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,38636.0,82191.0,43555.0,112.73
+70483,Gornji Milanovac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,64031.0,134241.0,70210.0,109.65
+70483,Gornji Milanovac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,46307.0,96971.0,50664.0,109.41
+70491,Despotovac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,60401.0,118054.0,57653.0,95.45
+70491,Despotovac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,43753.0,85298.0,41545.0,94.95
+70505,Dimitrovgrad,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,52620.0,114928.0,62308.0,118.41
+70505,Dimitrovgrad,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,38230.0,83458.0,45228.0,118.3
+70513,Doljevac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,50468.0,111597.0,61129.0,121.12
+70513,Doljevac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,36834.0,81036.0,44202.0,120.0
+70521,Žabari,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,49909.0,112956.0,63047.0,126.32
+70521,Žabari,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,36275.0,82049.0,45774.0,126.19
+70530,Žagubica,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,58220.0,124385.0,66165.0,113.65
+70530,Žagubica,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,42161.0,90016.0,47855.0,113.51
+70548,Žitorađa,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,53086.0,111279.0,58193.0,109.62
+70548,Žitorađa,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,38611.0,80746.0,42135.0,109.13
+70556,Zaječar,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,60466.0,133755.0,73289.0,121.21
+70556,Zaječar,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,43695.0,96675.0,52980.0,121.25
+70564,Ivanjica,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,50481.0,113600.0,63119.0,125.04
+70564,Ivanjica,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,36863.0,82467.0,45604.0,123.71
+70572,Kladovo,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,62961.0,129342.0,66381.0,105.43
+70572,Kladovo,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,45458.0,93355.0,47897.0,105.37
+70599,Knić,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,57360.0,120697.0,63337.0,110.42
+70599,Knić,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,41627.0,87345.0,45718.0,109.83
+70602,Knjaževac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,51518.0,113421.0,61903.0,120.16
+70602,Knjaževac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,37490.0,82165.0,44675.0,119.17
+70629,Kosjerić,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,60791.0,126699.0,65908.0,108.42
+70629,Kosjerić,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,43974.0,91323.0,47349.0,107.67
+70637,Koceljeva,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,52350.0,115624.0,63274.0,120.87
+70637,Koceljeva,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,38036.0,83754.0,45718.0,120.2
+70645,Kragujevac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,66531.0,143461.0,76930.0,115.63
+70645,Kragujevac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,48079.0,103636.0,55557.0,115.55
+70653,Kraljevo,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,58968.0,126617.0,67649.0,114.72
+70653,Kraljevo,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,42708.0,91579.0,48871.0,114.43
+70661,Krupanj,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,50441.0,115622.0,65181.0,129.22
+70661,Krupanj,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,36703.0,83747.0,47044.0,128.17
+70670,Kruševac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,59341.0,133598.0,74257.0,125.14
+70670,Kruševac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,42981.0,96585.0,53604.0,124.72
+70688,Kuršumlija,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,56595.0,120246.0,63651.0,112.47
+70688,Kuršumlija,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,41000.0,87017.0,46017.0,112.24
+70696,Kučevo,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,54024.0,123581.0,69557.0,128.75
+70696,Kučevo,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,39125.0,89118.0,49993.0,127.78
+70700,Lajkovac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,82262.0,141746.0,59484.0,72.31
+70700,Lajkovac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,59080.0,102126.0,43046.0,72.86
+70718,Lebane,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,51982.0,108234.0,56252.0,108.21
+70718,Lebane,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,37711.0,78430.0,40719.0,107.98
+70726,Leskovac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,55098.0,117059.0,61961.0,112.46
+70726,Leskovac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,39999.0,84787.0,44788.0,111.97
+70734,Loznica,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,54673.0,122741.0,68068.0,124.5
+70734,Loznica,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,39641.0,88770.0,49129.0,123.93
+70742,Lučani,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,73258.0,150314.0,77056.0,105.18
+70742,Lučani,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,52659.0,108105.0,55446.0,105.29
+70769,Ljig,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,63532.0,130070.0,66538.0,104.73
+70769,Ljig,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,45834.0,94027.0,48193.0,105.15
+70777,Ljubovija,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,60553.0,126990.0,66437.0,109.72
+70777,Ljubovija,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,43717.0,92091.0,48374.0,110.65
+70785,Majdanpek,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,68165.0,159459.0,91294.0,133.93
+70785,Majdanpek,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,49202.0,114639.0,65437.0,133.0
+70793,Mali Zvornik,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,56205.0,121521.0,65316.0,116.21
+70793,Mali Zvornik,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,40757.0,88069.0,47312.0,116.08
+70807,Malo Crniće,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,53957.0,113837.0,59880.0,110.98
+70807,Malo Crniće,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,39156.0,82274.0,43118.0,110.12
+70815,Medveđa,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,62376.0,126335.0,63959.0,102.54
+70815,Medveđa,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,45143.0,91290.0,46147.0,102.22
+70823,Merošina,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,50477.0,109843.0,59366.0,117.61
+70823,Merošina,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,36776.0,79706.0,42930.0,116.73
+70831,Mionica,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,55588.0,116634.0,61046.0,109.82
+70831,Mionica,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,40340.0,84499.0,44159.0,109.47
+70840,Negotin,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,58457.0,127576.0,69119.0,118.24
+70840,Negotin,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Borska oblast,municipality,,42331.0,92076.0,49745.0,117.51
+70866,Nova Varoš,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,56082.0,118811.0,62729.0,111.85
+70866,Nova Varoš,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,40590.0,85760.0,45170.0,111.28
+70874,Novi Pazar,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,51529.0,112529.0,61000.0,118.38
+70874,Novi Pazar,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,37440.0,81426.0,43986.0,117.48
+70882,Osečina,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,54343.0,115665.0,61322.0,112.84
+70882,Osečina,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,39402.0,83801.0,44399.0,112.68
+70904,Paraćin,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,55868.0,122949.0,67081.0,120.07
+70904,Paraćin,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,40506.0,88998.0,48492.0,119.72
+70912,Petrovac na Mlavi,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,51700.0,113305.0,61605.0,119.16
+70912,Petrovac na Mlavi,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,municipality,,37585.0,82000.0,44415.0,118.17
+70939,Pirot,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,72036.0,134890.0,62854.0,87.25
+70939,Pirot,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pirotska oblast,municipality,,51968.0,97343.0,45375.0,87.31
+70947,Požarevac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,69990.0,140381.0,70391.0,100.57
+70947,Požarevac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,50440.0,101125.0,50685.0,100.49
+70955,Požega,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,58679.0,129595.0,70916.0,120.85
+70955,Požega,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,42438.0,93658.0,51220.0,120.69
+70963,Preševo,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,52996.0,102234.0,49238.0,92.91
+70963,Preševo,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,38280.0,73895.0,35615.0,93.04
+70971,Priboj,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,55752.0,120810.0,65058.0,116.69
+70971,Priboj,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,40306.0,87336.0,47030.0,116.68
+70980,Prijepolje,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,53248.0,113198.0,59950.0,112.59
+70980,Prijepolje,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,38684.0,81878.0,43194.0,111.66
+70998,Prokuplje,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,56606.0,122238.0,65632.0,115.95
+70998,Prokuplje,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Toplička oblast,municipality,,41068.0,88461.0,47393.0,115.4
+71005,Ražanj,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,49530.0,110818.0,61288.0,123.74
+71005,Ražanj,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,36110.0,80340.0,44230.0,122.49
+71013,Rača,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,54909.0,120130.0,65221.0,118.78
+71013,Rača,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,39917.0,87046.0,47129.0,118.07
+71021,Raška,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,56013.0,117746.0,61733.0,110.21
+71021,Raška,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,40635.0,85194.0,44559.0,109.66
+71030,Rekovac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,54650.0,111737.0,57087.0,104.46
+71030,Rekovac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,39554.0,80908.0,41354.0,104.55
+71048,Jagodina,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,55984.0,121594.0,65610.0,117.19
+71048,Jagodina,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,40589.0,88073.0,47484.0,116.99
+71056,Svilajnac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,54348.0,115390.0,61042.0,112.32
+71056,Svilajnac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,39390.0,83432.0,44042.0,111.81
+71064,Svrljig,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,44181.0,109396.0,65215.0,147.61
+71064,Svrljig,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,municipality,,32152.0,79747.0,47595.0,148.03
+71072,Sjenica,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,57075.0,116614.0,59539.0,104.32
+71072,Sjenica,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,41404.0,84161.0,42757.0,103.27
+71099,Smederevo,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Podunavska oblast,municipality,,68735.0,138150.0,69415.0,100.99
+71099,Smederevo,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Podunavska oblast,municipality,,49611.0,99718.0,50107.0,101.0
+71102,Smederevska Palanka,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Podunavska oblast,municipality,,58108.0,125109.0,67001.0,115.3
+71102,Smederevska Palanka,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Podunavska oblast,municipality,,42272.0,90525.0,48253.0,114.15
+71129,Sokobanja,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,57608.0,119377.0,61769.0,107.22
+71129,Sokobanja,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Zaječarska oblast,municipality,,41610.0,86218.0,44608.0,107.2
+71137,Surdulica,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,57023.0,118242.0,61219.0,107.36
+71137,Surdulica,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,41276.0,85515.0,44239.0,107.18
+71145,Užice,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,66334.0,141272.0,74938.0,112.97
+71145,Užice,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,47881.0,101833.0,53952.0,112.68
+71153,Topola,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,55282.0,119155.0,63873.0,115.54
+71153,Topola,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,40056.0,86223.0,46167.0,115.26
+71161,Trgovište,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,56570.0,112003.0,55433.0,97.99
+71161,Trgovište,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,municipality,,40986.0,81140.0,40154.0,97.97
+71170,Trstenik,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,54350.0,117579.0,63229.0,116.34
+71170,Trstenik,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,39466.0,85165.0,45699.0,115.79
+71188,Tutin,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,54433.0,111651.0,57218.0,105.12
+71188,Tutin,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Raška oblast,municipality,,39574.0,80850.0,41276.0,104.3
+71196,Ćićevac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,50499.0,119578.0,69079.0,136.79
+71196,Ćićevac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Rasinska oblast,municipality,,36751.0,86653.0,49902.0,135.78
+71200,Ćuprija,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,55243.0,123988.0,68745.0,124.44
+71200,Ćuprija,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Pomoravska oblast,municipality,,40024.0,89645.0,49621.0,123.98
+71218,Ub,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,64335.0,129446.0,65111.0,101.21
+71218,Ub,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Kolubarska oblast,municipality,,46507.0,93694.0,47187.0,101.46
+71226,Crna Trava,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,52916.0,108859.0,55943.0,105.72
+71226,Crna Trava,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Jablanička oblast,municipality,,38610.0,78781.0,40171.0,104.04
+71234,Čajetina,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,53820.0,120142.0,66322.0,123.23
+71234,Čajetina,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,municipality,,39020.0,86753.0,47733.0,122.33
+71242,Čačak,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,59791.0,131203.0,71412.0,119.44
+71242,Čačak,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Moravička oblast,municipality,,43260.0,94901.0,51641.0,119.37
+71269,Šabac,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,60929.0,132234.0,71305.0,117.03
+71269,Šabac,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Mačvanska oblast,municipality,,44150.0,95703.0,51553.0,116.77
+71277,Lapovo,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,55805.0,120678.0,64873.0,116.25
+71277,Lapovo,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Šumadijska oblast,municipality,,40392.0,87252.0,46860.0,116.01
+71285,Niška Banja,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,51957.0,119209.0,67252.0,129.44
+71285,Niška Banja,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,37790.0,86426.0,48636.0,128.7
+71293,Surčin,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,61385.0,138673.0,77288.0,125.91
+71293,Surčin,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,44440.0,100374.0,55934.0,125.86
+71307,Pantelej,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,59932.0,140104.0,80172.0,133.77
+71307,Pantelej,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,43416.0,101362.0,57946.0,133.47
+71315,Crveni Krst,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,56431.0,126764.0,70333.0,124.64
+71315,Crveni Krst,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,40985.0,91815.0,50830.0,124.02
+71323,Palilula (Niš),gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,59620.0,134319.0,74699.0,125.29
+71323,Palilula (Niš),net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,43223.0,97278.0,54055.0,125.06
+71331,Medijana,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,71442.0,164794.0,93352.0,130.67
+71331,Medijana,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,51552.0,118929.0,67377.0,130.7
+71340,Kostolac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,86412.0,151448.0,65036.0,75.26
+71340,Kostolac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,61956.0,108892.0,46936.0,75.76
+71358,Vranjska Banja,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,44334.0,106405.0,62071.0,140.01
+71358,Vranjska Banja,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,32135.0,77192.0,45057.0,140.21
+71366,Sevojno,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,67050.0,126796.0,59746.0,89.11
+71366,Sevojno,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,48282.0,91163.0,42881.0,88.81
+79022,Grad Niš,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city,Grad Niš,64113.0,146029.0,81916.0,127.77
+79022,Grad Niš,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city,Grad Niš,46383.0,105576.0,59193.0,127.62
+79049,Grad Požarevac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city,Grad Požarevac,72711.0,141940.0,69229.0,95.21
+79049,Grad Požarevac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city,Grad Požarevac,52348.0,102220.0,49872.0,95.27
+79057,Grad Vranje,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city,Grad Vranje,58137.0,118918.0,60781.0,104.55
+79057,Grad Vranje,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city,Grad Vranje,42130.0,86122.0,43992.0,104.42
+79065,Grad Užice,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city,Grad Užice,66355.0,140763.0,74408.0,112.14
+79065,Grad Užice,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city,Grad Užice,47892.0,101458.0,53566.0,111.85
+80012,Ada,gross,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,59340.0,120250.0,60910.0,102.65
+80012,Ada,net,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,42788.0,87010.0,44222.0,103.35
+80039,Alibunar,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,57687.0,124255.0,66568.0,115.4
+80039,Alibunar,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,41884.0,89962.0,48078.0,114.79
+80047,Apatin,gross,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,58991.0,122711.0,63720.0,108.02
+80047,Apatin,net,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,42627.0,88684.0,46057.0,108.05
+80055,Bač,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,52559.0,113269.0,60710.0,115.51
+80055,Bač,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,38236.0,82201.0,43965.0,114.98
+80063,Bačka Palanka,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,62661.0,128316.0,65655.0,104.78
+80063,Bačka Palanka,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,45376.0,92889.0,47513.0,104.71
+80071,Bačka Topola,gross,SRBIJA – SEVER,Region Vojvodine,Severnobačka oblast,municipality,,60715.0,123810.0,63095.0,103.92
+80071,Bačka Topola,net,SRBIJA – SEVER,Region Vojvodine,Severnobačka oblast,municipality,,43978.0,89552.0,45574.0,103.63
+80080,Bački Petrovac,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,57249.0,122367.0,65118.0,113.75
+80080,Bački Petrovac,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,41527.0,88739.0,47212.0,113.69
+80098,Bela Crkva,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,55155.0,119201.0,64046.0,116.12
+80098,Bela Crkva,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,40015.0,86171.0,46156.0,115.35
+80101,Beočin,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,59487.0,131203.0,71716.0,120.56
+80101,Beočin,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,43166.0,94845.0,51679.0,119.72
+80110,Bečej,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,59741.0,126033.0,66292.0,110.97
+80110,Bečej,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,43213.0,91214.0,48001.0,111.08
+80128,Vršac,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,71961.0,144779.0,72818.0,101.19
+80128,Vršac,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,51943.0,104782.0,52839.0,101.72
+80136,Žabalj,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,54991.0,123044.0,68053.0,123.75
+80136,Žabalj,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,39989.0,89078.0,49089.0,122.76
+80144,Žitište,gross,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,59892.0,124464.0,64572.0,107.81
+80144,Žitište,net,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,43415.0,90077.0,46662.0,107.48
+80152,Zrenjanin,gross,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,66968.0,137027.0,70059.0,104.62
+80152,Zrenjanin,net,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,48415.0,98995.0,50580.0,104.47
+80179,Inđija,gross,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,63230.0,144997.0,81767.0,129.32
+80179,Inđija,net,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,45784.0,104658.0,58874.0,128.59
+80187,Irig,gross,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,54541.0,122339.0,67798.0,124.31
+80187,Irig,net,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,39714.0,88706.0,48992.0,123.36
+80195,Kanjiža,gross,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,59738.0,120614.0,60876.0,101.9
+80195,Kanjiža,net,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,43149.0,87358.0,44209.0,102.46
+80209,Kikinda,gross,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,63917.0,130757.0,66840.0,104.57
+80209,Kikinda,net,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,46208.0,94578.0,48370.0,104.68
+80217,Kovačica,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,54906.0,119604.0,64698.0,117.83
+80217,Kovačica,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,39727.0,86565.0,46838.0,117.9
+80225,Kovin,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,60056.0,127849.0,67793.0,112.88
+80225,Kovin,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,43489.0,92436.0,48947.0,112.55
+80233,Kula,gross,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,56670.0,122822.0,66152.0,116.73
+80233,Kula,net,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,41039.0,88801.0,47762.0,116.38
+80241,Mali Iđoš,gross,SRBIJA – SEVER,Region Vojvodine,Severnobačka oblast,municipality,,53328.0,116358.0,63030.0,118.19
+80241,Mali Iđoš,net,SRBIJA – SEVER,Region Vojvodine,Severnobačka oblast,municipality,,38781.0,84378.0,45597.0,117.58
+80250,Nova Crnja,gross,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,60332.0,123327.0,62995.0,104.41
+80250,Nova Crnja,net,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,43645.0,89155.0,45510.0,104.27
+80268,Novi Bečej,gross,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,55339.0,118461.0,63122.0,114.06
+80268,Novi Bečej,net,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,40217.0,85781.0,45564.0,113.3
+80276,Novi Kneževac,gross,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,57934.0,124653.0,66719.0,115.16
+80276,Novi Kneževac,net,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,41966.0,90082.0,48116.0,114.65
+80292,Opovo,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,57554.0,125425.0,67871.0,117.93
+80292,Opovo,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,41688.0,90653.0,48965.0,117.46
+80306,Odžaci,gross,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,56441.0,120539.0,64098.0,113.57
+80306,Odžaci,net,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,40925.0,87109.0,46184.0,112.85
+80314,Pančevo,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,68264.0,151637.0,83373.0,122.13
+80314,Pančevo,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,49291.0,109437.0,60146.0,122.02
+80322,Pećinci,gross,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,61215.0,134572.0,73357.0,119.84
+80322,Pećinci,net,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,44336.0,97154.0,52818.0,119.13
+80349,Plandište,gross,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,57677.0,125640.0,67963.0,117.83
+80349,Plandište,net,SRBIJA – SEVER,Region Vojvodine,Južnobanatska oblast,municipality,,41913.0,90941.0,49028.0,116.98
+80357,Ruma,gross,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,60165.0,132725.0,72560.0,120.6
+80357,Ruma,net,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,43589.0,95850.0,52261.0,119.89
+80365,Senta,gross,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,63428.0,129192.0,65764.0,103.68
+80365,Senta,net,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,45868.0,93435.0,47567.0,103.7
+80373,Sečanj,gross,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,59390.0,124455.0,65065.0,109.56
+80373,Sečanj,net,SRBIJA – SEVER,Region Vojvodine,Srednjobanatska oblast,municipality,,43073.0,90040.0,46967.0,109.04
+80381,Sombor,gross,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,61180.0,126247.0,65067.0,106.35
+80381,Sombor,net,SRBIJA – SEVER,Region Vojvodine,Zapadnobačka oblast,municipality,,44273.0,91245.0,46972.0,106.1
+80390,Srbobran,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,53468.0,118512.0,65044.0,121.65
+80390,Srbobran,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,38794.0,85776.0,46982.0,121.11
+80403,Sremska Mitrovica,gross,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,63797.0,134957.0,71160.0,111.54
+80403,Sremska Mitrovica,net,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,46130.0,97421.0,51291.0,111.19
+80411,Sremski Karlovci,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,63876.0,140771.0,76895.0,120.38
+80411,Sremski Karlovci,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,46238.0,101812.0,55574.0,120.19
+80420,Stara Pazova,gross,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,61868.0,140607.0,78739.0,127.27
+80420,Stara Pazova,net,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,44785.0,101652.0,56867.0,126.98
+80438,Subotica,gross,SRBIJA – SEVER,Region Vojvodine,Severnobačka oblast,municipality,,64218.0,135572.0,71354.0,111.11
+80438,Subotica,net,SRBIJA – SEVER,Region Vojvodine,Severnobačka oblast,municipality,,46474.0,98241.0,51767.0,111.39
+80446,Temerin,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,58824.0,129537.0,70713.0,120.21
+80446,Temerin,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,42634.0,93722.0,51088.0,119.83
+80454,Titel,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,53822.0,121038.0,67216.0,124.89
+80454,Titel,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,39123.0,87510.0,48387.0,123.68
+80462,Vrbas,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,58961.0,126414.0,67453.0,114.4
+80462,Vrbas,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,municipality,,42704.0,91505.0,48801.0,114.28
+80489,Čoka,gross,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,56356.0,119057.0,62701.0,111.26
+80489,Čoka,net,SRBIJA – SEVER,Region Vojvodine,Severnobanatska oblast,municipality,,40903.0,86419.0,45516.0,111.28
+80497,Šid,gross,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,56328.0,124749.0,68421.0,121.47
+80497,Šid,net,SRBIJA – SEVER,Region Vojvodine,Sremska oblast,municipality,,40783.0,90141.0,49358.0,121.03
+89010,Grad Novi Sad,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,city,Grad Novi Sad,74846.0,174469.0,99623.0,133.1
+89010,Grad Novi Sad,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,city,Grad Novi Sad,54075.0,126469.0,72394.0,133.88

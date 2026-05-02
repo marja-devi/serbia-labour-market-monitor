@@ -1,0 +1,841 @@
+﻿idindikator;mes;god;IDKD08;nkd08;IDTer;nTer;vrednost;idJedinicaMere;nJedinicaMere;nIzvorI;Indikator;IDStatusPodatka;nStatusPodatka
+2403040402IND01;00;2018;0;Total;RS;REPUBLIC OF SERBIA;49650;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;42812;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;02;Forestry and logging;RS;REPUBLIC OF SERBIA;43590;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;41179;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;79481;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;103667;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;67109;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;49565;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;09;Mining support service activities;RS;REPUBLIC OF SERBIA;116884;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;40077;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;68343;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;100563;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;39375;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;32605;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;34399;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;30960;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;48901;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;39629;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;83350;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;61792;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;87656;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;53087;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;48511;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;65824;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;44973;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;59809;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;46561;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;49712;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;45557;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;51711;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;36257;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;32;Other manufacturing;RS;REPUBLIC OF SERBIA;41103;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;49526;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;80597;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;44577;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;37;Sewerage;RS;REPUBLIC OF SERBIA;40786;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;43284;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;43758;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;41;Construction of buildings;RS;REPUBLIC OF SERBIA;40297;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;42;Civil engineering;RS;REPUBLIC OF SERBIA;56759;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;37716;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;41849;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;49848;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;35490;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;37914;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;50;Water transport;RS;REPUBLIC OF SERBIA;47865;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;51;Air transport;RS;REPUBLIC OF SERBIA;131129;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;59083;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;42688;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;55;Accommodation;RS;REPUBLIC OF SERBIA;40571;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;29340;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;58;Publishing activities;RS;REPUBLIC OF SERBIA;55518;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;46474;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;51790;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;61;Telecommunications;RS;REPUBLIC OF SERBIA;78048;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;109604;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;63;Information service activities;RS;REPUBLIC OF SERBIA;69201;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;101678;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;84441;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;40258;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;68;Real estate activities;RS;REPUBLIC OF SERBIA;50256;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;43120;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;70674;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;55840;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;72;Scientific research and development;RS;REPUBLIC OF SERBIA;90817;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;73;Advertising and market research;RS;REPUBLIC OF SERBIA;72183;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;36260;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;75;Veterinary activities;RS;REPUBLIC OF SERBIA;38668;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;52327;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;78;Employment activities;RS;REPUBLIC OF SERBIA;44157;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;34930;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;35059;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;35043;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;60512;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;58202;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;85;Education;RS;REPUBLIC OF SERBIA;51919;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;86;Human health activities;RS;REPUBLIC OF SERBIA;51970;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;87;Residential care activities;RS;REPUBLIC OF SERBIA;37329;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;42450;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;44495;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;45095;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;39892;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;38479;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;52088;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;30821;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;96;Other personal service activities;RS;REPUBLIC OF SERBIA;30153;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;42902;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;76873;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;45317;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;80597;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;43923;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;F;F - Construction;RS;REPUBLIC OF SERBIA;43781;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;41792;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;45409;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;31637;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;J;J - Information and communication;RS;REPUBLIC OF SERBIA;83174;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;90553;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;50256;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;60863;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;43313;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;58202;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;P;P - Education;RS;REPUBLIC OF SERBIA;51919;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;49214;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;41586;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2018;S;S - Other service activities;RS;REPUBLIC OF SERBIA;38668;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;0;Total;RS;REPUBLIC OF SERBIA;54919;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;47312;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;02;Forestry and logging;RS;REPUBLIC OF SERBIA;49035;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;38927;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;87795;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;130649;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;78418;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;59443;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;09;Mining support service activities;RS;REPUBLIC OF SERBIA;135490;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;42582;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;69707;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;108589;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;43277;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;35299;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;38219;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;33560;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;52244;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;42883;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;102175;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;61002;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;99057;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;56764;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;52900;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;70711;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;49147;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;61001;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;53322;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;59145;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;52170;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;55994;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;39686;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;32;Other manufacturing;RS;REPUBLIC OF SERBIA;41610;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;51762;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;90206;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;47297;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;37;Sewerage;RS;REPUBLIC OF SERBIA;53934;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;47144;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;43026;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;41;Construction of buildings;RS;REPUBLIC OF SERBIA;45178;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;42;Civil engineering;RS;REPUBLIC OF SERBIA;68487;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;41165;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;43740;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;58566;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;37907;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;41002;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;50;Water transport;RS;REPUBLIC OF SERBIA;52622;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;51;Air transport;RS;REPUBLIC OF SERBIA;176938;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;64993;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;46360;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;55;Accommodation;RS;REPUBLIC OF SERBIA;44597;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;31419;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;58;Publishing activities;RS;REPUBLIC OF SERBIA;61939;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;76598;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;58859;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;61;Telecommunications;RS;REPUBLIC OF SERBIA;86645;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;127487;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;63;Information service activities;RS;REPUBLIC OF SERBIA;76026;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;108625;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;90007;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;49126;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;68;Real estate activities;RS;REPUBLIC OF SERBIA;54937;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;49777;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;84252;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;62701;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;72;Scientific research and development;RS;REPUBLIC OF SERBIA;104481;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;73;Advertising and market research;RS;REPUBLIC OF SERBIA;75378;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;37622;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;75;Veterinary activities;RS;REPUBLIC OF SERBIA;41943;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;59242;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;78;Employment activities;RS;REPUBLIC OF SERBIA;48933;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;38994;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;38553;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;37707;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;69361;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;64707;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;85;Education;RS;REPUBLIC OF SERBIA;56608;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;86;Human health activities;RS;REPUBLIC OF SERBIA;58254;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;87;Residential care activities;RS;REPUBLIC OF SERBIA;40039;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;46524;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;48686;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;49701;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;45282;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;41611;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;56076;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;32634;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;96;Other personal service activities;RS;REPUBLIC OF SERBIA;32258;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;47398;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;87681;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;49476;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;90206;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;47362;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;F;F - Construction;RS;REPUBLIC OF SERBIA;49772;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;46177;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;50359;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;34372;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;J;J - Information and communication;RS;REPUBLIC OF SERBIA;97328;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;97032;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;54937;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;68750;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;48856;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;64707;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;P;P - Education;RS;REPUBLIC OF SERBIA;56608;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;55334;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;45900;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2019;S;S - Other service activities;RS;REPUBLIC OF SERBIA;41522;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;0;Total;RS;REPUBLIC OF SERBIA;60073;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;51758;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;02;Forestry and logging;RS;REPUBLIC OF SERBIA;55385;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;43312;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;90019;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;119554;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;90066;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;64137;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;09;Mining support service activities;RS;REPUBLIC OF SERBIA;109285;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;46111;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;71369;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;127222;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;46730;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;38766;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;40511;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;36063;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;57745;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;46088;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;105132;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;63367;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;103370;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;59927;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;56370;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;70807;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;52687;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;68895;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;56918;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;61254;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;54951;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;57138;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;42868;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;32;Other manufacturing;RS;REPUBLIC OF SERBIA;45817;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;54960;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;97563;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;54008;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;37;Sewerage;RS;REPUBLIC OF SERBIA;58504;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;54832;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;53525;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;41;Construction of buildings;RS;REPUBLIC OF SERBIA;49840;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;42;Civil engineering;RS;REPUBLIC OF SERBIA;71189;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;43557;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;46824;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;63335;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;41240;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;44077;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;50;Water transport;RS;REPUBLIC OF SERBIA;57770;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;51;Air transport;RS;REPUBLIC OF SERBIA;154413;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;67309;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;51584;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;55;Accommodation;RS;REPUBLIC OF SERBIA;44820;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;34714;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;58;Publishing activities;RS;REPUBLIC OF SERBIA;66507;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;82111;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;68907;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;61;Telecommunications;RS;REPUBLIC OF SERBIA;91637;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;158493;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;63;Information service activities;RS;REPUBLIC OF SERBIA;82875;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;112462;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;95926;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;49998;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;68;Real estate activities;RS;REPUBLIC OF SERBIA;58371;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;55691;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;97349;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;66419;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;72;Scientific research and development;RS;REPUBLIC OF SERBIA;119826;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;73;Advertising and market research;RS;REPUBLIC OF SERBIA;78739;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;51948;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;75;Veterinary activities;RS;REPUBLIC OF SERBIA;46249;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;64353;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;78;Employment activities;RS;REPUBLIC OF SERBIA;57115;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;36356;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;43561;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;41899;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;76039;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;69969;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;85;Education;RS;REPUBLIC OF SERBIA;60638;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;86;Human health activities;RS;REPUBLIC OF SERBIA;69347;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;87;Residential care activities;RS;REPUBLIC OF SERBIA;46031;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;50496;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;52022;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;53905;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;47008;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;44560;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;60039;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;37817;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;96;Other personal service activities;RS;REPUBLIC OF SERBIA;35242;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;52254;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;90788;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;52814;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;97563;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;54540;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;F;F - Construction;RS;REPUBLIC OF SERBIA;52672;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;49628;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;52996;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;36864;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;J;J - Information and communication;RS;REPUBLIC OF SERBIA;119471;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;100802;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;58371;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;75647;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;54688;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;69969;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;P;P - Education;RS;REPUBLIC OF SERBIA;60638;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;65185;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;48706;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2020;S;S - Other service activities;RS;REPUBLIC OF SERBIA;44771;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;0;Total;RS;REPUBLIC OF SERBIA;65864;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;56318;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;02;Forestry and logging;RS;REPUBLIC OF SERBIA;56494;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;42728;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;95988;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;122576;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;99292;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;72536;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;09;Mining support service activities;RS;REPUBLIC OF SERBIA;112656;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;50464;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;75632;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;119653;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;51127;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;41608;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;45935;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;39100;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;61607;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;50981;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;109431;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;72012;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;108993;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;64941;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;60307;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;77865;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;58153;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;78150;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;60381;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;65460;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;58926;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;58492;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;45907;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;32;Other manufacturing;RS;REPUBLIC OF SERBIA;48852;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;60759;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;97377;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;57514;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;37;Sewerage;RS;REPUBLIC OF SERBIA;71870;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;60006;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;52236;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;41;Construction of buildings;RS;REPUBLIC OF SERBIA;55977;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;42;Civil engineering;RS;REPUBLIC OF SERBIA;75338;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;47535;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;51367;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;70585;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;45341;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;47108;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;50;Water transport;RS;REPUBLIC OF SERBIA;64897;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;51;Air transport;RS;REPUBLIC OF SERBIA;151401;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;71277;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;53127;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;55;Accommodation;RS;REPUBLIC OF SERBIA;49667;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;36993;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;58;Publishing activities;RS;REPUBLIC OF SERBIA;76184;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;103474;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;77495;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;61;Telecommunications;RS;REPUBLIC OF SERBIA;98438;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;189852;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;63;Information service activities;RS;REPUBLIC OF SERBIA;88888;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;121490;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;101014;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;54309;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;68;Real estate activities;RS;REPUBLIC OF SERBIA;63104;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;62599;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;111352;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;72978;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;72;Scientific research and development;RS;REPUBLIC OF SERBIA;136490;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;73;Advertising and market research;RS;REPUBLIC OF SERBIA;89184;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;62482;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;75;Veterinary activities;RS;REPUBLIC OF SERBIA;48860;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;67859;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;78;Employment activities;RS;REPUBLIC OF SERBIA;65427;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;39484;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;46756;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;45890;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;83559;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;74933;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;85;Education;RS;REPUBLIC OF SERBIA;63507;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;86;Human health activities;RS;REPUBLIC OF SERBIA;78457;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;87;Residential care activities;RS;REPUBLIC OF SERBIA;49746;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;52933;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;55241;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;56974;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;54335;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;48900;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;64243;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;41375;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;96;Other personal service activities;RS;REPUBLIC OF SERBIA;37601;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;55932;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;97397;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;57329;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;97377;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;59148;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;F;F - Construction;RS;REPUBLIC OF SERBIA;57571;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;54599;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;55604;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;39687;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;J;J - Information and communication;RS;REPUBLIC OF SERBIA;142791;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;108104;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;63104;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;84792;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;60298;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;74933;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;P;P - Education;RS;REPUBLIC OF SERBIA;63507;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;73232;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;53651;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2021;S;S - Other service activities;RS;REPUBLIC OF SERBIA;48201;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;0;Total;RS;REPUBLIC OF SERBIA;74933;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;62266;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;02;Forestry and logging;RS;REPUBLIC OF SERBIA;61676;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;48355;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;99035;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;132570;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;108976;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;83420;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;09;Mining support service activities;RS;REPUBLIC OF SERBIA;119433;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;56901;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;81875;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;126190;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;57535;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;46447;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;51473;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;44260;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;69211;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;57250;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;119408;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;82562;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;120529;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;73601;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;67583;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;88332;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;64382;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;87765;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;67308;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;73803;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;66978;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;64974;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;51291;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;32;Other manufacturing;RS;REPUBLIC OF SERBIA;54056;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;68805;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;100765;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;62831;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;37;Sewerage;RS;REPUBLIC OF SERBIA;78310;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;66064;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;64623;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;41;Construction of buildings;RS;REPUBLIC OF SERBIA;63394;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;42;Civil engineering;RS;REPUBLIC OF SERBIA;82697;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;53101;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;58938;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;80212;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;51595;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;52428;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;50;Water transport;RS;REPUBLIC OF SERBIA;78357;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;51;Air transport;RS;REPUBLIC OF SERBIA;176353;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;82207;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;59286;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;55;Accommodation;RS;REPUBLIC OF SERBIA;57522;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;42526;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;58;Publishing activities;RS;REPUBLIC OF SERBIA;86830;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;121908;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;88024;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;61;Telecommunications;RS;REPUBLIC OF SERBIA;114319;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;246768;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;63;Information service activities;RS;REPUBLIC OF SERBIA;101496;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;129989;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;106869;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;61725;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;68;Real estate activities;RS;REPUBLIC OF SERBIA;70263;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;76088;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;132319;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;82257;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;72;Scientific research and development;RS;REPUBLIC OF SERBIA;158110;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;73;Advertising and market research;RS;REPUBLIC OF SERBIA;99214;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;78701;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;75;Veterinary activities;RS;REPUBLIC OF SERBIA;53464;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;74251;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;78;Employment activities;RS;REPUBLIC OF SERBIA;74122;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;47447;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;51854;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;50260;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;95465;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;81404;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;85;Education;RS;REPUBLIC OF SERBIA;68195;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;86;Human health activities;RS;REPUBLIC OF SERBIA;82920;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;87;Residential care activities;RS;REPUBLIC OF SERBIA;53953;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;56948;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;60582;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;61535;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;65634;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;55120;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;70609;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;47589;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;96;Other personal service activities;RS;REPUBLIC OF SERBIA;41482;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;61681;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;103724;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;64590;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;100765;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;64913;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;F;F - Construction;RS;REPUBLIC OF SERBIA;64587;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;62410;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;63032;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;45844;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;J;J - Information and communication;RS;REPUBLIC OF SERBIA;185945;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;115408;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;70263;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;100790;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;68016;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;81404;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;P;P - Education;RS;REPUBLIC OF SERBIA;68195;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;77660;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;61321;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2022;S;S - Other service activities;RS;REPUBLIC OF SERBIA;53619;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;0;Total;RS;REPUBLIC OF SERBIA;86007;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;70565;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;02;Forestry and logging;RS;REPUBLIC OF SERBIA;68717;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;54858;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;110546;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;153621;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;124922;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;89002;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;09;Mining support service activities;RS;REPUBLIC OF SERBIA;135732;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;65695;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;91151;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;140304;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;68203;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;53835;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;57834;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;50485;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;78864;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;65267;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;138393;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;95585;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;124699;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;84469;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;77597;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;97991;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;73998;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;97826;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;77476;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;87420;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;78949;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;75697;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;58813;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;32;Other manufacturing;RS;REPUBLIC OF SERBIA;61495;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;79629;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;110000;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;71949;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;37;Sewerage;RS;REPUBLIC OF SERBIA;75540;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;74986;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;78203;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;41;Construction of buildings;RS;REPUBLIC OF SERBIA;71635;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;42;Civil engineering;RS;REPUBLIC OF SERBIA;94842;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;60843;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;67157;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;92645;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;60220;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;60165;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;50;Water transport;RS;REPUBLIC OF SERBIA;95150;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;51;Air transport;RS;REPUBLIC OF SERBIA;193390;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;95352;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;67102;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;55;Accommodation;RS;REPUBLIC OF SERBIA;65562;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;47377;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;58;Publishing activities;RS;REPUBLIC OF SERBIA;96824;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;126169;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;96654;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;61;Telecommunications;RS;REPUBLIC OF SERBIA;131822;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;264620;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;63;Information service activities;RS;REPUBLIC OF SERBIA;111510;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;144531;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;117604;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;68852;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;68;Real estate activities;RS;REPUBLIC OF SERBIA;80657;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;86602;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;153428;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;92608;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;72;Scientific research and development;RS;REPUBLIC OF SERBIA;180888;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;73;Advertising and market research;RS;REPUBLIC OF SERBIA;109973;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;85183;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;75;Veterinary activities;RS;REPUBLIC OF SERBIA;60489;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;82091;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;78;Employment activities;RS;REPUBLIC OF SERBIA;82334;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;55939;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;58305;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;58124;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;107716;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;93879;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;85;Education;RS;REPUBLIC OF SERBIA;77733;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;86;Human health activities;RS;REPUBLIC OF SERBIA;92050;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;87;Residential care activities;RS;REPUBLIC OF SERBIA;61223;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;65638;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;68246;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;69378;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;77518;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;62109;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;80478;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;52978;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;96;Other personal service activities;RS;REPUBLIC OF SERBIA;46782;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;69670;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;117133;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;74423;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;110000;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;73651;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;F;F - Construction;RS;REPUBLIC OF SERBIA;73778;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;72203;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;72821;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;51520;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;J;J - Information and communication;RS;REPUBLIC OF SERBIA;207273;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;127803;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;80657;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;113430;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;77578;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;93879;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;P;P - Education;RS;REPUBLIC OF SERBIA;77733;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;86211;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;70692;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2023;S;S - Other service activities;RS;REPUBLIC OF SERBIA;60246;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;0;Total;RS;REPUBLIC OF SERBIA;98143;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;79042;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;02;Forestry and logging;RS;REPUBLIC OF SERBIA;76722;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;64883;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;121890;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;158253;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;143992;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;100998;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;09;Mining support service activities;RS;REPUBLIC OF SERBIA;138391;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;76389;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;101701;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;177413;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;78404;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;61770;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;66975;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;58541;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;91865;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;74297;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;150467;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;111549;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;141951;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;96570;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;90831;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;111630;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;86568;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;105826;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;89929;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;100914;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;91288;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;88633;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;67882;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;32;Other manufacturing;RS;REPUBLIC OF SERBIA;70609;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;94321;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;120155;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;82598;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;37;Sewerage;RS;REPUBLIC OF SERBIA;86848;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;86623;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;77556;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;41;Construction of buildings;RS;REPUBLIC OF SERBIA;82142;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;42;Civil engineering;RS;REPUBLIC OF SERBIA;108796;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;70258;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;77771;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;104441;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;69024;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;69767;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;50;Water transport;RS;REPUBLIC OF SERBIA;110929;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;51;Air transport;RS;REPUBLIC OF SERBIA;207965;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;108484;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;79383;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;55;Accommodation;RS;REPUBLIC OF SERBIA;75661;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;55430;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;58;Publishing activities;RS;REPUBLIC OF SERBIA;108712;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;131485;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;110868;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;61;Telecommunications;RS;REPUBLIC OF SERBIA;149732;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;286867;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;63;Information service activities;RS;REPUBLIC OF SERBIA;126849;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;162268;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;133088;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;79939;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;68;Real estate activities;RS;REPUBLIC OF SERBIA;91038;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;97750;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;167441;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;103062;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;72;Scientific research and development;RS;REPUBLIC OF SERBIA;199411;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;73;Advertising and market research;RS;REPUBLIC OF SERBIA;121013;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;92376;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;75;Veterinary activities;RS;REPUBLIC OF SERBIA;69253;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;91203;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;78;Employment activities;RS;REPUBLIC OF SERBIA;91533;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;67365;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;66377;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;67704;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;126795;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;106060;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;85;Education;RS;REPUBLIC OF SERBIA;90443;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;86;Human health activities;RS;REPUBLIC OF SERBIA;104578;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;87;Residential care activities;RS;REPUBLIC OF SERBIA;70114;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;76037;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;76200;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;77887;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;89389;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;71896;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;90680;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;60472;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;96;Other personal service activities;RS;REPUBLIC OF SERBIA;53556;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;78086;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;129047;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;86372;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;120155;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;84776;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;F;F - Construction;RS;REPUBLIC OF SERBIA;84843;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;82289;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;84059;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;59915;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;J;J - Information and communication;RS;REPUBLIC OF SERBIA;228493;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;143927;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;91038;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;125372;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;89929;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;106060;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;P;P - Education;RS;REPUBLIC OF SERBIA;90443;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;97565;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;80876;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2024;S;S - Other service activities;RS;REPUBLIC OF SERBIA;68225;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;0;Total;RS;REPUBLIC OF SERBIA;109462;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;01;Crop and animal production, hunting and related service activities;RS;REPUBLIC OF SERBIA;88051;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;02;Forestry and logging;RS;REPUBLIC OF SERBIA;85625;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;03;Fishing and aquaculture;RS;REPUBLIC OF SERBIA;74204;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;05;Mining of coal and lignite;RS;REPUBLIC OF SERBIA;134459;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;06;Extraction of crude petroleum and natural gas;RS;REPUBLIC OF SERBIA;192121;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;07;Mining of metal ores;RS;REPUBLIC OF SERBIA;160802;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;08;Other mining and quarrying;RS;REPUBLIC OF SERBIA;109838;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;09;Mining support service activities;RS;REPUBLIC OF SERBIA;146023;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;10;Manufacture of food products;RS;REPUBLIC OF SERBIA;86799;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;11;Manufacture of beverages;RS;REPUBLIC OF SERBIA;114185;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;12;Manufacture of tobacco products;RS;REPUBLIC OF SERBIA;185346;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;13;Manufacture of textiles;RS;REPUBLIC OF SERBIA;87260;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;14;Manufacture of wearing apparel;RS;REPUBLIC OF SERBIA;70150;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;15;Manufacture of leather and related products;RS;REPUBLIC OF SERBIA;76070;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;16;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";RS;REPUBLIC OF SERBIA;67317;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;17;Manufacture of paper and paper products;RS;REPUBLIC OF SERBIA;102872;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;18;Printing and reproduction of recorded media;RS;REPUBLIC OF SERBIA;83617;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;19;Manufacture of coke and refined petroleum products;RS;REPUBLIC OF SERBIA;219857;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;20;Manufacture of chemicals and chemical products;RS;REPUBLIC OF SERBIA;124759;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;21;Manufacture of basic pharmaceutical products and pharmaceutical preparations;RS;REPUBLIC OF SERBIA;153610;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;22;Manufacture of rubber and plastic products;RS;REPUBLIC OF SERBIA;107330;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;23;Manufacture of other non-metallic mineral products;RS;REPUBLIC OF SERBIA;102336;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;24;Manufacture of basic metals;RS;REPUBLIC OF SERBIA;127011;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;25;Manufacture of fabricated metal products, except machinery and equipment;RS;REPUBLIC OF SERBIA;96004;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;26;Manufacture of computer, electronic and optical products;RS;REPUBLIC OF SERBIA;120168;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;27;Manufacture of electrical equipment;RS;REPUBLIC OF SERBIA;103639;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;28;Manufacture of machinery and equipment n.e.c.;RS;REPUBLIC OF SERBIA;112357;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;29;Manufacture of motor vehicles, trailers and semi-trailers;RS;REPUBLIC OF SERBIA;102467;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;30;Manufacture of other transport equipment;RS;REPUBLIC OF SERBIA;98484;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;31;Manufacture of furniture;RS;REPUBLIC OF SERBIA;77090;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;32;Other manufacturing;RS;REPUBLIC OF SERBIA;78543;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;33;Repair and installation of machinery and equipment;RS;REPUBLIC OF SERBIA;108794;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;35;Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;132690;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;36;Water collection, treatment and supply;RS;REPUBLIC OF SERBIA;94529;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;37;Sewerage;RS;REPUBLIC OF SERBIA;98837;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;38;"Waste collection, treatment and disposal activities; materials recovery";RS;REPUBLIC OF SERBIA;98019;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;39;Remediation activities and other waste management services;RS;REPUBLIC OF SERBIA;86055;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;41;Construction of buildings;RS;REPUBLIC OF SERBIA;93685;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;42;Civil engineering;RS;REPUBLIC OF SERBIA;117706;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;43;Specialised construction activities;RS;REPUBLIC OF SERBIA;80169;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;45;Wholesale and retail trade and repair of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;86206;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;46;Wholesale trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;116619;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;47;Retail trade, except of motor vehicles and motorcycles;RS;REPUBLIC OF SERBIA;77304;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;49;Land transport and transport via pipelines;RS;REPUBLIC OF SERBIA;79419;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;50;Water transport;RS;REPUBLIC OF SERBIA;129786;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;51;Air transport;RS;REPUBLIC OF SERBIA;238235;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;52;Warehousing and support activities for transportation;RS;REPUBLIC OF SERBIA;119681;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;53;Postal and courier activities;RS;REPUBLIC OF SERBIA;87127;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;55;Accommodation;RS;REPUBLIC OF SERBIA;84474;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;56;Food and beverage service activities;RS;REPUBLIC OF SERBIA;63324;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;58;Publishing activities;RS;REPUBLIC OF SERBIA;122802;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;59;Motion picture, video and television programme production, sound recording and music publishing activities;RS;REPUBLIC OF SERBIA;146133;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;60;Programming and broadcasting activities;RS;REPUBLIC OF SERBIA;124117;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;61;Telecommunications;RS;REPUBLIC OF SERBIA;168958;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;62;Computer programming, consultancy and related activities;RS;REPUBLIC OF SERBIA;297955;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;63;Information service activities;RS;REPUBLIC OF SERBIA;140164;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;64;Financial service activities, except insurance and pension funding;RS;REPUBLIC OF SERBIA;181221;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;65;Insurance, reinsurance and pension funding, except compulsory social security;RS;REPUBLIC OF SERBIA;148972;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;66;Activities auxiliary to financial services and insurance activities;RS;REPUBLIC OF SERBIA;91358;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;68;Real estate activities;RS;REPUBLIC OF SERBIA;102423;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;69;Legal and accounting activities;RS;REPUBLIC OF SERBIA;109164;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;70;"Activities of head offices; management consultancy activities";RS;REPUBLIC OF SERBIA;178468;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;71;"Architectural and engineering activities; technical testing and analysis";RS;REPUBLIC OF SERBIA;120366;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;72;Scientific research and development;RS;REPUBLIC OF SERBIA;214270;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;73;Advertising and market research;RS;REPUBLIC OF SERBIA;131963;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;74;Other professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;103220;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;75;Veterinary activities;RS;REPUBLIC OF SERBIA;78262;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;77;Rental and leasing activities;RS;REPUBLIC OF SERBIA;103092;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;78;Employment activities;RS;REPUBLIC OF SERBIA;105002;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;79;Travel agency, tour operator and other reservation service and related activities;RS;REPUBLIC OF SERBIA;78901;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;80;Security and investigation activities;RS;REPUBLIC OF SERBIA;79570;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;81;Services to buildings and landscape activities;RS;REPUBLIC OF SERBIA;77830;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;82;Office administrative, office support and other business support activities;RS;REPUBLIC OF SERBIA;138716;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;84;"Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;118162;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;85;Education;RS;REPUBLIC OF SERBIA;103428;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;86;Human health activities;RS;REPUBLIC OF SERBIA;115213;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;87;Residential care activities;RS;REPUBLIC OF SERBIA;79127;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;88;Social work activities without accommodation;RS;REPUBLIC OF SERBIA;87137;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;90;Creative, arts and entertainment activities;RS;REPUBLIC OF SERBIA;84233;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;91;Libraries, archives, museums and other cultural activities;RS;REPUBLIC OF SERBIA;86571;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;92;Gambling and betting activities;RS;REPUBLIC OF SERBIA;104452;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;93;Sports activities and amusement and recreation activities;RS;REPUBLIC OF SERBIA;81193;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;94;Activities of membership organisations;RS;REPUBLIC OF SERBIA;100560;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;95;Repair of computers and personal and household goods;RS;REPUBLIC OF SERBIA;66814;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;96;Other personal service activities;RS;REPUBLIC OF SERBIA;61424;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;A;A - Agriculture, forestry and fishing;RS;REPUBLIC OF SERBIA;87101;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;B;B - Mining and quarrying;RS;REPUBLIC OF SERBIA;140522;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;C;C - Manufacturing;RS;REPUBLIC OF SERBIA;98331;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;D;D - Electricity, gas, steam and air conditioning supply;RS;REPUBLIC OF SERBIA;132690;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;E;"E - Water supply; sewerage, waste management and remediation activities";RS;REPUBLIC OF SERBIA;96438;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;F;F - Construction;RS;REPUBLIC OF SERBIA;94439;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;G;"G - Wholesale and retail trade; repair of motor vehicles and motorcycles";RS;REPUBLIC OF SERBIA;92138;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;H;H - Transportation and storage;RS;REPUBLIC OF SERBIA;94328;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;I;I - Accommodation and food service activities;RS;REPUBLIC OF SERBIA;68077;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;J;J - Information and communication;RS;REPUBLIC OF SERBIA;241694;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;K;K - Financial and insurance activities;RS;REPUBLIC OF SERBIA;160578;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;L;L - Real estate activities;RS;REPUBLIC OF SERBIA;102423;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;M;M - Professional, scientific and technical activities;RS;REPUBLIC OF SERBIA;140546;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;N;N -Administrative and support service activities;RS;REPUBLIC OF SERBIA;100776;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;O;"O - Public administration and defence; compulsory social security";RS;REPUBLIC OF SERBIA;118162;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;P;P - Education;RS;REPUBLIC OF SERBIA;103428;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;Q;Q - Human health and social work activities;RS;REPUBLIC OF SERBIA;108289;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;R;R - Arts, entertainment and recreation;RS;REPUBLIC OF SERBIA;92304;RSD;RSD;SORS;Average net earnings;A;Normal value
+2403040402IND01;00;2025;S;S - Other service activities;RS;REPUBLIC OF SERBIA;76340;RSD;RSD;SORS;Average net earnings;A;Normal value

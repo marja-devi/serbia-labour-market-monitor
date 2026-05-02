@@ -1,0 +1,67 @@
+municipality_code,municipality_name,earnings_type,macro_region_name,statistical_region_name,administrative_district_name,local_unit_type,city_group_name,avg_2025_value_rsd
+70246,Stari grad,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,255513.83
+70114,Vračar,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,247682.58
+70181,Novi Beograd,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,239526.67
+70220,Savski venac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,237108.84
+70106,Voždovac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,196543.25
+70149,Zvezdara,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,193894.5
+70254,Čukarica,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,179891.58
+70157,Zemun,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,176901.5
+70203,Palilula (Beograd),gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,171195.5
+70211,Rakovica,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,170452.16
+70165,Lazarevac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,153139.58
+70190,Obrenovac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,142542.5
+71293,Surčin,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,138594.16
+70122,Grocka,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,134812.0
+70092,Barajevo,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,131449.92
+70238,Sopot,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,130378.5
+70173,Mladenovac,gross,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,127807.83
+70246,Stari grad,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,187799.09
+70114,Vračar,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,181668.0
+70181,Novi Beograd,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,174887.08
+70220,Savski venac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,174393.34
+70106,Voždovac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,142552.08
+70149,Zvezdara,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,140599.67
+70254,Čukarica,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,130321.42
+70157,Zemun,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,128128.58
+70203,Palilula (Beograd),net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,123943.83
+70211,Rakovica,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,123178.42
+70165,Lazarevac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,110210.33
+70190,Obrenovac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,103061.83
+71293,Surčin,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,100316.33
+70122,Grocka,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,97461.75
+70092,Barajevo,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,95015.0
+70238,Sopot,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,94291.67
+70173,Mladenovac,net,SRBIJA – SEVER,Beogradski region,Beogradski region,city_municipality,Grad Beograd,92373.0
+71331,Medijana,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,164801.5
+79022,Grad Niš,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city,Grad Niš,146051.75
+71307,Pantelej,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,140107.59
+71323,Palilula (Niš),gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,134383.25
+71315,Crveni Krst,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,126781.42
+71285,Niška Banja,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,119222.92
+71331,Medijana,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,118934.33
+79022,Grad Niš,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city,Grad Niš,105593.33
+71307,Pantelej,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,101363.75
+71323,Palilula (Niš),net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,97326.0
+71315,Crveni Krst,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,91827.08
+71285,Niška Banja,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Nišavska oblast,city_municipality,Grad Niš,86435.5
+89010,Grad Novi Sad,gross,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,city,Grad Novi Sad,174478.5
+89010,Grad Novi Sad,net,SRBIJA – SEVER,Region Vojvodine,Južnobačka oblast,city,Grad Novi Sad,126477.58
+71340,Kostolac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,151462.59
+79049,Grad Požarevac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city,Grad Požarevac,141951.66
+70947,Požarevac,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,140392.33
+71340,Kostolac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,108902.25
+79049,Grad Požarevac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city,Grad Požarevac,102228.25
+70947,Požarevac,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Braničevska oblast,city_municipality,Grad Požarevac,101133.75
+71145,Užice,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,141281.08
+79065,Grad Užice,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city,Grad Užice,140769.75
+71366,Sevojno,gross,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,126734.83
+71145,Užice,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,101839.59
+79065,Grad Užice,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city,Grad Užice,101463.17
+71366,Sevojno,net,SRBIJA – JUG,Region Šumadije i Zapadne Srbije,Zlatiborska oblast,city_municipality,Grad Užice,91117.17
+70432,Vranje,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,119277.33
+79057,Grad Vranje,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city,Grad Vranje,118951.42
+71358,Vranjska Banja,gross,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,106333.92
+70432,Vranje,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,86379.25
+79057,Grad Vranje,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city,Grad Vranje,86146.67
+71358,Vranjska Banja,net,SRBIJA – JUG,Region Južne i Istočne Srbije,Pčinjska oblast,city_municipality,Grad Vranje,77137.25

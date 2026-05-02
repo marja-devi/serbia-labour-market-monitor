@@ -1,0 +1,222 @@
+Territorial Hierarchy Reference
+
+This project uses the official territorial hierarchy from the local reference dictionary.
+
+Project naming note: for consistency, Beogradska oblast is displayed as Beogradski region in portfolio outputs.
+
+Levels used:
+- Country: Republic of Serbia
+- Macro regions: 2
+- Statistical regions: 4
+- Administrative districts: 25
+- Local units in current reference: 174
+
+Hierarchy:
+
+SRBIJA – JUG (2 statistical regions, 17 districts, 110 local units)
+  Region Južne i Istočne Srbije (9 districts, 56 local units)
+    Borska oblast (4 local units)
+      - Bor [municipality]
+      - Kladovo [municipality]
+      - Majdanpek [municipality]
+      - Negotin [municipality]
+    Braničevska oblast (10 local units)
+      - Golubac [municipality]
+      - Grad Požarevac [city; city group: Grad Požarevac]
+      - Kostolac [city municipality; city group: Grad Požarevac]
+      - Kučevo [municipality]
+      - Malo Crniće [municipality]
+      - Petrovac na Mlavi [municipality]
+      - Požarevac [city municipality; city group: Grad Požarevac]
+      - Veliko Gradište [municipality]
+      - Žabari [municipality]
+      - Žagubica [municipality]
+    Jablanička oblast (6 local units)
+      - Bojnik [municipality]
+      - Crna Trava [municipality]
+      - Lebane [municipality]
+      - Leskovac [municipality]
+      - Medveđa [municipality]
+      - Vlasotince [municipality]
+    Nišavska oblast (12 local units)
+      - Aleksinac [municipality]
+      - Crveni Krst [city municipality; city group: Grad Niš]
+      - Doljevac [municipality]
+      - Gadžin Han [municipality]
+      - Grad Niš [city; city group: Grad Niš]
+      - Medijana [city municipality; city group: Grad Niš]
+      - Merošina [municipality]
+      - Niška Banja [city municipality; city group: Grad Niš]
+      - Palilula (Niš) [city municipality; city group: Grad Niš]
+      - Pantelej [city municipality; city group: Grad Niš]
+      - Ražanj [municipality]
+      - Svrljig [municipality]
+    Pirotska oblast (4 local units)
+      - Babušnica [municipality]
+      - Bela Palanka [municipality]
+      - Dimitrovgrad [municipality]
+      - Pirot [municipality]
+    Podunavska oblast (3 local units)
+      - Smederevo [municipality]
+      - Smederevska Palanka [municipality]
+      - Velika Plana [municipality]
+    Pčinjska oblast (9 local units)
+      - Bosilegrad [municipality]
+      - Bujanovac [municipality]
+      - Grad Vranje [city; city group: Grad Vranje]
+      - Preševo [municipality]
+      - Surdulica [municipality]
+      - Trgovište [municipality]
+      - Vladičin Han [municipality]
+      - Vranje [city municipality; city group: Grad Vranje]
+      - Vranjska Banja [city municipality; city group: Grad Vranje]
+    Toplička oblast (4 local units)
+      - Blace [municipality]
+      - Kuršumlija [municipality]
+      - Prokuplje [municipality]
+      - Žitorađa [municipality]
+    Zaječarska oblast (4 local units)
+      - Boljevac [municipality]
+      - Knjaževac [municipality]
+      - Sokobanja [municipality]
+      - Zaječar [municipality]
+  Region Šumadije i Zapadne Srbije (8 districts, 54 local units)
+    Kolubarska oblast (6 local units)
+      - Lajkovac [municipality]
+      - Ljig [municipality]
+      - Mionica [municipality]
+      - Osečina [municipality]
+      - Ub [municipality]
+      - Valjevo [municipality]
+    Mačvanska oblast (8 local units)
+      - Bogatić [municipality]
+      - Koceljeva [municipality]
+      - Krupanj [municipality]
+      - Ljubovija [municipality]
+      - Loznica [municipality]
+      - Mali Zvornik [municipality]
+      - Vladimirci [municipality]
+      - Šabac [municipality]
+    Moravička oblast (4 local units)
+      - Gornji Milanovac [municipality]
+      - Ivanjica [municipality]
+      - Lučani [municipality]
+      - Čačak [municipality]
+    Pomoravska oblast (6 local units)
+      - Despotovac [municipality]
+      - Jagodina [municipality]
+      - Paraćin [municipality]
+      - Rekovac [municipality]
+      - Svilajnac [municipality]
+      - Ćuprija [municipality]
+    Rasinska oblast (6 local units)
+      - Aleksandrovac [municipality]
+      - Brus [municipality]
+      - Kruševac [municipality]
+      - Trstenik [municipality]
+      - Varvarin [municipality]
+      - Ćićevac [municipality]
+    Raška oblast (5 local units)
+      - Kraljevo [municipality]
+      - Novi Pazar [municipality]
+      - Raška [municipality]
+      - Tutin [municipality]
+      - Vrnjačka Banja [municipality]
+    Zlatiborska oblast (12 local units)
+      - Arilje [municipality]
+      - Bajina Bašta [municipality]
+      - Grad Užice [city; city group: Grad Užice]
+      - Kosjerić [municipality]
+      - Nova Varoš [municipality]
+      - Požega [municipality]
+      - Priboj [municipality]
+      - Prijepolje [municipality]
+      - Sevojno [city municipality; city group: Grad Užice]
+      - Sjenica [municipality]
+      - Užice [city municipality; city group: Grad Užice]
+      - Čajetina [municipality]
+    Šumadijska oblast (7 local units)
+      - Aranđelovac [municipality]
+      - Batočina [municipality]
+      - Knić [municipality]
+      - Kragujevac [municipality]
+      - Lapovo [municipality]
+      - Rača [municipality]
+      - Topola [municipality]
+
+SRBIJA – SEVER (2 statistical regions, 8 districts, 64 local units)
+  Beogradski region (1 districts, 17 local units)
+    Beogradski region (17 local units)
+      - Barajevo [city municipality; city group: Grad Beograd]
+      - Grocka [city municipality; city group: Grad Beograd]
+      - Lazarevac [city municipality; city group: Grad Beograd]
+      - Mladenovac [city municipality; city group: Grad Beograd]
+      - Novi Beograd [city municipality; city group: Grad Beograd]
+      - Obrenovac [city municipality; city group: Grad Beograd]
+      - Palilula (Beograd) [city municipality; city group: Grad Beograd]
+      - Rakovica [city municipality; city group: Grad Beograd]
+      - Savski venac [city municipality; city group: Grad Beograd]
+      - Sopot [city municipality; city group: Grad Beograd]
+      - Stari grad [city municipality; city group: Grad Beograd]
+      - Surčin [city municipality; city group: Grad Beograd]
+      - Voždovac [city municipality; city group: Grad Beograd]
+      - Vračar [city municipality; city group: Grad Beograd]
+      - Zemun [city municipality; city group: Grad Beograd]
+      - Zvezdara [city municipality; city group: Grad Beograd]
+      - Čukarica [city municipality; city group: Grad Beograd]
+  Region Vojvodine (7 districts, 47 local units)
+    Južnobanatska oblast (8 local units)
+      - Alibunar [municipality]
+      - Bela Crkva [municipality]
+      - Kovačica [municipality]
+      - Kovin [municipality]
+      - Opovo [municipality]
+      - Pančevo [municipality]
+      - Plandište [municipality]
+      - Vršac [municipality]
+    Južnobačka oblast (14 local units)
+      - Bač [municipality]
+      - Bačka Palanka [municipality]
+      - Bački Petrovac [municipality]
+      - Beočin [municipality]
+      - Bečej [municipality]
+      - Grad Novi Sad [city; city group: Grad Novi Sad]
+      - Novi Sad [city municipality; city group: Grad Novi Sad]
+      - Petrovaradin [city municipality; city group: Grad Novi Sad]
+      - Srbobran [municipality]
+      - Sremski Karlovci [municipality]
+      - Temerin [municipality]
+      - Titel [municipality]
+      - Vrbas [municipality]
+      - Žabalj [municipality]
+    Severnobanatska oblast (6 local units)
+      - Ada [municipality]
+      - Kanjiža [municipality]
+      - Kikinda [municipality]
+      - Novi Kneževac [municipality]
+      - Senta [municipality]
+      - Čoka [municipality]
+    Severnobačka oblast (3 local units)
+      - Bačka Topola [municipality]
+      - Mali Iđoš [municipality]
+      - Subotica [municipality]
+    Srednjobanatska oblast (5 local units)
+      - Nova Crnja [municipality]
+      - Novi Bečej [municipality]
+      - Sečanj [municipality]
+      - Zrenjanin [municipality]
+      - Žitište [municipality]
+    Sremska oblast (7 local units)
+      - Inđija [municipality]
+      - Irig [municipality]
+      - Pećinci [municipality]
+      - Ruma [municipality]
+      - Sremska Mitrovica [municipality]
+      - Stara Pazova [municipality]
+      - Šid [municipality]
+    Zapadnobačka oblast (4 local units)
+      - Apatin [municipality]
+      - Kula [municipality]
+      - Odžaci [municipality]
+      - Sombor [municipality]
+

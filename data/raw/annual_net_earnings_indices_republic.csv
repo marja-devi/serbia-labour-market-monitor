@@ -1,0 +1,63 @@
+﻿idindikator;IDIndeksZarada;nIndeksZarada;IDTer;nTer;mes;god;vrednost;idJedinicaMere;nJedinicaMere;nIzvorI;Indikator;IDStatusPodatka;nStatusPodatka
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;1995;207.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;1995;116.1;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;1996;191.8;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;1996;99.7;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;1997;146.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);B;Time series break
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;1997;120.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);B;Time series break
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;1998;131.8;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;1998;101.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;1999;119.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;1999;83.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2000;189.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2000;105.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2001;225.2;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);D;Definition differs
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2001;116.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);D;Definition differs
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2002;151.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2002;129.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2003;124.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2003;113.6;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2004;122.7;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2004;110.1;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2005;123.6;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2005;106.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2006;124.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2006;111.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2007;127.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2007;119.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2008;118;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2008;103.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2009;108.8;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);B;Time series break
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2009;100.2;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);B;Time series break
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2010;107.6;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2010;100.7;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2011;111.2;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2011;100.2;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2012;109;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2012;101.1;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2013;106.2;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2013;98.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2014;101.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2014;98.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2015;99.8;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2015;97.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2016;103.7;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2016;102.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2017;103.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2017;100.9;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2018;106.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);B;Time series break
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2018;104.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);B;Time series break
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2019;110.6;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2019;108.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2020;109.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2020;107.7;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2021;109.6;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2021;105.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2022;113.8;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2022;101.7;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2023;114.8;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2023;102.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2024;114.1;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2024;109.1;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;1;Nominal wage indices;RS;REPUBLIC OF SERBIA;00;2025;111.5;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value
+24030601IND01;2;Real wage indices;RS;REPUBLIC OF SERBIA;00;2025;107.4;I_PPYR;index, previous year = 100;SORS;Indices of net earnings (the average of the previous year = 100);A;Normal value

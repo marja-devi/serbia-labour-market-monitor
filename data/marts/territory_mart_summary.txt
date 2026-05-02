@@ -1,0 +1,5 @@
+Municipality-quarter earnings mart summary
+Quarter rows: 13484
+Complete quarter rows: 13076
+Annual validation rows: 3680
+Complete year validation rows: 3268

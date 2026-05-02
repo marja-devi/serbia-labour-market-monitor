@@ -1,0 +1,591 @@
+﻿idindikator;IDTer;nTer;mes;god;vrednost;idJedinicaMere;nJedinicaMere;nIzvorI;Indikator;IDStatusPodatka;nStatusPodatka
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1992;24078;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1993;374198;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1994;45;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1995;438;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1996;768;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1997;990;RSD;RSD;SORS;Average gross earnings;B;Time series break
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1998;1601;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;1999;1844;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2000;2532;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2001;6091;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2002;10719;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2003;13659;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2004;17498;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2005;20898;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2006;26603;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2007;33770;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2008;39331;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2009;40245;RSD;RSD;SORS;Average gross earnings;B;Time series break
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2010;41651;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2011;47382;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2012;50829;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2013;54447;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2014;52438;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2015;54208;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2016;55763;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2017;57231;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2018;69218;RSD;RSD;SORS;Average gross earnings;B;Time series break
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2019;75296;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2020;82836;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2021;87058;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2022;97877;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2023;114228;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2024;132372;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2025;148440;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;01;2026;163385;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1992;29351;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1993;905657;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1994;122;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1995;451;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1996;879;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1997;1121;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1998;1434;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;1999;1919;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2000;2664;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2001;6546;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2002;11410;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2003;14925;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2004;18414;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2005;22402;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2006;28657;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2007;35219;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2008;43218;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2009;43353;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2010;44871;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2011;49394;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2012;55505;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2013;60199;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2014;60845;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2015;58992;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2016;61279;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2017;64847;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2018;66084;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2019;72350;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2020;80288;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2021;85864;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2022;97392;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2023;112212;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2024;129934;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2025;142908;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;02;2026;160067;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1992;36829;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1993;2425961;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1994;151;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1995;456;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1996;915;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1997;1163;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1998;1601;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;1999;2033;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2000;2924;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2001;6840;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2002;11845;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2003;14579;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2004;18681;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2005;23198;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2006;29367;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2007;36148;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2008;42873;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2009;42213;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2010;46457;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2011;49633;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2012;56125;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2013;57628;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2014;59782;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2015;59141;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2016;63029;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2017;65695;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2018;68251;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2019;74755;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2020;82320;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2021;89894;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2022;102781;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2023;117669;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2024;133373;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;03;2025;148652;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1992;60655;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1993;7204501;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1994;213;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1995;485;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1996;1001;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1997;1200;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1998;1779;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;1999;1726;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2000;3203;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2001;7256;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2002;12590;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2003;16018;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2004;20807;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2005;25153;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2006;30572;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2007;37117;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2008;45355;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2009;45304;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2010;48525;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2011;54532;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2012;58465;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2013;64249;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2014;63167;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2015;62532;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2016;67464;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2017;68246;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2018;67901;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2019;75441;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2020;81486;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2021;89582;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2022;100727;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2023;115631;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2024;133356;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;04;2025;150777;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1992;94744;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1993;15715995;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1994;233;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1995;504;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1996;1024;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1997;1198;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1998;1565;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;1999;1489;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2000;3183;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2001;7224;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2002;12429;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2003;15973;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2004;19451;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2005;24449;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2006;30305;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2007;37668;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2008;44835;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2009;43183;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2010;46454;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2011;49064;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2012;56206;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2013;57921;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2014;60966;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2015;60487;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2016;60520;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2017;64860;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2018;69684;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2019;76511;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2020;81464;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2021;89720;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2022;102432;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2023;118992;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2024;138332;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;05;2025;148930;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1992;16652;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1993;68583;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1994;285;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1995;550;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1996;1080;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1997;1331;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1998;1584;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;1999;1514;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2000;3308;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2001;7953;RSD;RSD;SORS;Average gross earnings;D;Definition differs
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2002;12952;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2003;16425;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2004;19700;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2005;25503;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2006;31864;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2007;38916;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2008;45608;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2009;44246;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2010;47486;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2011;54616;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2012;58712;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2013;61399;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2014;61992;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2015;61302;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2016;64019;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2017;67857;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2018;68047;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2019;74009;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2020;82572;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2021;89793;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2022;102523;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2023;118025;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2024;132290;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;06;2025;147947;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1992;26226;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1993;365323;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1994;317;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1995;548;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1996;1101;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1997;1245;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1998;1637;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;1999;1789;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2000;3482;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2001;9003;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2002;13461;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2003;17167;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2004;21495;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2005;25769;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2006;31738;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2007;38712;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2008;46115;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2009;45307;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2010;48394;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2011;54164;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2012;57240;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2013;60896;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2014;62380;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2015;62687;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2016;63699;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2017;66251;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2018;68029;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2019;76056;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2020;83016;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2021;89330;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2022;100937;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2023;115664;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2024;135195;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;07;2025;150646;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1992;39637;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1993;5848903;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1994;348;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1995;585;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1996;1180;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1997;1627;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1998;1689;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;1999;1902;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2000;3843;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2001;9799;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2002;14317;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2003;16932;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2004;20823;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2005;26252;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2006;32098;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2007;39302;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2008;46222;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2009;43597;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2010;47190;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2011;53285;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2012;58503;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2013;61797;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2014;62992;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2015;61538;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2016;62474;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2017;65094;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2018;68831;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2019;74768;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2020;80901;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2021;89202;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2022;103963;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2023;118918;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2024;133591;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;08;2025;146026;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1992;60711;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1993;55395;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1994;377;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1995;624;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1996;1175;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1997;1398;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1998;1767;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;1999;2097;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2000;4118;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2001;9940;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2002;13921;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2003;17277;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2004;21130;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2005;26818;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2006;32555;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2007;39308;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2008;46015;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2009;43577;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2010;48016;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2011;53838;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2012;55903;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2013;59162;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2014;60803;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2015;60503;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2016;64150;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2017;66438;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2018;66251;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2019;74160;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2020;82515;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2021;89980;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2022;103476;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2023;117472;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2024;132783;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;09;2025;150947;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1992;94349;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1993;1158176;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1994;409;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1995;665;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1996;1266;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1997;1471;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1998;1835;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;1999;2314;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2000;4662;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2001;10647;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2002;14439;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2003;17986;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2004;21472;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2005;26721;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2006;32668;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2007;40082;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2008;47883;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2009;44147;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2010;47822;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2011;52944;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2012;57733;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2013;60102;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2014;61963;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2015;60767;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2016;62414;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2017;64602;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2018;69012;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2019;76096;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2020;83106;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2021;91132;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2022;104039;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2023;119791;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2024;136173;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;10;2025;153153;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1992;152739;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1993;252832588;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1994;433;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1995;707;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1996;1240;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1997;1527;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1998;1886;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;1999;2499;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2000;5277;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2001;11101;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2002;14800;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2003;17742;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2004;22043;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2005;27378;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2006;33892;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2007;41010;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2008;46944;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2009;43895;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2010;47877;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2011;53239;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2012;58914;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2013;60893;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2014;60982;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2015;60913;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2016;63061;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2017;65609;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2018;69949;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2019;77879;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2020;84201;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2021;95312;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2022;108001;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2023;123971;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2024;138911;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;11;2025;154772;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1977;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1978;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1979;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1980;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1981;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1982;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1983;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1984;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1985;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1986;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1987;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1988;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1989;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1990;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1991;;RSD;RSD;SORS;Average gross earnings;L;Missing value - data exist but were not collected
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1992;253749;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1993;26857;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1994;500;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1995;818;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1996;1394;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1997;1628;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1998;2063;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;1999;2774;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2000;6477;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2001;12143;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2002;16643;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2003;20975;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2004;25392;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2005;32244;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2006;41294;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2007;48122;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2008;53876;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2009;51115;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2010;54948;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2011;61116;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2012;65165;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2013;70071;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2014;68739;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2015;70763;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2016;73641;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2017;74887;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2018;72167;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2019;82257;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2020;90849;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2021;102196;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2022;115315;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2023;130405;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2024;148428;RSD;RSD;SORS;Average gross earnings;A;Normal value
+2403040101IND02;RS;REPUBLIC OF SERBIA;12;2025;169921;RSD;RSD;SORS;Average gross earnings;A;Normal value
