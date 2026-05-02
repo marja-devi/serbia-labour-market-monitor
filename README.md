@@ -9,7 +9,7 @@ The current phase focuses on earnings analysis:
 - annual validation against separate annual source files
 - portfolio-ready rankings, grouped views, and a local HTML report
 
-This is not a personal portfolio website repository. It is a data pipeline and analytics project.
+This repository is a data portfolio project: it combines a reproducible data pipeline, analytical tables, and a presentation-ready report built from official Serbian SORS open data.
 
 ## Analytical Scope
 Current main grain:
