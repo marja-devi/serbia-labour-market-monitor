@@ -3,6 +3,14 @@
 ## Project Overview
 This repository is a local analytics portfolio project built on official Serbian SORS open data.
 
+## Open The Report
+- Main visual report: [app/earnings_report.html](app/earnings_report.html)
+- Main project description: [README.md](README.md)
+
+Important note:
+- GitHub does not always render local HTML files as a full web page inside the repository view.
+- For the cleanest “open directly in browser” experience, enable GitHub Pages later and use the report as the landing page.
+
 The current phase focuses on earnings analysis:
 - monthly net and gross earnings by municipality of residence
 - quarter-level transformation for analysis
@@ -33,7 +41,7 @@ Primary raw files currently used:
 3. `annual_avg_monthly_net_earnings_municipality_residence.csv`
 4. `annual_avg_monthly_gross_earnings_municipality_residence.csv`
 
-These files are stored in [data/raw](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw).
+These files are stored in [data/raw](data/raw).
 
 Supporting raw files are also available for later expansion:
 - republic-level earnings series
@@ -44,8 +52,8 @@ Supporting raw files are also available for later expansion:
 - median earnings and wage-index files
 
 Detailed raw-file descriptions:
-- [DATASETS_DESCRIPTION.md](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/DATASETS_DESCRIPTION.md)
-- [data_dictionary.md](/Users/kinsa/Desktop/Поиск%20работы/Project/data_dictionary.md)
+- [DATASETS_DESCRIPTION.md](data/raw/DATASETS_DESCRIPTION.md)
+- [data_dictionary.md](data_dictionary.md)
 
 ## Methods
 Pipeline:
@@ -65,51 +73,51 @@ Important modeling rule:
 
 ## Outputs
 ### Main Tables
-- [territory_quarter_earnings.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_quarter_earnings.csv)
+- [territory_quarter_earnings.csv](data/marts/territory_quarter_earnings.csv)
   The main quarter-level mart with territory hierarchy fields already attached.
 
-- [territory_annual_validation.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_annual_validation.csv)
+- [territory_annual_validation.csv](data/marts/territory_annual_validation.csv)
   Validation table comparing monthly-derived annual averages with annual source values.
 
-- [territory_mart_summary.txt](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_mart_summary.txt)
+- [territory_mart_summary.txt](data/marts/territory_mart_summary.txt)
   Short text summary of row counts and completeness.
 
 ### Municipality-Level Analysis
-- [republic_net_gross_trend.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/republic_net_gross_trend.csv)
+- [republic_net_gross_trend.csv](data/marts/republic_net_gross_trend.csv)
   Republic-level annual net and gross trend with the explicit gross-minus-net gap.
 
-- [belgrade_novi_sad_net_gross_trend.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/belgrade_novi_sad_net_gross_trend.csv)
+- [belgrade_novi_sad_net_gross_trend.csv](data/marts/belgrade_novi_sad_net_gross_trend.csv)
   City comparison trend for Belgrade and Novi Sad, showing net and gross on one timeline.
 
-- [municipality_ranking_2025.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/municipality_ranking_2025.csv)
+- [municipality_ranking_2025.csv](data/marts/municipality_ranking_2025.csv)
   Municipality ranking for 2025.
 
-- [municipality_growth_2018_2025.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/municipality_growth_2018_2025.csv)
+- [municipality_growth_2018_2025.csv](data/marts/municipality_growth_2018_2025.csv)
   Municipality growth from 2018 to 2025.
 
-- [municipality_qoq_outliers.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/municipality_qoq_outliers.csv)
+- [municipality_qoq_outliers.csv](data/marts/municipality_qoq_outliers.csv)
   Largest quarter-over-quarter changes.
 
 ### Grouped Territorial Views
-- [group_median_2025_macro_regions.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/group_median_2025_macro_regions.csv)
+- [group_median_2025_macro_regions.csv](data/marts/group_median_2025_macro_regions.csv)
   Macro-region comparison using the median of municipality averages.
 
-- [group_median_2025_districts.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/group_median_2025_districts.csv)
+- [group_median_2025_districts.csv](data/marts/group_median_2025_districts.csv)
   District comparison using the median of municipality averages.
 
-- [group_median_2025_city_groups.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/group_median_2025_city_groups.csv)
+- [group_median_2025_city_groups.csv](data/marts/group_median_2025_city_groups.csv)
   City-group comparison using the median of municipality averages.
 
-- [city_drilldown_municipality_ranking_2025.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/city_drilldown_municipality_ranking_2025.csv)
+- [city_drilldown_municipality_ranking_2025.csv](data/marts/city_drilldown_municipality_ranking_2025.csv)
   Municipality ranking inside city drill-down groups such as Belgrade or Niš.
 
 ### Visual Report
-- [earnings_report.html](/Users/kinsa/Desktop/Поиск%20работы/Project/app/earnings_report.html)
+- [earnings_report.html](app/earnings_report.html)
   Local HTML report built from the mart and analysis outputs.
 
 ## Territory Reference
 Reference dictionary:
-- [territory_dictionary.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/reference/territory_dictionary.csv)
+- [territory_dictionary.csv](data/reference/territory_dictionary.csv)
 
 This file connects local units to:
 - macro regions
@@ -126,35 +134,35 @@ Most useful columns:
 - `city_group_name`
 
 Supporting documentation:
-- [territory_dictionary.md](/Users/kinsa/Desktop/Поиск%20работы/Project/docs/territory_dictionary.md)
+- [territory_dictionary.md](docs/territory_dictionary.md)
 
 ## How To Explore The Project
 Recommended order:
-1. open [territory_quarter_earnings.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_quarter_earnings.csv)
-2. open [territory_annual_validation.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_annual_validation.csv)
-3. open [republic_net_gross_trend.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/republic_net_gross_trend.csv) to inspect net vs gross over time
-4. open [municipality_ranking_2025.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/municipality_ranking_2025.csv)
+1. open [territory_quarter_earnings.csv](data/marts/territory_quarter_earnings.csv)
+2. open [territory_annual_validation.csv](data/marts/territory_annual_validation.csv)
+3. open [republic_net_gross_trend.csv](data/marts/republic_net_gross_trend.csv) to inspect net vs gross over time
+4. open [municipality_ranking_2025.csv](data/marts/municipality_ranking_2025.csv)
 5. open one of the `group_median_*` files for grouped comparisons
-6. open [earnings_report.html](/Users/kinsa/Desktop/Поиск%20работы/Project/app/earnings_report.html) for the portfolio-style view
+6. open [earnings_report.html](app/earnings_report.html) for the portfolio-style view
 
 How to interpret outputs:
 - `municipality ranking` means direct comparison of local-unit values
 - `group median of municipality averages` means median across local-unit averages inside a larger territorial grouping
 
 ## Repository Layout
-- [data/raw](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw) source files
-- [data/staging](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging) cleaned intermediate outputs
-- [data/marts](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts) analytics-ready outputs
-- [data/reference](/Users/kinsa/Desktop/Поиск%20работы/Project/data/reference) reusable reference dictionaries
-- [docs](/Users/kinsa/Desktop/Поиск%20работы/Project/docs) project notes and design documents
-- [src](/Users/kinsa/Desktop/Поиск%20работы/Project/src) pipeline code
-- [sql](/Users/kinsa/Desktop/Поиск%20работы/Project/sql) analytical SQL
-- [app](/Users/kinsa/Desktop/Поиск%20работы/Project/app) local visual outputs
-- [notebooks](/Users/kinsa/Desktop/Поиск%20работы/Project/notebooks) exploration workspace
+- [data/raw](data/raw) source files
+- [data/staging](data/staging) cleaned intermediate outputs
+- [data/marts](data/marts) analytics-ready outputs
+- [data/reference](data/reference) reusable reference dictionaries
+- [docs](docs) project notes and design documents
+- [src](src) pipeline code
+- [sql](sql) analytical SQL
+- [app](app) local visual outputs
+- [notebooks](notebooks) exploration workspace
 
 ## How To Run
 Main local flow:
-1. put raw SORS files into [data/raw](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw)
+1. put raw SORS files into [data/raw](data/raw)
 2. run `python3 src/build_territory_dictionary.py`
 3. run `python3 src/clean.py`
 4. run `python3 src/build_marts.py`
@@ -163,9 +171,9 @@ Main local flow:
 7. run `python3 src/render_report.py`
 
 Main generated outputs will appear in:
-- [data/staging](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging)
-- [data/marts](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts)
-- [app](/Users/kinsa/Desktop/Поиск%20работы/Project/app)
+- [data/staging](data/staging)
+- [data/marts](data/marts)
+- [app](app)
 
 ## Limitations
 - current grouped regional views are not weighted by employment
