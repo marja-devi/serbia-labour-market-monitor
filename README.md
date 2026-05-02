@@ -10,9 +10,7 @@ This repository is a local analytics portfolio project built on official Serbian
 - Main visual report: [app/earnings_report.html](app/earnings_report.html)
 - Main project description: [README.md](README.md)
 
-Important note:
-- GitHub does not always render local HTML files as a full web page inside the repository view.
-- For the cleanest “open directly in browser” experience, enable GitHub Pages later and use the report as the landing page.
+The live version of the report is published via GitHub Pages at the link above.
 
 The current phase focuses on earnings analysis:
 - monthly net and gross earnings by municipality of residence
