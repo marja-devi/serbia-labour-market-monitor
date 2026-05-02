@@ -1,5 +1,8 @@
 # Serbia Labour Market Monitor
 
+Live report:
+- [https://marja-devi.github.io/serbia-labour-market-monitor/](https://marja-devi.github.io/serbia-labour-market-monitor/)
+
 ## Project Overview
 This repository is a local analytics portfolio project built on official Serbian SORS open data.
 
