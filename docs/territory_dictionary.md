@@ -5,7 +5,7 @@ Updated: 2026-04-30
 ## Purpose
 This document explains the territory hierarchy dictionary used for grouping and ungrouping charts, tables, and future drill-down views.
 
-The dictionary itself is stored in [territory_dictionary.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/reference/territory_dictionary.csv).
+The dictionary itself is stored in [territory_dictionary.csv](../data/reference/territory_dictionary.csv).
 
 ## Why This Dictionary Exists
 The raw municipality earnings files mix several territorial levels in one column:

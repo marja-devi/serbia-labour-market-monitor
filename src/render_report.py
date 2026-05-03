@@ -16,6 +16,7 @@ MARTS_DIR = PROJECT_DIR / "data" / "marts"
 REFERENCE_DIR = PROJECT_DIR / "data" / "reference"
 DOCS_DIR = PROJECT_DIR / "docs"
 APP_DIR = PROJECT_DIR / "app"
+GITHUB_REPO_URL = "https://github.com/marja-devi/serbia-labour-market-monitor"
 
 MUNICIPALITY_RANKING_FILE = "municipality_ranking_2025.csv"
 MUNICIPALITY_GROWTH_FILE = "municipality_growth_2018_2025.csv"
@@ -26,6 +27,7 @@ CITY_DRILLDOWN_RANKING_FILE = "city_drilldown_municipality_ranking_2025.csv"
 REPUBLIC_NET_GROSS_TREND_FILE = "republic_net_gross_trend.csv"
 BELGRADE_NOVI_SAD_TREND_FILE = "belgrade_novi_sad_net_gross_trend.csv"
 TERRITORY_DICTIONARY_FILE = "territory_dictionary.csv"
+ANNUAL_ACTIVITY_NET_FILE = "annual_avg_monthly_net_earnings_activity_division.csv"
 BEOGRAD_DISTRICT_NAME = "Beogradska oblast"
 BEOGRAD_REGION_ALIAS = "Beogradski region"
 
@@ -47,8 +49,9 @@ PASTEL_CORAL = "#d8a6a0"
 
 
 def read_csv(file_path: Path) -> list[dict[str, str]]:
+    delimiter = sniff_delimiter(file_path)
     with file_path.open("r", encoding="utf-8", newline="") as handle:
-        return list(csv.DictReader(handle))
+        return list(csv.DictReader(handle, delimiter=delimiter))
 
 
 def sniff_delimiter(file_path: Path) -> str:
@@ -67,6 +70,39 @@ def format_rsd(value: float) -> str:
 
 def format_int(value: int) -> str:
     return f"{value:,}".replace(",", " ")
+
+
+def shorten_label(text: str, max_len: int = 54) -> str:
+    text = " ".join(text.split())
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 1].rstrip() + "…"
+
+
+def wrap_label_two_lines(text: str, max_line_len: int = 42) -> list[str]:
+    words = " ".join(text.split()).split()
+    if not words:
+        return [""]
+
+    lines: list[str] = []
+    current: list[str] = []
+
+    for word in words:
+        trial = " ".join(current + [word])
+        if current and len(trial) > max_line_len and len(lines) < 1:
+            lines.append(" ".join(current))
+            current = [word]
+        else:
+            current.append(word)
+
+    if current:
+        lines.append(" ".join(current))
+
+    if len(lines) <= 2:
+        return lines
+
+    merged = lines[:1] + [" ".join(lines[1:])]
+    return merged[:2]
 
 
 def normalize_territory_label(value: str) -> str:
@@ -223,6 +259,32 @@ def top_n(rows: list[dict[str, str]], earnings_type: str, key: str, reverse: boo
     return sorted(filtered, key=lambda row: float(row[key]), reverse=reverse)[:n]
 
 
+def build_activity_division_rankings_2025(raw_rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+
+    for row in raw_rows:
+        code = str(row.get("IDKD08", "")).strip()
+        if (
+            row.get("god") != "2025"
+            or row.get("IDTer") != "RS"
+            or not (code.isdigit() and len(code) == 2)
+            or code == "96"
+        ):
+            continue
+
+        name = str(row.get("nkd08", "")).strip()
+        rows.append(
+            {
+                "activity_code": code,
+                "activity_name": name,
+                "activity_label": name,
+                "avg_2025_value_rsd": row["vrednost"],
+            }
+        )
+
+    return sorted(rows, key=lambda row: float(row["avg_2025_value_rsd"]), reverse=True)
+
+
 def svg_bar_chart(
     rows: list[dict[str, str]],
     title: str,
@@ -238,6 +300,11 @@ def svg_bar_chart(
     bottom_pad: int = 30,
     title_font_size: int = 34,
     title_centered: bool = False,
+    title_shift_x: int = 0,
+    label_font_size: int = 22,
+    value_font_size: int = 20,
+    multiline_labels: bool = False,
+    label_line_height: int = 20,
     value_formatter=format_rsd,
 ) -> str:
     if not rows:
@@ -246,7 +313,7 @@ def svg_bar_chart(
     max_value = max(float(row[value_key]) for row in rows)
     chart_height = top_pad + bottom_pad + len(rows) * (bar_height + gap)
     usable_width = width - left_pad - right_pad
-    title_x = left_pad + (usable_width / 2) if title_centered else left_pad
+    title_x = (left_pad + (usable_width / 2) if title_centered else left_pad) + title_shift_x
     title_anchor = "middle" if title_centered else "start"
 
     parts = [
@@ -262,12 +329,30 @@ def svg_bar_chart(
         bar_width = (value / max_value) * usable_width
         value_text = value_formatter(value)
 
+        label_parts = wrap_label_two_lines(label) if multiline_labels else [label]
+        if len(label_parts) == 1:
+            label_svg = (
+                f'<text x="{left_pad - 12}" y="{y + 25}" text-anchor="end" '
+                f'fill="{SVG_TEXT}" font-size="{label_font_size}" font-family="Arial, sans-serif">'
+                f"{html.escape(label_parts[0])}</text>"
+            )
+        else:
+            first_y = y + 17
+            tspans = [
+                f'<tspan x="{left_pad - 12}" y="{first_y + (line_index * label_line_height)}">{html.escape(part)}</tspan>'
+                for line_index, part in enumerate(label_parts)
+            ]
+            label_svg = (
+                f'<text x="{left_pad - 12}" text-anchor="end" fill="{SVG_TEXT}" '
+                f'font-size="{label_font_size}" font-family="Arial, sans-serif">{"".join(tspans)}</text>'
+            )
+
         parts.extend(
             [
-                f'<text x="{left_pad - 12}" y="{y + 25}" text-anchor="end" fill="{SVG_TEXT}" font-size="22" font-family="Arial, sans-serif">{html.escape(label)}</text>',
+                label_svg,
                 f'<rect x="{left_pad}" y="{y}" width="{usable_width}" height="{bar_height}" rx="14" fill="{SVG_TRACK}"/>',
                 f'<rect x="{left_pad}" y="{y}" width="{bar_width:.2f}" height="{bar_height}" rx="14" fill="{color}"/>',
-                f'<text x="{left_pad + bar_width + 10:.2f}" y="{y + 25}" fill="{SVG_TEXT}" font-size="20" font-family="Arial, sans-serif">{html.escape(value_text)}</text>',
+                f'<text x="{left_pad + bar_width + 10:.2f}" y="{y + 25}" fill="{SVG_TEXT}" font-size="{value_font_size}" font-family="Arial, sans-serif">{html.escape(value_text)}</text>',
             ]
         )
 
@@ -1014,6 +1099,7 @@ def render_report() -> str:
     territory_reference = read_csv(REFERENCE_DIR / TERRITORY_DICTIONARY_FILE)
     republic_trend = read_csv(MARTS_DIR / REPUBLIC_NET_GROSS_TREND_FILE)
     belgrade_novi_sad_trend = read_csv(MARTS_DIR / BELGRADE_NOVI_SAD_TREND_FILE)
+    activity_division_net_raw = read_csv(PROJECT_DIR / "data" / "raw" / ANNUAL_ACTIVITY_NET_FILE)
     findings = (DOCS_DIR / "analysis_findings.md").read_text(encoding="utf-8")
     notes = (DOCS_DIR / "analysis_notes.md").read_text(encoding="utf-8")
 
@@ -1058,6 +1144,9 @@ def render_report() -> str:
         key=lambda row: float(row["avg_2025_value_rsd"]),
         reverse=True,
     )
+    activity_division_rankings = build_activity_division_rankings_2025(activity_division_net_raw)
+    activity_top_10 = activity_division_rankings[:10]
+    activity_bottom_10 = sorted(activity_division_rankings, key=lambda row: float(row["avg_2025_value_rsd"]))[:10]
 
     city_member_chart_rows = [
         {**row, "drilldown_label": f"{row['city_group_name']} / {row['municipality_name']}"}
@@ -1131,10 +1220,43 @@ def render_report() -> str:
         "Južnobačka Oblast Treemap, 2025",
         height=460,
     )
+    chart_activity_top = svg_bar_chart(
+        activity_top_10,
+        "Top 10 Activity Divisions by Net Earnings, 2025",
+        "avg_2025_value_rsd",
+        "activity_label",
+        PASTEL_GOLD,
+        bar_height=42,
+        gap=24,
+        left_pad=472,
+        right_pad=124,
+        title_font_size=28,
+        title_centered=True,
+        title_shift_x=-40,
+        label_font_size=16,
+        value_font_size=18,
+        multiline_labels=True,
+        label_line_height=18,
+    )
+    chart_activity_bottom = svg_bar_chart(
+        activity_bottom_10,
+        "Bottom 10 Activity Divisions by Net Earnings, 2025",
+        "avg_2025_value_rsd",
+        "activity_label",
+        PASTEL_BLUE,
+        bar_height=42,
+        gap=24,
+        left_pad=472,
+        right_pad=124,
+        title_font_size=28,
+        title_centered=True,
+        title_shift_x=-40,
+        label_font_size=16,
+        value_font_size=18,
+        multiline_labels=True,
+        label_line_height=18,
+    )
     territory_reference_html = build_territory_reference_html(territory_reference)
-
-    findings_html = markdownish_to_html_block(findings)
-    notes_html = markdownish_to_html_block(notes)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -1333,7 +1455,7 @@ def render_report() -> str:
         <h1>Serbia Labour Market Monitor</h1>
         <p>This project was created with Codex by Maria Mazaeva on the basis of official Serbian SORS open data from <a href="https://data.stat.gov.rs/" target="_blank" rel="noreferrer">data.stat.gov.rs</a>.</p>
         <p class="contacts">Author contacts: +381629614352 (Viber / WhatsApp), Telegram <a href="https://t.me/kinsec" target="_blank" rel="noreferrer">@kinsec</a>.</p>
-        <p>The current municipality earnings report is built from 4 primary raw source files. The full raw-source catalog currently contains {raw_summary["file_count"]} CSV files and {format_int(raw_summary["row_count"])} raw records. You can review the file list in <a href="/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw">data/raw</a> and the descriptions in <a href="/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/DATASETS_DESCRIPTION.md">DATASETS_DESCRIPTION.md</a>.</p>
+        <p>The current municipality earnings report is built from 4 primary raw source files. The full raw-source catalog currently contains {raw_summary["file_count"]} CSV files and {format_int(raw_summary["row_count"])} raw records. You can review the file list in <a href="{GITHUB_REPO_URL}/tree/main/data/raw" target="_blank" rel="noopener noreferrer">data/raw</a> and the descriptions in <a href="{GITHUB_REPO_URL}/blob/main/data/raw/DATASETS_DESCRIPTION.md" target="_blank" rel="noopener noreferrer">DATASETS_DESCRIPTION.md</a>.</p>
         <div class="kpis">
           <div class="kpi"><strong>{raw_summary["file_count"]}</strong><span>Raw source files in <code>data/raw</code></span></div>
           <div class="kpi"><strong>{marts_summary["file_count"]}</strong><span>Analytical CSV tables in <code>data/marts</code></span></div>
@@ -1391,6 +1513,14 @@ def render_report() -> str:
             {chart_juznobacka_oblast}
             <p>Method note: `Grad Novi Sad` appears as one city tile inside `Južnobačka oblast`; the other tiles are the remaining municipalities of the district.</p>
           </div>
+        </section>
+        <section class="panel block-header">
+          <h2>Block 2. Professional Slice</h2>
+          <p>This block introduces earnings rankings by activity division and starts the profession-oriented view with the highest-paid and lowest-paid activity groups in 2025.</p>
+        </section>
+        <section class="two-col">
+          <div class="panel">{chart_activity_top}</div>
+          <div class="panel">{chart_activity_bottom}</div>
         </section>
       </div>
     </div>

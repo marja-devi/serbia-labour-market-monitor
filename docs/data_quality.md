@@ -4,14 +4,14 @@ Inspection date: 2026-04-28
 
 ## Scope Checked
 The quality check covers the first working local workflow:
-- [data/raw/avg_monthly_net_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/avg_monthly_net_earnings_municipality_residence.csv)
-- [data/raw/avg_monthly_gross_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/avg_monthly_gross_earnings_municipality_residence.csv)
-- [data/raw/annual_avg_monthly_net_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/annual_avg_monthly_net_earnings_municipality_residence.csv)
-- [data/raw/annual_avg_monthly_gross_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/annual_avg_monthly_gross_earnings_municipality_residence.csv)
-- [data/staging/stg_earnings_monthly.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging/stg_earnings_monthly.csv)
-- [data/staging/stg_earnings_annual.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging/stg_earnings_annual.csv)
-- [data/marts/territory_quarter_earnings.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_quarter_earnings.csv)
-- [data/marts/territory_annual_validation.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_annual_validation.csv)
+- [data/raw/avg_monthly_net_earnings_municipality_residence.csv](../data/raw/avg_monthly_net_earnings_municipality_residence.csv)
+- [data/raw/avg_monthly_gross_earnings_municipality_residence.csv](../data/raw/avg_monthly_gross_earnings_municipality_residence.csv)
+- [data/raw/annual_avg_monthly_net_earnings_municipality_residence.csv](../data/raw/annual_avg_monthly_net_earnings_municipality_residence.csv)
+- [data/raw/annual_avg_monthly_gross_earnings_municipality_residence.csv](../data/raw/annual_avg_monthly_gross_earnings_municipality_residence.csv)
+- [data/staging/stg_earnings_monthly.csv](../data/staging/stg_earnings_monthly.csv)
+- [data/staging/stg_earnings_annual.csv](../data/staging/stg_earnings_annual.csv)
+- [data/marts/territory_quarter_earnings.csv](../data/marts/territory_quarter_earnings.csv)
+- [data/marts/territory_annual_validation.csv](../data/marts/territory_annual_validation.csv)
 
 ## Main Result
 The first municipality earnings pipeline looks trustworthy enough to continue.

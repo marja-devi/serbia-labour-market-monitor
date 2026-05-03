@@ -13,7 +13,7 @@ It is meant to answer three practical questions:
 ## Current Data Layers
 
 ### 1. Raw data
-Location: [data/raw](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw)
+Location: [data/raw](data/raw)
 
 This layer stores the original SORS CSV exports. Files are semicolon-separated, values are kept as text, and source naming is preserved as closely as possible.
 
@@ -26,25 +26,25 @@ Main raw families currently in the project:
 - republic median and index files
 
 The most important raw files for the first portfolio phase are:
-- [avg_monthly_net_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/avg_monthly_net_earnings_municipality_residence.csv)
-- [avg_monthly_gross_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/avg_monthly_gross_earnings_municipality_residence.csv)
-- [annual_avg_monthly_net_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/annual_avg_monthly_net_earnings_municipality_residence.csv)
-- [annual_avg_monthly_gross_earnings_municipality_residence.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/annual_avg_monthly_gross_earnings_municipality_residence.csv)
+- [avg_monthly_net_earnings_municipality_residence.csv](data/raw/avg_monthly_net_earnings_municipality_residence.csv)
+- [avg_monthly_gross_earnings_municipality_residence.csv](data/raw/avg_monthly_gross_earnings_municipality_residence.csv)
+- [annual_avg_monthly_net_earnings_municipality_residence.csv](data/raw/annual_avg_monthly_net_earnings_municipality_residence.csv)
+- [annual_avg_monthly_gross_earnings_municipality_residence.csv](data/raw/annual_avg_monthly_gross_earnings_municipality_residence.csv)
 
-Full raw-file descriptions remain in [DATASETS_DESCRIPTION.md](/Users/kinsa/Desktop/Поиск%20работы/Project/data/raw/DATASETS_DESCRIPTION.md).
+Full raw-file descriptions remain in [DATASETS_DESCRIPTION.md](data/raw/DATASETS_DESCRIPTION.md).
 
 ### 2. Staging
-Location: [data/staging](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging)
+Location: [data/staging](data/staging)
 
 This layer normalizes raw CSVs into analysis-friendly tables with consistent column names, typed time fields, and one clear business meaning per row.
 
 ### 3. Marts
-Location: [data/marts](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts)
+Location: [data/marts](data/marts)
 
 This layer stores analysis-ready outputs: quarter-level aggregates, validation tables, ranking tables, and derived slices used in the HTML report.
 
 ### 4. Reference dimensions
-Location: [data/reference](/Users/kinsa/Desktop/Поиск%20работы/Project/data/reference)
+Location: [data/reference](data/reference)
 
 This layer stores helper dictionaries that should stay stable across analyses. The first one is the territory hierarchy dictionary used for grouping and drill-down.
 
@@ -136,7 +136,7 @@ This layer stores helper dictionaries that should stay stable across analyses. T
 ## Staging Tables
 
 ### `stg_earnings_monthly`
-File: [stg_earnings_monthly.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging/stg_earnings_monthly.csv)
+File: [stg_earnings_monthly.csv](data/staging/stg_earnings_monthly.csv)
 
 Grain:
 - one row per `source_file + municipality_code + year + month + earnings_type`
@@ -218,7 +218,7 @@ Typical uses:
 - outlier detection
 
 ### `stg_earnings_annual`
-File: [stg_earnings_annual.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging/stg_earnings_annual.csv)
+File: [stg_earnings_annual.csv](data/staging/stg_earnings_annual.csv)
 
 Grain:
 - one row per `source_file + municipality_code + year + earnings_type`
@@ -240,7 +240,7 @@ Typical uses:
 - annual comparison tables
 
 ### `dim_municipality_from_earnings`
-File: [dim_municipality_from_earnings.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/staging/dim_municipality_from_earnings.csv)
+File: [dim_municipality_from_earnings.csv](data/staging/dim_municipality_from_earnings.csv)
 
 Grain:
 - one row per distinct `municipality_code`
@@ -260,7 +260,7 @@ Note:
 ## Reference Dimension
 
 ### `territory_dictionary`
-File: [territory_dictionary.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/reference/territory_dictionary.csv)
+File: [territory_dictionary.csv](data/reference/territory_dictionary.csv)
 
 Grain:
 - one row per distinct territory code observed in the municipality earnings raw file
@@ -293,12 +293,12 @@ Important columns:
   optional city roll-up used for urban drill-down
   note: `CITY_BELGRADE` is synthetic because the raw file has Belgrade municipalities but no single aggregate Belgrade row
 
-Full field-by-field description is in [territory_dictionary.md](/Users/kinsa/Desktop/Поиск%20работы/Project/docs/territory_dictionary.md).
+Full field-by-field description is in [territory_dictionary.md](docs/territory_dictionary.md).
 
 ## Mart Tables
 
 ### `territory_quarter_earnings`
-File: [territory_quarter_earnings.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_quarter_earnings.csv)
+File: [territory_quarter_earnings.csv](data/marts/territory_quarter_earnings.csv)
 
 Grain:
 - one row per `municipality_code + year + quarter + earnings_type`
@@ -374,7 +374,7 @@ Typical uses:
 - charting with complete-quarter filtering
 
 ### `territory_annual_validation`
-File: [territory_annual_validation.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/territory_annual_validation.csv)
+File: [territory_annual_validation.csv](data/marts/territory_annual_validation.csv)
 
 Grain:
 - one row per `municipality_code + year + earnings_type`
@@ -416,12 +416,12 @@ Typical uses:
 
 ### Hierarchy analysis outputs
 Files:
-- [republic_net_gross_trend.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/republic_net_gross_trend.csv)
-- [belgrade_novi_sad_net_gross_trend.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/belgrade_novi_sad_net_gross_trend.csv)
-- [group_median_2025_macro_regions.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/group_median_2025_macro_regions.csv)
-- [group_median_2025_districts.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/group_median_2025_districts.csv)
-- [group_median_2025_city_groups.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/group_median_2025_city_groups.csv)
-- [city_drilldown_municipality_ranking_2025.csv](/Users/kinsa/Desktop/Поиск%20работы/Project/data/marts/city_drilldown_municipality_ranking_2025.csv)
+- [republic_net_gross_trend.csv](data/marts/republic_net_gross_trend.csv)
+- [belgrade_novi_sad_net_gross_trend.csv](data/marts/belgrade_novi_sad_net_gross_trend.csv)
+- [group_median_2025_macro_regions.csv](data/marts/group_median_2025_macro_regions.csv)
+- [group_median_2025_districts.csv](data/marts/group_median_2025_districts.csv)
+- [group_median_2025_city_groups.csv](data/marts/group_median_2025_city_groups.csv)
+- [city_drilldown_municipality_ranking_2025.csv](data/marts/city_drilldown_municipality_ranking_2025.csv)
 
 Purpose:
 - compare annual republic-level net and gross earnings on one timeline and track the gap
