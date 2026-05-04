@@ -418,9 +418,9 @@ Typical uses:
 Files:
 - [republic_net_gross_trend.csv](data/marts/republic_net_gross_trend.csv)
 - [belgrade_novi_sad_net_gross_trend.csv](data/marts/belgrade_novi_sad_net_gross_trend.csv)
-- [group_median_2025_macro_regions.csv](data/marts/group_median_2025_macro_regions.csv)
-- [group_median_2025_districts.csv](data/marts/group_median_2025_districts.csv)
-- [group_median_2025_city_groups.csv](data/marts/group_median_2025_city_groups.csv)
+- [group_average_2025_macro_regions.csv](data/marts/group_average_2025_macro_regions.csv)
+- [group_average_2025_districts.csv](data/marts/group_average_2025_districts.csv)
+- [group_average_2025_city_groups.csv](data/marts/group_average_2025_city_groups.csv)
 - [city_drilldown_municipality_ranking_2025.csv](data/marts/city_drilldown_municipality_ranking_2025.csv)
 
 Purpose:
@@ -438,7 +438,7 @@ Shared logic:
 - year scope: `2025`
 - coverage: only complete local-unit rows
 - aggregation:
-  - `group_median_2025_macro_regions.csv`, `group_median_2025_districts.csv`, `group_median_2025_city_groups.csv` use the median of local-unit 2025 averages inside each grouping
+  - `group_average_2025_macro_regions.csv`, `group_average_2025_districts.csv`, `group_average_2025_city_groups.csv` use the arithmetic average of local-unit 2025 averages inside each grouping
   - this is intentionally not a weighted regional mean
 
 Key grouping columns:

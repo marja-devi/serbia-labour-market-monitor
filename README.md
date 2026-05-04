@@ -100,14 +100,14 @@ Important modeling rule:
   Largest quarter-over-quarter changes.
 
 ### Grouped Territorial Views
-- [group_median_2025_macro_regions.csv](data/marts/group_median_2025_macro_regions.csv)
-  Macro-region comparison using the median of municipality averages.
+- [group_average_2025_macro_regions.csv](data/marts/group_average_2025_macro_regions.csv)
+  Macro-region comparison using the arithmetic average of municipality averages.
 
-- [group_median_2025_districts.csv](data/marts/group_median_2025_districts.csv)
-  District comparison using the median of municipality averages.
+- [group_average_2025_districts.csv](data/marts/group_average_2025_districts.csv)
+  District comparison using the arithmetic average of municipality averages.
 
-- [group_median_2025_city_groups.csv](data/marts/group_median_2025_city_groups.csv)
-  City-group comparison using the median of municipality averages.
+- [group_average_2025_city_groups.csv](data/marts/group_average_2025_city_groups.csv)
+  City-group comparison using the arithmetic average of municipality averages.
 
 - [city_drilldown_municipality_ranking_2025.csv](data/marts/city_drilldown_municipality_ranking_2025.csv)
   Municipality ranking inside city drill-down groups such as Belgrade or Niš.
@@ -143,12 +143,12 @@ Recommended order:
 2. open [territory_annual_validation.csv](data/marts/territory_annual_validation.csv)
 3. open [republic_net_gross_trend.csv](data/marts/republic_net_gross_trend.csv) to inspect net vs gross over time
 4. open [municipality_ranking_2025.csv](data/marts/municipality_ranking_2025.csv)
-5. open one of the `group_median_*` files for grouped comparisons
+5. open one of the `group_average_*` files for grouped comparisons
 6. open [earnings_report.html](app/earnings_report.html) for the portfolio-style view
 
 How to interpret outputs:
 - `municipality ranking` means direct comparison of local-unit values
-- `group median of municipality averages` means median across local-unit averages inside a larger territorial grouping
+- `group average of municipality averages` means arithmetic average across local-unit averages inside a larger territorial grouping
 
 ## Repository Layout
 - [data/raw](data/raw) source files

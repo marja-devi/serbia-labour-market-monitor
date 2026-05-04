@@ -8,7 +8,6 @@ import csv
 import html
 from collections import defaultdict
 from pathlib import Path
-from statistics import median
 
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -21,8 +20,8 @@ GITHUB_REPO_URL = "https://github.com/marja-devi/serbia-labour-market-monitor"
 MUNICIPALITY_RANKING_FILE = "municipality_ranking_2025.csv"
 MUNICIPALITY_GROWTH_FILE = "municipality_growth_2018_2025.csv"
 MUNICIPALITY_QOQ_OUTLIERS_FILE = "municipality_qoq_outliers.csv"
-GROUP_MEDIAN_MACRO_FILE = "group_median_2025_macro_regions.csv"
-GROUP_MEDIAN_DISTRICT_FILE = "group_median_2025_districts.csv"
+GROUP_AVERAGE_MACRO_FILE = "group_average_2025_macro_regions.csv"
+GROUP_AVERAGE_DISTRICT_FILE = "group_average_2025_districts.csv"
 CITY_DRILLDOWN_RANKING_FILE = "city_drilldown_municipality_ranking_2025.csv"
 REPUBLIC_NET_GROSS_TREND_FILE = "republic_net_gross_trend.csv"
 BELGRADE_NOVI_SAD_TREND_FILE = "belgrade_novi_sad_net_gross_trend.csv"
@@ -79,7 +78,7 @@ def shorten_label(text: str, max_len: int = 54) -> str:
     return text[: max_len - 1].rstrip() + "…"
 
 
-def wrap_label_two_lines(text: str, max_line_len: int = 42) -> list[str]:
+def wrap_label_lines(text: str, max_line_len: int = 42, max_lines: int = 3) -> list[str]:
     words = " ".join(text.split()).split()
     if not words:
         return [""]
@@ -89,7 +88,7 @@ def wrap_label_two_lines(text: str, max_line_len: int = 42) -> list[str]:
 
     for word in words:
         trial = " ".join(current + [word])
-        if current and len(trial) > max_line_len and len(lines) < 1:
+        if current and len(trial) > max_line_len and len(lines) < max_lines - 1:
             lines.append(" ".join(current))
             current = [word]
         else:
@@ -98,15 +97,19 @@ def wrap_label_two_lines(text: str, max_line_len: int = 42) -> list[str]:
     if current:
         lines.append(" ".join(current))
 
-    if len(lines) <= 2:
+    if len(lines) <= max_lines:
         return lines
 
-    merged = lines[:1] + [" ".join(lines[1:])]
-    return merged[:2]
+    merged = lines[: max_lines - 1] + [" ".join(lines[max_lines - 1 :])]
+    return merged[:max_lines]
 
 
 def normalize_territory_label(value: str) -> str:
     return BEOGRAD_REGION_ALIAS if value == BEOGRAD_DISTRICT_NAME else value
+
+
+def average(values: list[float]) -> float:
+    return sum(values) / len(values) if values else 0.0
 
 
 def summarize_raw_sources(raw_dir: Path) -> dict[str, int]:
@@ -305,6 +308,7 @@ def svg_bar_chart(
     value_font_size: int = 20,
     multiline_labels: bool = False,
     label_line_height: int = 20,
+    label_max_lines: int = 3,
     value_formatter=format_rsd,
 ) -> str:
     if not rows:
@@ -329,7 +333,7 @@ def svg_bar_chart(
         bar_width = (value / max_value) * usable_width
         value_text = value_formatter(value)
 
-        label_parts = wrap_label_two_lines(label) if multiline_labels else [label]
+        label_parts = wrap_label_lines(label, max_lines=label_max_lines) if multiline_labels else [label]
         if len(label_parts) == 1:
             label_svg = (
                 f'<text x="{left_pad - 12}" y="{y + 25}" text-anchor="end" '
@@ -618,7 +622,7 @@ def build_city_collapsed_ranking_rows(rows: list[dict[str, str]]) -> list[dict[s
             output_rows.append({**row, "display_name": row["municipality_name"]})
 
     for (city_group_name, earnings_type), members in grouped.items():
-        median_value = median(float(row["avg_2025_value_rsd"]) for row in members)
+        avg_value = average([float(row["avg_2025_value_rsd"]) for row in members])
         template = members[0]
         output_rows.append(
             {
@@ -627,8 +631,8 @@ def build_city_collapsed_ranking_rows(rows: list[dict[str, str]]) -> list[dict[s
                 "municipality_name": city_group_name,
                 "display_name": city_group_name,
                 "local_unit_type": "city_group",
-                "avg_2025_value_rsd": f"{median_value:.2f}",
-                "aggregation_method": "median_of_city_group_members",
+                "avg_2025_value_rsd": f"{avg_value:.2f}",
+                "aggregation_method": "average_of_city_group_members",
             }
         )
 
@@ -647,7 +651,7 @@ def build_city_collapsed_growth_rows(rows: list[dict[str, str]]) -> list[dict[st
             output_rows.append({**row})
 
     for (city_group_name, earnings_type), members in grouped.items():
-        median_growth = median(float(row["growth_pct"]) for row in members)
+        avg_growth = average([float(row["growth_pct"]) for row in members])
         template = members[0]
         output_rows.append(
             {
@@ -655,8 +659,8 @@ def build_city_collapsed_growth_rows(rows: list[dict[str, str]]) -> list[dict[st
                 "municipality_code": f"GROUP_{city_group_name}",
                 "municipality_name": city_group_name,
                 "local_unit_type": "city_group",
-                "growth_pct": f"{median_growth:.2f}",
-                "aggregation_method": "median_of_city_group_members",
+                "growth_pct": f"{avg_growth:.2f}",
+                "aggregation_method": "average_of_city_group_members",
             }
         )
 
@@ -1093,8 +1097,8 @@ def render_report() -> str:
     rankings = read_csv(MARTS_DIR / MUNICIPALITY_RANKING_FILE)
     growth = read_csv(MARTS_DIR / MUNICIPALITY_GROWTH_FILE)
     qoq = read_csv(MARTS_DIR / MUNICIPALITY_QOQ_OUTLIERS_FILE)
-    macro_regions = read_csv(MARTS_DIR / GROUP_MEDIAN_MACRO_FILE)
-    districts = read_csv(MARTS_DIR / GROUP_MEDIAN_DISTRICT_FILE)
+    macro_regions = read_csv(MARTS_DIR / GROUP_AVERAGE_MACRO_FILE)
+    districts = read_csv(MARTS_DIR / GROUP_AVERAGE_DISTRICT_FILE)
     city_members = read_csv(MARTS_DIR / CITY_DRILLDOWN_RANKING_FILE)
     territory_reference = read_csv(REFERENCE_DIR / TERRITORY_DICTIONARY_FILE)
     republic_trend = read_csv(MARTS_DIR / REPUBLIC_NET_GROSS_TREND_FILE)
@@ -1126,8 +1130,8 @@ def render_report() -> str:
         f"Method note: this chart shows positive quarter-over-quarter net earnings growth from the previous quarter "
         f"to {latest_qoq_quarter} {latest_qoq_year}."
     )
-    macro_net = top_n(macro_regions, "net", "median_2025_value_rsd", True, n=10)
-    district_net = top_n(districts, "net", "median_2025_value_rsd", True, n=10)
+    macro_net = top_n(macro_regions, "net", "avg_2025_value_rsd", True, n=10)
+    district_net = top_n(districts, "net", "avg_2025_value_rsd", True, n=10)
     belgrade_district_rows = sorted(
         [
             {**row, "district_label": row["municipality_name"]}
@@ -1197,15 +1201,15 @@ def render_report() -> str:
     )
     chart_macro = svg_column_chart(
         macro_net,
-        "Macro Region Median Net Earnings, 2025",
-        "median_2025_value_rsd",
+        "Macro Region Average Net Earnings, 2025",
+        "avg_2025_value_rsd",
         "macro_region_name",
         PASTEL_PURPLE,
     )
     chart_district = svg_bar_chart(
         district_net,
-        "Top District Median Net Earnings, 2025",
-        "median_2025_value_rsd",
+        "Top District Average Net Earnings, 2025",
+        "avg_2025_value_rsd",
         "administrative_district_name",
         PASTEL_ORANGE,
         title_font_size=28,
@@ -1227,16 +1231,17 @@ def render_report() -> str:
         "activity_label",
         PASTEL_GOLD,
         bar_height=42,
-        gap=24,
-        left_pad=472,
+        gap=28,
+        left_pad=432,
         right_pad=124,
         title_font_size=28,
         title_centered=True,
-        title_shift_x=-40,
+        title_shift_x=-70,
         label_font_size=16,
         value_font_size=18,
         multiline_labels=True,
         label_line_height=18,
+        label_max_lines=3,
     )
     chart_activity_bottom = svg_bar_chart(
         activity_bottom_10,
@@ -1245,16 +1250,17 @@ def render_report() -> str:
         "activity_label",
         PASTEL_BLUE,
         bar_height=42,
-        gap=24,
-        left_pad=472,
+        gap=28,
+        left_pad=432,
         right_pad=124,
         title_font_size=28,
         title_centered=True,
-        title_shift_x=-40,
+        title_shift_x=-70,
         label_font_size=16,
         value_font_size=18,
         multiline_labels=True,
         label_line_height=18,
+        label_max_lines=3,
     )
     territory_reference_html = build_territory_reference_html(territory_reference)
 
@@ -1482,11 +1488,11 @@ def render_report() -> str:
         <section class="two-col">
           <div class="panel">
             {chart_belgrade_novi_sad_gross}
-            <p>Method note: both cities are shown as medians across available city-group members. For Novi Sad, that median currently equals the single city-level row.</p>
+            <p>Method note: both cities are shown as arithmetic averages across available city-group members. For Novi Sad, that average currently equals the single city-level row.</p>
           </div>
           <div class="panel">
             {chart_belgrade_novi_sad_net}
-            <p>Method note: both cities are shown as medians across available city-group members. For Novi Sad, that median currently equals the single city-level row.</p>
+            <p>Method note: both cities are shown as arithmetic averages across available city-group members. For Novi Sad, that average currently equals the single city-level row.</p>
           </div>
         </section>
         <section class="two-col">

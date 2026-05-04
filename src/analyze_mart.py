@@ -7,7 +7,6 @@ from __future__ import annotations
 import csv
 from collections import defaultdict
 from pathlib import Path
-from statistics import median
 
 
 MARTS_DIR = Path(__file__).resolve().parent.parent / "data" / "marts"
@@ -18,9 +17,9 @@ ANNUAL_VALIDATION_FILE = "territory_annual_validation.csv"
 MUNICIPALITY_RANKING_FILE = "municipality_ranking_2025.csv"
 MUNICIPALITY_GROWTH_FILE = "municipality_growth_2018_2025.csv"
 MUNICIPALITY_QOQ_OUTLIERS_FILE = "municipality_qoq_outliers.csv"
-GROUP_MEDIAN_MACRO_FILE = "group_median_2025_macro_regions.csv"
-GROUP_MEDIAN_DISTRICT_FILE = "group_median_2025_districts.csv"
-GROUP_MEDIAN_CITY_GROUP_FILE = "group_median_2025_city_groups.csv"
+GROUP_AVERAGE_MACRO_FILE = "group_average_2025_macro_regions.csv"
+GROUP_AVERAGE_DISTRICT_FILE = "group_average_2025_districts.csv"
+GROUP_AVERAGE_CITY_GROUP_FILE = "group_average_2025_city_groups.csv"
 CITY_DRILLDOWN_RANKING_FILE = "city_drilldown_municipality_ranking_2025.csv"
 REPUBLIC_NET_GROSS_TREND_FILE = "republic_net_gross_trend.csv"
 BELGRADE_NOVI_SAD_TREND_FILE = "belgrade_novi_sad_net_gross_trend.csv"
@@ -36,6 +35,10 @@ def read_csv(file_path: Path) -> list[dict[str, str]]:
 
 def normalize_territory_label(value: str) -> str:
     return BEOGRAD_REGION_ALIAS if value == BEOGRAD_DISTRICT_NAME else value
+
+
+def average(values: list[float]) -> float:
+    return sum(values) / len(values) if values else 0.0
 
 
 def write_csv(file_path: Path, fieldnames: list[str], rows: list[dict[str, object]]) -> None:
@@ -204,7 +207,7 @@ def aggregate_2025_by_field(
                 output_field: group_name,
                 "earnings_type": earnings_type,
                 "municipality_count": len(values),
-                "median_2025_value_rsd": round(median(values), 2),
+                "avg_2025_value_rsd": round(average(values), 2),
                 "min_2025_value_rsd": round(min(values), 2),
                 "max_2025_value_rsd": round(max(values), 2),
             }
@@ -281,12 +284,12 @@ def build_belgrade_novi_sad_trend(validation_rows: list[dict[str, str]]) -> list
         novi_sad_values = novi_sad_grouped.get(year, {})
 
         if "net" in belgrade_values and "gross" in belgrade_values:
-            net_value = median(belgrade_values["net"])
-            gross_value = median(belgrade_values["gross"])
+            net_value = average(belgrade_values["net"])
+            gross_value = average(belgrade_values["gross"])
             trend_rows.append(
                 {
                     "city_label": "Grad Beograd",
-                    "series_method": "median_of_city_municipalities",
+                    "series_method": "average_of_city_municipalities",
                     "year": int(year),
                     "net_value_rsd": round(net_value, 2),
                     "gross_value_rsd": round(gross_value, 2),
@@ -295,12 +298,12 @@ def build_belgrade_novi_sad_trend(validation_rows: list[dict[str, str]]) -> list
             )
 
         if "net" in novi_sad_values and "gross" in novi_sad_values:
-            net_value = median(novi_sad_values["net"])
-            gross_value = median(novi_sad_values["gross"])
+            net_value = average(novi_sad_values["net"])
+            gross_value = average(novi_sad_values["gross"])
             trend_rows.append(
                 {
                     "city_label": "Grad Novi Sad",
-                    "series_method": "median_of_city_group_members",
+                    "series_method": "average_of_city_group_members",
                     "year": int(year),
                     "net_value_rsd": round(net_value, 2),
                     "gross_value_rsd": round(gross_value, 2),
@@ -333,8 +336,8 @@ def write_findings_doc(
     net_growth_top = top_n(growth_rows, "net", "growth_pct", True)
     gross_growth_top = top_n(growth_rows, "gross", "growth_pct", True)
     qoq_top = qoq_outliers[:10]
-    macro_net_top = top_n(macro_rows, "net", "median_2025_value_rsd", True, n=2)
-    district_net_top = top_n(district_rows, "net", "median_2025_value_rsd", True)
+    macro_net_top = top_n(macro_rows, "net", "avg_2025_value_rsd", True, n=2)
+    district_net_top = top_n(district_rows, "net", "avg_2025_value_rsd", True)
     city_drilldown_top = top_n(city_member_rows, "net", "avg_2025_value_rsd", True)
     trend_start = republic_trend_rows[0] if republic_trend_rows else None
     trend_end = republic_trend_rows[-1] if republic_trend_rows else None
@@ -442,11 +445,10 @@ def write_findings_doc(
         lines.extend(
             [
                 "",
-                "### 6. Belgrade and Novi Sad can be compared on one net-gross timeline, but with different aggregation logic",
+                "### 6. Belgrade and Novi Sad can be compared on one net-gross timeline with one common aggregation logic",
                 f"- Grad Beograd 2025: net {belgrade_2025['net_value_rsd']} RSD, gross {belgrade_2025['gross_value_rsd']} RSD, gap {belgrade_2025['gross_minus_net_rsd']} RSD",
                 f"- Grad Novi Sad 2025: net {novi_sad_2025['net_value_rsd']} RSD, gross {novi_sad_2025['gross_value_rsd']} RSD, gap {novi_sad_2025['gross_minus_net_rsd']} RSD",
-                "- Belgrade is shown as the median across city municipalities because the raw data do not contain one aggregate Belgrade row.",
-                "- Novi Sad is shown from the official city row `89010 Grad Novi Sad`.",
+                "- Both cities are shown as the arithmetic average across available city-group members.",
             ]
         )
 
@@ -454,20 +456,20 @@ def write_findings_doc(
         [
             "",
             "### 7. The same mart can now be read at macro-region, district, and city drill-down level",
-            "Group median of municipality averages: 2025 net earnings by macro region:",
+            "Group average of municipality averages: 2025 net earnings by macro region:",
         ]
     )
     for row in macro_net_top:
-        lines.append(f"- {row['macro_region_name']}: {row['median_2025_value_rsd']} RSD")
+        lines.append(f"- {row['macro_region_name']}: {row['avg_2025_value_rsd']} RSD")
 
     lines.extend(
         [
             "",
-            "Group median of municipality averages: top districts by 2025 net earnings:",
+            "Group average of municipality averages: top districts by 2025 net earnings:",
         ]
     )
     for row in district_net_top:
-        lines.append(f"- {row['administrative_district_name']}: {row['median_2025_value_rsd']} RSD")
+        lines.append(f"- {row['administrative_district_name']}: {row['avg_2025_value_rsd']} RSD")
 
     lines.extend(
         [
@@ -485,15 +487,15 @@ def write_findings_doc(
             "- `2026` is partial and should not be used for full-year comparisons.",
             "- 2018-2019 include separate rows for `Novi Sad` and `Petrovaradin`, while later years use `Grad Novi Sad`, so long-run comparisons around that area need special care.",
             "- Annual validation differences are small enough that the mart is suitable for portfolio storytelling.",
-            "- Group median views use the median of municipality averages, not a weighted regional mean, because the current source files do not include employment weights.",
-            "- Belgrade vs Novi Sad is aligned to one construction: median across available city-group members for both cities.",
-            "- For Novi Sad, the current city group contains a single city-level row, so its median equals that row.",
+            "- Group views use the arithmetic average of municipality averages inside each grouping.",
+            "- Belgrade vs Novi Sad is aligned to one construction: arithmetic average across available city-group members for both cities.",
+            "- For Novi Sad, the current city group contains a single city-level row, so its group average equals that row.",
             "",
             "## Suggested First Charts",
             "- Municipality ranking: top 10 local units by 2025 net earnings",
             "- Municipality ranking: bottom 10 local units by 2025 net earnings",
             "- Net and gross together on one line chart for Republic, Belgrade, or Novi Sad",
-            "- Group median of municipality averages by macro region or district",
+            "- Group average of municipality averages by macro region or district",
             "- 2018 vs 2025 growth comparison for selected municipalities",
             "- Quarter-over-quarter volatility spotlight for a few outlier municipalities",
         ]
@@ -575,12 +577,12 @@ def main() -> None:
     )
 
     write_csv(
-        MARTS_DIR / GROUP_MEDIAN_MACRO_FILE,
+        MARTS_DIR / GROUP_AVERAGE_MACRO_FILE,
         [
             "macro_region_name",
             "earnings_type",
             "municipality_count",
-            "median_2025_value_rsd",
+            "avg_2025_value_rsd",
             "min_2025_value_rsd",
             "max_2025_value_rsd",
         ],
@@ -588,12 +590,12 @@ def main() -> None:
     )
 
     write_csv(
-        MARTS_DIR / GROUP_MEDIAN_DISTRICT_FILE,
+        MARTS_DIR / GROUP_AVERAGE_DISTRICT_FILE,
         [
             "administrative_district_name",
             "earnings_type",
             "municipality_count",
-            "median_2025_value_rsd",
+            "avg_2025_value_rsd",
             "min_2025_value_rsd",
             "max_2025_value_rsd",
         ],
@@ -601,12 +603,12 @@ def main() -> None:
     )
 
     write_csv(
-        MARTS_DIR / GROUP_MEDIAN_CITY_GROUP_FILE,
+        MARTS_DIR / GROUP_AVERAGE_CITY_GROUP_FILE,
         [
             "city_group_name",
             "earnings_type",
             "municipality_count",
-            "median_2025_value_rsd",
+            "avg_2025_value_rsd",
             "min_2025_value_rsd",
             "max_2025_value_rsd",
         ],
@@ -670,9 +672,9 @@ def main() -> None:
     print(f"- {MARTS_DIR / MUNICIPALITY_RANKING_FILE}")
     print(f"- {MARTS_DIR / MUNICIPALITY_GROWTH_FILE}")
     print(f"- {MARTS_DIR / MUNICIPALITY_QOQ_OUTLIERS_FILE}")
-    print(f"- {MARTS_DIR / GROUP_MEDIAN_MACRO_FILE}")
-    print(f"- {MARTS_DIR / GROUP_MEDIAN_DISTRICT_FILE}")
-    print(f"- {MARTS_DIR / GROUP_MEDIAN_CITY_GROUP_FILE}")
+    print(f"- {MARTS_DIR / GROUP_AVERAGE_MACRO_FILE}")
+    print(f"- {MARTS_DIR / GROUP_AVERAGE_DISTRICT_FILE}")
+    print(f"- {MARTS_DIR / GROUP_AVERAGE_CITY_GROUP_FILE}")
     print(f"- {MARTS_DIR / CITY_DRILLDOWN_RANKING_FILE}")
     print(f"- {MARTS_DIR / REPUBLIC_NET_GROSS_TREND_FILE}")
     print(f"- {MARTS_DIR / BELGRADE_NOVI_SAD_TREND_FILE}")

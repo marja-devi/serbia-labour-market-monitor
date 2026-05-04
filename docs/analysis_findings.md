@@ -70,23 +70,22 @@ Largest quarter-over-quarter changes:
 - 2025: net 109462.0 RSD, gross 151086.0 RSD, gap 41624.0 RSD
 - net-to-gross ratio moved from 72.35% to 72.45%
 
-### 6. Belgrade and Novi Sad can be compared on one net-gross timeline, but with different aggregation logic
-- Grad Beograd 2025: net 123940.0 RSD, gross 171190.0 RSD, gap 47250.0 RSD
+### 6. Belgrade and Novi Sad can be compared on one net-gross timeline with one common aggregation logic
+- Grad Beograd 2025: net 129426.18 RSD, gross 178088.35 RSD, gap 48662.18 RSD
 - Grad Novi Sad 2025: net 126469.0 RSD, gross 174469.0 RSD, gap 48000.0 RSD
-- Belgrade is shown as the median across city municipalities because the raw data do not contain one aggregate Belgrade row.
-- Novi Sad is shown from the official city row `89010 Grad Novi Sad`.
+- Both cities are shown as the arithmetic average across available city-group members.
 
 ### 7. The same mart can now be read at macro-region, district, and city drill-down level
-Group median of municipality averages: 2025 net earnings by macro region:
-- SRBIJA – SEVER: 93173.25 RSD
-- SRBIJA – JUG: 86425.75 RSD
+Group average of municipality averages: 2025 net earnings by macro region:
+- SRBIJA – SEVER: 102802.89 RSD
+- SRBIJA – JUG: 88715.4 RSD
 
-Group median of municipality averages: top districts by 2025 net earnings:
-- Beogradski region: 123943.83 RSD
-- Borska oblast: 104041.67 RSD
-- Sremska oblast: 97131.92 RSD
-- Moravička oblast: 95928.88 RSD
-- Kolubarska oblast: 93862.08 RSD
+Group average of municipality averages: top districts by 2025 net earnings:
+- Beogradski region: 129423.61 RSD
+- Borska oblast: 106655.21 RSD
+- Sremska oblast: 96503.36 RSD
+- Moravička oblast: 95623.94 RSD
+- Južnobanatska oblast: 93866.7 RSD
 
 City drill-down municipality ranking: top 2025 net local units:
 - Grad Beograd / Stari grad: 187799.09 RSD
@@ -99,14 +98,14 @@ City drill-down municipality ranking: top 2025 net local units:
 - `2026` is partial and should not be used for full-year comparisons.
 - 2018-2019 include separate rows for `Novi Sad` and `Petrovaradin`, while later years use `Grad Novi Sad`, so long-run comparisons around that area need special care.
 - Annual validation differences are small enough that the mart is suitable for portfolio storytelling.
-- Group median views use the median of municipality averages, not a weighted regional mean, because the current source files do not include employment weights.
-- Belgrade vs Novi Sad is aligned to one construction: median across available city-group members for both cities.
-- For Novi Sad, the current city group contains a single city-level row, so its median equals that row.
+- Group views use the arithmetic average of municipality averages inside each grouping.
+- Belgrade vs Novi Sad is aligned to one construction: arithmetic average across available city-group members for both cities.
+- For Novi Sad, the current city group contains a single city-level row, so its group average equals that row.
 
 ## Suggested First Charts
 - Municipality ranking: top 10 local units by 2025 net earnings
 - Municipality ranking: bottom 10 local units by 2025 net earnings
 - Net and gross together on one line chart for Republic, Belgrade, or Novi Sad
-- Group median of municipality averages by macro region or district
+- Group average of municipality averages by macro region or district
 - 2018 vs 2025 growth comparison for selected municipalities
 - Quarter-over-quarter volatility spotlight for a few outlier municipalities
