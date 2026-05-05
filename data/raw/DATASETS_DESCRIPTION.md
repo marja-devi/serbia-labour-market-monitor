@@ -1,6 +1,6 @@
 # Raw Datasets Description
 
-Updated: 2026-04-30
+Updated: 2026-05-05
 
 ## What This File Contains
 This document is a practical reference for the raw SORS CSV files currently stored in this folder.
@@ -19,17 +19,23 @@ Notes:
 - raw values are stored as text in CSV, even when they represent numbers
 
 ## Folder Summary
-- total CSV datasets: `35`
+- total CSV datasets: `39`
 - duplicate raw datasets found: `0`
 - duplicate raw datasets deleted: `0`
 
 ## Core Files For The Current Portfolio Phase
-These are the four most important files for the municipality earnings workflow already implemented in the project:
+These are the six most important files for the municipality earnings workflow already implemented in the project:
 
 - `avg_monthly_net_earnings_municipality_residence.csv`
 - `avg_monthly_gross_earnings_municipality_residence.csv`
 - `annual_avg_monthly_net_earnings_municipality_residence.csv`
 - `annual_avg_monthly_gross_earnings_municipality_residence.csv`
+- `registered_employment_by_sex_municipality_residence.csv`
+- `registered_employment_by_sex_municipality_residence_quarterly.csv`
+
+Why these six matter now:
+- the four earnings files provide the actual wage values
+- the two registered-employment files provide weights for grouped regional comparisons
 
 ## Common Value Conventions
 
@@ -111,6 +117,16 @@ These are the four most important files for the municipality earnings workflow a
   examples: `Normal value`, `Missing value - data cannot exist`
 
 ### Classification Fields
+- `IDPol`
+  meaning: sex classification code
+  format: text or numeric-like text
+  examples: `0`, `1`, `2`
+
+- `nPol`
+  meaning: sex classification label
+  format: text
+  examples: `Total`, `Male`, `Female`
+
 - `IDKD08`
   meaning: activity classification code
   format: text or numeric-like text
@@ -140,6 +156,20 @@ These are the four most important files for the municipality earnings workflow a
   meaning: employment modality label
   format: text
   examples: `Total`
+
+- `IDModalitetRegZap`
+  meaning: registered-employment modality code
+  format: text or numeric-like text
+  examples: `0`, `01`, `02`, `03`
+
+- `nModalitetRegZap`
+  meaning: registered-employment modality label
+  format: text
+  examples:
+  - `Registered employment - total`
+  - `Employees at legal entities...`
+  - `Entrepreneurs and their employees...`
+  - `Registered individual agricultural producers (farmers)`
 
 - `IDZarStatusPS`
   meaning: business entity status code used in the wage dataset
@@ -311,6 +341,48 @@ Typical columns:
 Meaning:
 - one index value by index type and year
 
+### Schema H: Employment By Sex And Territory Schema
+Typical columns:
+- `idindikator`
+- `IDTer`
+- `nTer`
+- `mes`
+- `god`
+- `IDPol`
+- `nPol`
+- `vrednost`
+- `idJedinicaMere`
+- `nJedinicaMere`
+- `nIzvorI`
+- `Indikator`
+- `IDStatusPodatka`
+- `nStatusPodatka`
+
+Meaning:
+- one employment count by territory, time, and sex
+- `IDPol = 0` / `nPol = Total` is the most useful slice for weighting grouped earnings
+
+### Schema I: Employment By Modality And Territory Schema
+Typical columns:
+- `idindikator`
+- `mes`
+- `god`
+- `IDModalitetRegZap`
+- `nModalitetRegZap`
+- `IDTer`
+- `nTer`
+- `vrednost`
+- `idJedinicaMere`
+- `nJedinicaMere`
+- `nIzvorI`
+- `Indikator`
+- `IDStatusPodatka`
+- `nStatusPodatka`
+
+Meaning:
+- one employment count by territory, time, and registered-employment modality
+- useful when we need workplace-based employment totals or modality-specific weighting
+
 ## Detailed Dataset Reference
 
 ### `avg_monthly_net_earnings_republic.csv`
@@ -401,6 +473,117 @@ Meaning:
 - grain: one row per `municipality or higher territory code + month + year`
 - schema family: `Schema B`
 - columns: same column set and formats as `avg_monthly_net_earnings_municipality_residence.csv`
+
+### `registered_employment_by_sex_municipality_residence.csv`
+- dataset meaning: registered employment by sex and municipalities of residence (`NSTJ`), annual level
+- records: `6174`
+- time period:
+  - years: `2016-2025`
+  - periods present: annual only, `mes = 00`
+- grain: one row per `territory + year + sex`
+- schema family: `Schema H`
+- why it matters in this project:
+  - this is currently the best raw source for `weighted average` calculations in grouped territorial earnings views
+  - it matches the `municipality of residence` geography used by the core earnings files
+  - the project uses `IDPol = 0` / `nPol = Total` as the weight slice
+- important note:
+  - the dataset contains one extra aggregate-like code `70000 Retained`, which does not appear in the current earnings files and should be excluded when building weights
+- columns:
+  - `idindikator`: indicator id, alphanumeric text
+  - `IDTer`: territory code, text
+  - `nTer`: territory name, text
+  - `mes`: period code, annual file uses `00`
+  - `god`: year, four-digit text
+  - `IDPol`: sex code, text
+  - `nPol`: sex label, text
+  - `vrednost`: registered employment count, numeric text in `number`
+  - `idJedinicaMere`: unit code, here `NR`
+  - `nJedinicaMere`: unit label, here `number`
+  - `nIzvorI`: source label, text
+  - `Indikator`: indicator label, text
+  - `IDStatusPodatka`: status code, text
+  - `nStatusPodatka`: status description, text
+
+### `registered_employment_by_sex_municipality_residence_quarterly.csv`
+- dataset meaning: registered employment by sex and municipalities of residence (`NSTJ`), quarterly level
+- records: `25293`
+- time period:
+  - years: `2016-2026`
+  - quarters present: `K1-K4`
+- grain: one row per `territory + quarter + year + sex`
+- schema family: `Schema H`
+- why it matters in this project:
+  - it can support quarter-aligned weighting later if we decide to weight `territory × quarter` comparisons instead of annual grouped views only
+  - it uses the same residence-based territorial logic as the core municipality earnings files
+- columns:
+  - `idindikator`: indicator id, alphanumeric text
+  - `IDTer`: territory code, text
+  - `nTer`: territory name, text
+  - `mes`: quarter code, here values such as `K1`, `K2`, `K3`, `K4`
+  - `god`: year, four-digit text
+  - `IDPol`: sex code, text
+  - `nPol`: sex label, text
+  - `vrednost`: registered employment count, numeric text in `number`
+  - `idJedinicaMere`: unit code, here `NR`
+  - `nJedinicaMere`: unit label, here `number`
+  - `nIzvorI`: source label, text
+  - `Indikator`: indicator label, text
+  - `IDStatusPodatka`: status code, text
+  - `nStatusPodatka`: status description, text
+
+### `registered_employment_by_municipality_work.csv`
+- dataset meaning: registered employment by municipalities of work (`NSTJ`), annual level
+- records: `9016`
+- time period:
+  - years: `2015-2025`
+  - periods present: annual only, `mes = 00`
+- grain: one row per `territory + year + registered-employment modality`
+- schema family: `Schema I`
+- why it is useful:
+  - it is a strong employment source, but it is based on `municipality of work`, not `municipality of residence`
+  - because the current core earnings files are residence-based, this file is not the first choice for weighting the existing Block 1 grouped earnings views
+- columns:
+  - `idindikator`: indicator id, alphanumeric text
+  - `mes`: period code, annual file uses `00`
+  - `god`: year, four-digit text
+  - `IDModalitetRegZap`: registered-employment modality code, text
+  - `nModalitetRegZap`: registered-employment modality label, text
+  - `IDTer`: territory code, text
+  - `nTer`: territory name, text
+  - `vrednost`: employment count, numeric text in `number`
+  - `idJedinicaMere`: unit code, here `NR`
+  - `nJedinicaMere`: unit label, here `number`
+  - `nIzvorI`: source label, text
+  - `Indikator`: indicator label, text
+  - `IDStatusPodatka`: status code, text
+  - `nStatusPodatka`: status description, text
+
+### `employed_by_regions_work.csv`
+- dataset meaning: employed by regions (`NSTJ` based on municipality of work), quarterly level
+- records: `1312`
+- time period:
+  - years: `2016-2026`
+  - quarters present: `K1-K4`
+- grain: one row per `region + quarter + year + registered-employment modality`
+- schema family: `Schema I`
+- why it is useful:
+  - this is helpful for macro-region and regional context
+  - but it is still `municipality/region of work` based, so it is not the cleanest direct weight source for residence-based earnings files
+- columns:
+  - `idindikator`: indicator id, alphanumeric text
+  - `IDTer`: territory code, text
+  - `nTer`: territory name, text
+  - `mes`: quarter code, values such as `K1`, `K2`, `K3`, `K4`
+  - `god`: year, four-digit text
+  - `IDModalitetRegZap`: registered-employment modality code, text
+  - `nModalitetRegZap`: registered-employment modality label, text
+  - `vrednost`: employment count, numeric text in `number`
+  - `idJedinicaMere`: unit code, here `NR`
+  - `nJedinicaMere`: unit label, here `number`
+  - `nIzvorI`: source label, text
+  - `Indikator`: indicator label, text
+  - `IDStatusPodatka`: status code, text
+  - `nStatusPodatka`: status description, text
 
 ### `avg_monthly_net_earnings_public_sector.csv`
 - dataset meaning: average monthly net earnings in the public sector

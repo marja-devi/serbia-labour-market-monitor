@@ -22,6 +22,10 @@ MUNICIPALITY_GROWTH_FILE = "municipality_growth_2018_2025.csv"
 MUNICIPALITY_QOQ_OUTLIERS_FILE = "municipality_qoq_outliers.csv"
 GROUP_AVERAGE_MACRO_FILE = "group_average_2025_macro_regions.csv"
 GROUP_AVERAGE_DISTRICT_FILE = "group_average_2025_districts.csv"
+GROUP_WEIGHTED_MACRO_FILE = "group_weighted_average_2025_macro_regions.csv"
+GROUP_WEIGHTED_DISTRICT_FILE = "group_weighted_average_2025_districts.csv"
+GROUP_MEDIAN_MACRO_FILE = "group_median_2025_macro_regions.csv"
+GROUP_MEDIAN_DISTRICT_FILE = "group_median_2025_districts.csv"
 CITY_DRILLDOWN_RANKING_FILE = "city_drilldown_municipality_ranking_2025.csv"
 REPUBLIC_NET_GROSS_TREND_FILE = "republic_net_gross_trend.csv"
 BELGRADE_NOVI_SAD_TREND_FILE = "belgrade_novi_sad_net_gross_trend.csv"
@@ -260,6 +264,10 @@ def build_territory_reference_html(rows: list[dict[str, str]]) -> str:
 def top_n(rows: list[dict[str, str]], earnings_type: str, key: str, reverse: bool, n: int = 10) -> list[dict[str, str]]:
     filtered = [row for row in rows if row["earnings_type"] == earnings_type]
     return sorted(filtered, key=lambda row: float(row[key]), reverse=reverse)[:n]
+
+
+def city_trend_for_method(rows: list[dict[str, str]], method: str) -> list[dict[str, str]]:
+    return [row for row in rows if row.get("aggregation_method") == method]
 
 
 def build_activity_division_rankings_2025(raw_rows: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -1003,7 +1011,11 @@ def svg_city_comparison_trend_chart(
 
     left_pad = 130
     right_pad = 84
-    top_pad = 72
+    title_lines = [title]
+    if ", " in title:
+        first, second = title.rsplit(", ", 1)
+        title_lines = [f"{first},", second]
+    top_pad = 96 if len(title_lines) > 1 else 72
     bottom_pad = 146
     usable_width = width - left_pad - right_pad
     usable_height = height - top_pad - bottom_pad
@@ -1037,8 +1049,19 @@ def svg_city_comparison_trend_chart(
     parts = [
         f'<svg viewBox="0 0 {width} {height}" width="100%" role="img" aria-label="{html.escape(title)}">',
         f'<rect x="0" y="0" width="{width}" height="{height}" rx="26" fill="{SVG_BG}"/>',
-        f'<text x="{left_pad}" y="42" fill="{SVG_TEXT}" font-size="34" font-weight="700" font-family="Arial, sans-serif">{html.escape(title)}</text>',
     ]
+
+    if len(title_lines) == 1:
+        parts.append(
+            f'<text x="{left_pad}" y="42" fill="{SVG_TEXT}" font-size="34" font-weight="700" font-family="Arial, sans-serif">{html.escape(title_lines[0])}</text>'
+        )
+    else:
+        parts.extend(
+            [
+                f'<text x="{left_pad}" y="34" fill="{SVG_TEXT}" font-size="31" font-weight="700" font-family="Arial, sans-serif">{html.escape(title_lines[0])}</text>',
+                f'<text x="{left_pad}" y="66" fill="{SVG_TEXT}" font-size="31" font-weight="700" font-family="Arial, sans-serif">{html.escape(title_lines[1])}</text>',
+            ]
+        )
 
     for step in range(5):
         fraction = step / 4
@@ -1097,16 +1120,17 @@ def render_report() -> str:
     rankings = read_csv(MARTS_DIR / MUNICIPALITY_RANKING_FILE)
     growth = read_csv(MARTS_DIR / MUNICIPALITY_GROWTH_FILE)
     qoq = read_csv(MARTS_DIR / MUNICIPALITY_QOQ_OUTLIERS_FILE)
-    macro_regions = read_csv(MARTS_DIR / GROUP_AVERAGE_MACRO_FILE)
-    districts = read_csv(MARTS_DIR / GROUP_AVERAGE_DISTRICT_FILE)
+    macro_regions_avg = read_csv(MARTS_DIR / GROUP_AVERAGE_MACRO_FILE)
+    districts_avg = read_csv(MARTS_DIR / GROUP_AVERAGE_DISTRICT_FILE)
+    macro_regions_weighted = read_csv(MARTS_DIR / GROUP_WEIGHTED_MACRO_FILE)
+    districts_weighted = read_csv(MARTS_DIR / GROUP_WEIGHTED_DISTRICT_FILE)
+    macro_regions_median = read_csv(MARTS_DIR / GROUP_MEDIAN_MACRO_FILE)
+    districts_median = read_csv(MARTS_DIR / GROUP_MEDIAN_DISTRICT_FILE)
     city_members = read_csv(MARTS_DIR / CITY_DRILLDOWN_RANKING_FILE)
     territory_reference = read_csv(REFERENCE_DIR / TERRITORY_DICTIONARY_FILE)
     republic_trend = read_csv(MARTS_DIR / REPUBLIC_NET_GROSS_TREND_FILE)
     belgrade_novi_sad_trend = read_csv(MARTS_DIR / BELGRADE_NOVI_SAD_TREND_FILE)
     activity_division_net_raw = read_csv(PROJECT_DIR / "data" / "raw" / ANNUAL_ACTIVITY_NET_FILE)
-    findings = (DOCS_DIR / "analysis_findings.md").read_text(encoding="utf-8")
-    notes = (DOCS_DIR / "analysis_notes.md").read_text(encoding="utf-8")
-
     net_rankings = [row for row in rankings if row["earnings_type"] == "net"]
     net_growth_rows = [row for row in growth if row["earnings_type"] == "net"]
 
@@ -1130,8 +1154,15 @@ def render_report() -> str:
         f"Method note: this chart shows positive quarter-over-quarter net earnings growth from the previous quarter "
         f"to {latest_qoq_quarter} {latest_qoq_year}."
     )
-    macro_net = top_n(macro_regions, "net", "avg_2025_value_rsd", True, n=10)
-    district_net = top_n(districts, "net", "avg_2025_value_rsd", True, n=10)
+    macro_avg_net = top_n(macro_regions_avg, "net", "avg_2025_value_rsd", True, n=10)
+    macro_weighted_net = top_n(macro_regions_weighted, "net", "weighted_avg_2025_value_rsd", True, n=10)
+    macro_median_net = top_n(macro_regions_median, "net", "median_2025_value_rsd", True, n=10)
+    district_avg_net = top_n(districts_avg, "net", "avg_2025_value_rsd", True, n=10)
+    district_weighted_net = top_n(districts_weighted, "net", "weighted_avg_2025_value_rsd", True, n=10)
+    district_median_net = top_n(districts_median, "net", "median_2025_value_rsd", True, n=10)
+    belgrade_novi_sad_average = city_trend_for_method(belgrade_novi_sad_trend, "average")
+    belgrade_novi_sad_weighted = city_trend_for_method(belgrade_novi_sad_trend, "weighted_average")
+    belgrade_novi_sad_median = city_trend_for_method(belgrade_novi_sad_trend, "median")
     belgrade_district_rows = sorted(
         [
             {**row, "district_label": row["municipality_name"]}
@@ -1189,27 +1220,79 @@ def render_report() -> str:
         "gap_to_gross_pct",
         color=PASTEL_SAND,
     )
-    chart_belgrade_novi_sad_gross = svg_city_comparison_trend_chart(
-        belgrade_novi_sad_trend,
-        "Belgrade vs Novi Sad Gross Earnings",
+    chart_belgrade_novi_sad_gross_average = svg_city_comparison_trend_chart(
+        belgrade_novi_sad_average,
+        "Belgrade vs Novi Sad Gross Earnings, Average",
         "gross",
     )
-    chart_belgrade_novi_sad_net = svg_city_comparison_trend_chart(
-        belgrade_novi_sad_trend,
-        "Belgrade vs Novi Sad Net Earnings",
+    chart_belgrade_novi_sad_gross_weighted = svg_city_comparison_trend_chart(
+        belgrade_novi_sad_weighted,
+        "Belgrade vs Novi Sad Gross Earnings, Weighted Average",
+        "gross",
+    )
+    chart_belgrade_novi_sad_gross_median = svg_city_comparison_trend_chart(
+        belgrade_novi_sad_median,
+        "Belgrade vs Novi Sad Gross Earnings, Median",
+        "gross",
+    )
+    chart_belgrade_novi_sad_net_average = svg_city_comparison_trend_chart(
+        belgrade_novi_sad_average,
+        "Belgrade vs Novi Sad Net Earnings, Average",
         "net",
     )
-    chart_macro = svg_column_chart(
-        macro_net,
+    chart_belgrade_novi_sad_net_weighted = svg_city_comparison_trend_chart(
+        belgrade_novi_sad_weighted,
+        "Belgrade vs Novi Sad Net Earnings, Weighted Average",
+        "net",
+    )
+    chart_belgrade_novi_sad_net_median = svg_city_comparison_trend_chart(
+        belgrade_novi_sad_median,
+        "Belgrade vs Novi Sad Net Earnings, Median",
+        "net",
+    )
+    chart_macro_average = svg_column_chart(
+        macro_avg_net,
         "Macro Region Average Net Earnings, 2025",
         "avg_2025_value_rsd",
         "macro_region_name",
         PASTEL_PURPLE,
     )
-    chart_district = svg_bar_chart(
-        district_net,
+    chart_macro_weighted = svg_column_chart(
+        macro_weighted_net,
+        "Macro Region Weighted Average Net Earnings, 2025",
+        "weighted_avg_2025_value_rsd",
+        "macro_region_name",
+        PASTEL_PURPLE,
+    )
+    chart_macro_median = svg_column_chart(
+        macro_median_net,
+        "Macro Region Median Net Earnings, 2025",
+        "median_2025_value_rsd",
+        "macro_region_name",
+        PASTEL_PURPLE,
+    )
+    chart_district_average = svg_bar_chart(
+        district_avg_net,
         "Top District Average Net Earnings, 2025",
         "avg_2025_value_rsd",
+        "administrative_district_name",
+        PASTEL_ORANGE,
+        title_font_size=28,
+        title_centered=True,
+    )
+    chart_district_weighted = svg_bar_chart(
+        district_weighted_net,
+        "Top District Weighted Average Net Earnings, 2025",
+        "weighted_avg_2025_value_rsd",
+        "administrative_district_name",
+        PASTEL_ORANGE,
+        title_font_size=28,
+        title_centered=True,
+    )
+    chart_district_median = svg_bar_chart(
+        district_median_net,
+        "Top District Median Net Earnings, 2025",
+        "median_2025_value_rsd",
         "administrative_district_name",
         PASTEL_ORANGE,
         title_font_size=28,
@@ -1236,7 +1319,7 @@ def render_report() -> str:
         right_pad=124,
         title_font_size=28,
         title_centered=True,
-        title_shift_x=-70,
+        title_shift_x=-80,
         label_font_size=16,
         value_font_size=18,
         multiline_labels=True,
@@ -1255,7 +1338,7 @@ def render_report() -> str:
         right_pad=124,
         title_font_size=28,
         title_centered=True,
-        title_shift_x=-70,
+        title_shift_x=-80,
         label_font_size=16,
         value_font_size=18,
         multiline_labels=True,
@@ -1355,6 +1438,11 @@ def render_report() -> str:
         grid-template-columns: 1fr 1fr;
         gap: 20px;
       }}
+      .three-col {{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }}
       h2 {{
         margin: 0 0 12px;
         font-size: 22px;
@@ -1446,7 +1534,7 @@ def render_report() -> str:
         font-size: 14px;
       }}
       @media (max-width: 900px) {{
-        .two-col, .kpis {{
+        .two-col, .three-col, .kpis {{
           grid-template-columns: 1fr;
         }}
         .hero h1 {{
@@ -1472,7 +1560,7 @@ def render_report() -> str:
       <div class="grid">
         <section class="panel block-header">
           <h2>Block 1. Regional Slice</h2>
-          <p>This block contains all current territorial views: municipality rankings, republic net-vs-gross comparison, city comparisons, growth, macro regions, districts, and regional drill-downs.</p>
+          <p>This block contains all current territorial views: municipality rankings, republic net-vs-gross comparison, growth, regional drill-downs, and side-by-side comparisons of arithmetic average, weighted average, and median for grouped territorial views.</p>
         </section>
         <section class="two-col">
           <div class="panel">{chart_top}</div>
@@ -1485,14 +1573,32 @@ def render_report() -> str:
             <p>Method note: this is the share of the gross-minus-net gap in gross earnings. It is a useful proxy for the earnings wedge, but not a direct measure of tax-law changes.</p>
           </div>
         </section>
-        <section class="two-col">
+        <section class="three-col">
           <div class="panel">
-            {chart_belgrade_novi_sad_gross}
-            <p>Method note: both cities are shown as arithmetic averages across available city-group members. For Novi Sad, that average currently equals the single city-level row.</p>
+            {chart_belgrade_novi_sad_gross_average}
+            <p>Method note: arithmetic average across available city-group members.</p>
           </div>
           <div class="panel">
-            {chart_belgrade_novi_sad_net}
-            <p>Method note: both cities are shown as arithmetic averages across available city-group members. For Novi Sad, that average currently equals the single city-level row.</p>
+            {chart_belgrade_novi_sad_gross_weighted}
+            <p>Method note: weighted by registered employment by municipality of residence.</p>
+          </div>
+          <div class="panel">
+            {chart_belgrade_novi_sad_gross_median}
+            <p>Method note: median across available city-group members.</p>
+          </div>
+        </section>
+        <section class="three-col">
+          <div class="panel">
+            {chart_belgrade_novi_sad_net_average}
+            <p>Method note: arithmetic average across available city-group members.</p>
+          </div>
+          <div class="panel">
+            {chart_belgrade_novi_sad_net_weighted}
+            <p>Method note: weighted by registered employment by municipality of residence.</p>
+          </div>
+          <div class="panel">
+            {chart_belgrade_novi_sad_net_median}
+            <p>Method note: median across available city-group members.</p>
           </div>
         </section>
         <section class="two-col">
@@ -1502,9 +1608,15 @@ def render_report() -> str:
             <p>{html.escape(qoq_note)}</p>
           </div>
         </section>
-        <section class="two-col">
-          <div class="panel">{chart_macro}</div>
-          <div class="panel">{chart_district}</div>
+        <section class="three-col">
+          <div class="panel">{chart_macro_average}</div>
+          <div class="panel">{chart_macro_weighted}</div>
+          <div class="panel">{chart_macro_median}</div>
+        </section>
+        <section class="three-col">
+          <div class="panel">{chart_district_average}</div>
+          <div class="panel">{chart_district_weighted}</div>
+          <div class="panel">{chart_district_median}</div>
         </section>
         <section class="panel">
           <h2>Territorial Hierarchy Reference</h2>

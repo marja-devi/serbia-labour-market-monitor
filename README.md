@@ -16,6 +16,7 @@ The current phase focuses on earnings analysis:
 - monthly net and gross earnings by municipality of residence
 - quarter-level transformation for analysis
 - annual validation against separate annual source files
+- employment-weighted regional comparisons
 - portfolio-ready rankings, grouped views, and a local HTML report
 
 This repository is a data portfolio project: it combines a reproducible data pipeline, analytical tables, and a presentation-ready report built from official Serbian SORS open data.
@@ -27,6 +28,7 @@ Current main grain:
 Current scope:
 - clean and standardize municipality earnings files
 - build a quarter-level mart
+- add registered-employment weights for grouped territorial comparisons
 - attach territory hierarchy for grouping and drill-down
 - generate analytical CSV outputs and a visual report
 
@@ -41,6 +43,8 @@ Primary raw files currently used:
 2. `avg_monthly_gross_earnings_municipality_residence.csv`
 3. `annual_avg_monthly_net_earnings_municipality_residence.csv`
 4. `annual_avg_monthly_gross_earnings_municipality_residence.csv`
+5. `registered_employment_by_sex_municipality_residence.csv`
+6. `registered_employment_by_sex_municipality_residence_quarterly.csv`
 
 These files are stored in [data/raw](data/raw).
 
@@ -51,6 +55,8 @@ Supporting raw files are also available for later expansion:
 - employment-modality series
 - business-status series
 - median earnings and wage-index files
+- employment-by-workplace series
+- regional employment series
 
 Detailed raw-file descriptions:
 - [DATASETS_DESCRIPTION.md](data/raw/DATASETS_DESCRIPTION.md)
@@ -69,8 +75,11 @@ Main transformation logic:
 
 Important modeling rule:
 - municipality rankings use direct local-unit values
-- grouped regional views use the `median of municipality averages`
-- grouped views are intentionally not presented as weighted regional means, because the current sources do not include employment weights
+- grouped regional views are now shown in three parallel methods:
+  - arithmetic average
+  - weighted average using registered employment by municipality of residence
+  - median
+- weighted views use employment counts as weights only where municipality codes align to the earnings-residence geography
 
 ## Outputs
 ### Main Tables
@@ -109,6 +118,24 @@ Important modeling rule:
 - [group_average_2025_city_groups.csv](data/marts/group_average_2025_city_groups.csv)
   City-group comparison using the arithmetic average of municipality averages.
 
+- [group_weighted_average_2025_macro_regions.csv](data/marts/group_weighted_average_2025_macro_regions.csv)
+  Macro-region comparison using weighted average with employment counts.
+
+- [group_weighted_average_2025_districts.csv](data/marts/group_weighted_average_2025_districts.csv)
+  District comparison using weighted average with employment counts.
+
+- [group_weighted_average_2025_city_groups.csv](data/marts/group_weighted_average_2025_city_groups.csv)
+  City-group comparison using weighted average with employment counts.
+
+- [group_median_2025_macro_regions.csv](data/marts/group_median_2025_macro_regions.csv)
+  Macro-region comparison using the median of municipality values.
+
+- [group_median_2025_districts.csv](data/marts/group_median_2025_districts.csv)
+  District comparison using the median of municipality values.
+
+- [group_median_2025_city_groups.csv](data/marts/group_median_2025_city_groups.csv)
+  City-group comparison using the median of municipality values.
+
 - [city_drilldown_municipality_ranking_2025.csv](data/marts/city_drilldown_municipality_ranking_2025.csv)
   Municipality ranking inside city drill-down groups such as Belgrade or Niš.
 
@@ -143,12 +170,17 @@ Recommended order:
 2. open [territory_annual_validation.csv](data/marts/territory_annual_validation.csv)
 3. open [republic_net_gross_trend.csv](data/marts/republic_net_gross_trend.csv) to inspect net vs gross over time
 4. open [municipality_ranking_2025.csv](data/marts/municipality_ranking_2025.csv)
-5. open one of the `group_average_*` files for grouped comparisons
+5. open the grouped comparison files:
+   - `group_average_*`
+   - `group_weighted_average_*`
+   - `group_median_*`
 6. open [earnings_report.html](app/earnings_report.html) for the portfolio-style view
 
 How to interpret outputs:
 - `municipality ranking` means direct comparison of local-unit values
 - `group average of municipality averages` means arithmetic average across local-unit averages inside a larger territorial grouping
+- `group weighted average` means each municipality value is weighted by registered employment
+- `group median` means the middle municipality value inside the grouping
 
 ## Repository Layout
 - [data/raw](data/raw) source files
@@ -177,16 +209,17 @@ Main generated outputs will appear in:
 - [app](app)
 
 ## Limitations
-- current grouped regional views are not weighted by employment
 - `2026` is partial and should not be used for full-year comparison
 - the Novi Sad area has a continuity issue across years:
   - `80284 Novi Sad`
   - `80519 Petrovaradin`
   - later `89010 Grad Novi Sad`
-- employment and broader labour-market dimensions are not yet integrated
+- employment weights are currently aligned only to municipality-of-residence earnings geography
+- broader labour-market dimensions beyond earnings and employment weights are not yet integrated
 
 ## Current Status
 - raw wage datasets inspected
+- employment weight datasets added
 - data dictionary and territory dictionary prepared
 - staging and mart pipeline implemented
 - annual validation implemented

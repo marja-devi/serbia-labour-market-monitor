@@ -1,5 +1,5 @@
-macro_region_name,earnings_type,municipality_count,avg_2025_value_rsd,min_2025_value_rsd,max_2025_value_rsd
-SRBIJA – JUG,gross,110,122652.78,102237.25,175805.84
-SRBIJA – JUG,net,110,88715.4,73897.67,126452.92
-SRBIJA – SEVER,gross,62,141879.35,113283.33,255513.83
-SRBIJA – SEVER,net,62,102802.89,82213.42,187799.09
+macro_region_name,earnings_type,aggregation_method,municipality_count,weight_observation_count,total_weight,avg_2025_value_rsd,min_2025_value_rsd,max_2025_value_rsd
+SRBIJA – JUG,gross,average,110,110,1192374.0,122652.78,102237.25,175805.84
+SRBIJA – JUG,net,average,110,110,1192374.0,88715.4,73897.67,126452.92
+SRBIJA – SEVER,gross,average,62,62,1330974.0,141879.35,113283.33,255513.83
+SRBIJA – SEVER,net,average,62,62,1330974.0,102802.89,82213.42,187799.09

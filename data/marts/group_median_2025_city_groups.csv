@@ -1,0 +1,13 @@
+city_group_name,earnings_type,aggregation_method,municipality_count,weight_observation_count,total_weight,median_2025_value_rsd,min_2025_value_rsd,max_2025_value_rsd
+Grad Beograd,gross,median,17,17,712155.0,171195.5,127807.83,255513.83
+Grad Beograd,net,median,17,17,712155.0,123943.83,92373.0,187799.09
+Grad Niš,gross,median,6,6,182708.0,137245.42,119222.92,164801.5
+Grad Niš,net,median,6,6,182708.0,99344.88,86435.5,118934.33
+Grad Novi Sad,gross,median,1,1,151721.0,174478.5,174478.5,174478.5
+Grad Novi Sad,net,median,1,1,151721.0,126477.58,126477.58,126477.58
+Grad Požarevac,gross,median,3,3,48192.0,141951.66,140392.33,151462.59
+Grad Požarevac,net,median,3,3,48192.0,102228.25,101133.75,108902.25
+Grad Užice,gross,median,3,3,54869.0,140769.75,126734.83,141281.08
+Grad Užice,net,median,3,3,54869.0,101463.17,91117.17,101839.59
+Grad Vranje,gross,median,3,3,50208.0,118951.42,106333.92,119277.33
+Grad Vranje,net,median,3,3,50208.0,86146.67,77137.25,86379.25
