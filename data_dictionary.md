@@ -1,6 +1,6 @@
 # Data Dictionary
 
-Updated: 2026-04-30
+Updated: 2026-05-05
 
 ## Purpose
 This file is the working data dictionary for the portfolio project. It explains the main tables we use now, the meaning of their columns, and how the raw SORS fields flow into staging, marts, and reference dimensions.
@@ -23,6 +23,8 @@ Main raw families currently in the project:
 - public sector earnings
 - employment modality earnings
 - business entity status earnings
+- registered employment by residence
+- registered employment by workplace
 - republic median and index files
 
 The most important raw files for the first portfolio phase are:
@@ -30,6 +32,8 @@ The most important raw files for the first portfolio phase are:
 - [avg_monthly_gross_earnings_municipality_residence.csv](data/raw/avg_monthly_gross_earnings_municipality_residence.csv)
 - [annual_avg_monthly_net_earnings_municipality_residence.csv](data/raw/annual_avg_monthly_net_earnings_municipality_residence.csv)
 - [annual_avg_monthly_gross_earnings_municipality_residence.csv](data/raw/annual_avg_monthly_gross_earnings_municipality_residence.csv)
+- [registered_employment_by_sex_municipality_residence.csv](data/raw/registered_employment_by_sex_municipality_residence.csv)
+- [registered_employment_by_sex_municipality_residence_quarterly.csv](data/raw/registered_employment_by_sex_municipality_residence_quarterly.csv)
 
 Full raw-file descriptions remain in [DATASETS_DESCRIPTION.md](data/raw/DATASETS_DESCRIPTION.md).
 
@@ -118,6 +122,9 @@ This layer stores helper dictionaries that should stay stable across analyses. T
   meaning: long status description
 
 ### Classification fields
+- `IDPol`, `nPol`
+  meaning: sex code and sex label
+
 - `IDKD08`, `nkd08`
   meaning: activity division code and label
 
@@ -126,6 +133,9 @@ This layer stores helper dictionaries that should stay stable across analyses. T
 
 - `IDModalitetZarZap`, `nModalitetZarZap`
   meaning: employment modality code and label
+
+- `IDModalitetRegZap`, `nModalitetRegZap`
+  meaning: registered-employment modality code and label
 
 - `IDZarStatusPS`, `nZarStatusPS`
   meaning: business-entity-status code and label
@@ -421,17 +431,25 @@ Files:
 - [group_average_2025_macro_regions.csv](data/marts/group_average_2025_macro_regions.csv)
 - [group_average_2025_districts.csv](data/marts/group_average_2025_districts.csv)
 - [group_average_2025_city_groups.csv](data/marts/group_average_2025_city_groups.csv)
+- [group_weighted_average_2025_macro_regions.csv](data/marts/group_weighted_average_2025_macro_regions.csv)
+- [group_weighted_average_2025_districts.csv](data/marts/group_weighted_average_2025_districts.csv)
+- [group_weighted_average_2025_city_groups.csv](data/marts/group_weighted_average_2025_city_groups.csv)
+- [group_median_2025_macro_regions.csv](data/marts/group_median_2025_macro_regions.csv)
+- [group_median_2025_districts.csv](data/marts/group_median_2025_districts.csv)
+- [group_median_2025_city_groups.csv](data/marts/group_median_2025_city_groups.csv)
 - [city_drilldown_municipality_ranking_2025.csv](data/marts/city_drilldown_municipality_ranking_2025.csv)
 
 Purpose:
 - compare annual republic-level net and gross earnings on one timeline and track the gap
-- compare Belgrade and Novi Sad on one net-gross timeline using the best available construction for each city
+- compare Belgrade and Novi Sad on one net-gross timeline using three aggregation methods
 - compare 2025 local-unit earnings after rolling them up to larger territorial levels
 - support grouped charts and drill-down views
 
 Interpretation labels to use in charts:
 - `municipality ranking`: direct comparison of local-unit values
-- `group median of municipality averages`: median across local-unit averages inside a larger grouping
+- `group average of municipality averages`: arithmetic average across local-unit averages inside a larger grouping
+- `group weighted average`: weighted average using registered employment by municipality of residence
+- `group median`: median across local-unit values inside a larger grouping
 
 Shared logic:
 - source: `municipality_ranking_2025.csv`
@@ -439,7 +457,13 @@ Shared logic:
 - coverage: only complete local-unit rows
 - aggregation:
   - `group_average_2025_macro_regions.csv`, `group_average_2025_districts.csv`, `group_average_2025_city_groups.csv` use the arithmetic average of local-unit 2025 averages inside each grouping
-  - this is intentionally not a weighted regional mean
+  - `group_weighted_average_2025_macro_regions.csv`, `group_weighted_average_2025_districts.csv`, `group_weighted_average_2025_city_groups.csv` use employment-weighted averages
+  - `group_median_2025_macro_regions.csv`, `group_median_2025_districts.csv`, `group_median_2025_city_groups.csv` use the median across local-unit values
+
+Weight source for weighted aggregation:
+- [registered_employment_by_sex_municipality_residence.csv](data/raw/registered_employment_by_sex_municipality_residence.csv)
+- the current implementation uses `IDPol = 0` / `nPol = Total`
+- this was chosen because it aligns to the same `municipality of residence` geography as the core earnings files
 
 Key grouping columns:
 - `macro_region_name`

@@ -1562,16 +1562,46 @@ def render_report() -> str:
           <h2>Block 1. Regional Slice</h2>
           <p>This block contains all current territorial views: municipality rankings, republic net-vs-gross comparison, growth, regional drill-downs, and side-by-side comparisons of arithmetic average, weighted average, and median for grouped territorial views.</p>
         </section>
+        <section class="three-col">
+          <div class="panel">{chart_macro_average}</div>
+          <div class="panel">{chart_macro_weighted}</div>
+          <div class="panel">{chart_macro_median}</div>
+        </section>
+        <section class="panel">
+          <h2>North vs South Interpretation</h2>
+          <p>Serbia North is consistently ahead of Serbia South across average, weighted average, and median net earnings. However, the size of the gap changes depending on the aggregation method, so the next step is to look below the macro level.</p>
+        </section>
+        <section class="three-col">
+          <div class="panel">{chart_district_average}</div>
+          <div class="panel">{chart_district_weighted}</div>
+          <div class="panel">{chart_district_median}</div>
+        </section>
+        <section class="panel">
+          <h2>Borska Oblast Note</h2>
+          <p>A separate interesting case is Borska oblast.</p>
+          <p>At first, I was surprised to see it repeatedly appearing near the top across average, weighted average, and median earnings views. But after looking at the context, it makes more sense: this is not just a typical regional labor market, but a strong mining and industrial cluster around Bor, copper production, metallurgy, and large employers.</p>
+          <p>So for relocation and office-job analysis, I would treat Borska oblast as a salary outlier that needs a separate explanation, not as a direct alternative to Belgrade or Novi Sad.</p>
+        </section>
+        <section class="two-col">
+          <div class="panel">
+            {chart_city}
+            <p>Method note: this view shows Belgrade as city municipalities only.</p>
+          </div>
+          <div class="panel">
+            {chart_juznobacka_oblast}
+            <p>Method note: `Grad Novi Sad` appears as one city tile inside `Južnobačka oblast`; the other tiles are the remaining municipalities of the district.</p>
+          </div>
+        </section>
+        <section class="panel">
+          <h2>Drill-Down Interpretation</h2>
+          <p>The drill-down views show that both key relocation candidates have internal differences.</p>
+          <p>Belgrade has a much wider spread between its city municipalities: central business-oriented areas such as Stari grad, Vračar, Novi Beograd, and Savski venac are far above the outer municipalities.</p>
+          <p>Južnobačka oblast is more concentrated around Grad Novi Sad. Novi Sad clearly leads the district, while the surrounding municipalities show noticeably lower earnings levels.</p>
+          <p>For relocation analysis, this means that “Belgrade vs Novi Sad” is not only a city-level comparison. In Belgrade, the exact municipality may matter much more, while in Južnobačka oblast the main salary signal is strongly concentrated in Novi Sad itself.</p>
+        </section>
         <section class="two-col">
           <div class="panel">{chart_top}</div>
           <div class="panel">{chart_bottom}</div>
-        </section>
-        <section class="two-col">
-          <div class="panel">{chart_net_gross_trend}</div>
-          <div class="panel">
-            {chart_gap_share_trend}
-            <p>Method note: this is the share of the gross-minus-net gap in gross earnings. It is a useful proxy for the earnings wedge, but not a direct measure of tax-law changes.</p>
-          </div>
         </section>
         <section class="three-col">
           <div class="panel">
@@ -1601,6 +1631,33 @@ def render_report() -> str:
             <p>Method note: median across available city-group members.</p>
           </div>
         </section>
+        <section class="panel">
+          <h2>Interpretation</h2>
+          <p>For the practical question “Where is the probability of finding a higher-paid job better?”, the median across available city-group members may be more informative than a simple average or even an employment-weighted average.</p>
+          <p>The weighted average is useful for understanding the overall salary level of the employed population, but it can be strongly influenced by large employment centers.</p>
+          <p>The median, even though it is not a true salary median by individual workers, gives a more robust view of the typical salary level across the available territorial units. It helps reduce the influence of outliers and shows whether higher earnings are more broadly distributed across the city group. According to this information, Novi Sad is better than Belgrade, so I choose it for living.</p>
+        </section>
+        <section class="two-col">
+          <div class="panel">
+            {chart_net_gross_trend}
+            <p>Tip: hover over the dashed vertical gap to see the floating gross-minus-net values for each year.</p>
+          </div>
+          <div class="panel">
+            {chart_gap_share_trend}
+            <p>Method note: this is the share of the gross-minus-net gap in gross earnings. It is a useful proxy for the earnings wedge, but not a direct measure of tax-law changes.</p>
+          </div>
+        </section>
+        <section class="panel">
+          <h2>Gap Interpretation</h2>
+          <p>When I built the first chart, the growing gap between gross and net earnings immediately caught my attention. At first glance, it looked as if the tax burden might be increasing.</p>
+          <p>But after checking the gap as a percentage of gross earnings, the picture became much calmer: the share remained surprisingly stable over the last seven years, fluctuating only slightly around 27.5%.</p>
+          <p>So the absolute gap is growing mostly because earnings themselves are growing, not because the gross-net structure is changing dramatically.</p>
+          <p>This kind of stability is actually quite reassuring when looking at salary expectations and relocation decisions.</p>
+        </section>
+        <section class="panel">
+          <h2>Growth Momentum</h2>
+          <p>After looking at the current salary level, I also checked where net earnings have grown the fastest. This view does not answer the same question as the 2025 salary ranking: a fast-growing municipality is not automatically the best-paid one. However, it helps identify territories where the earnings landscape is changing more dynamically.</p>
+        </section>
         <section class="two-col">
           <div class="panel">{chart_growth}</div>
           <div class="panel">
@@ -1608,29 +1665,11 @@ def render_report() -> str:
             <p>{html.escape(qoq_note)}</p>
           </div>
         </section>
-        <section class="three-col">
-          <div class="panel">{chart_macro_average}</div>
-          <div class="panel">{chart_macro_weighted}</div>
-          <div class="panel">{chart_macro_median}</div>
-        </section>
-        <section class="three-col">
-          <div class="panel">{chart_district_average}</div>
-          <div class="panel">{chart_district_weighted}</div>
-          <div class="panel">{chart_district_median}</div>
-        </section>
         <section class="panel">
-          <h2>Territorial Hierarchy Reference</h2>
-          {territory_reference_html}
-        </section>
-        <section class="two-col">
-          <div class="panel">
-            {chart_city}
-            <p>Method note: this view shows Belgrade as city municipalities only.</p>
-          </div>
-          <div class="panel">
-            {chart_juznobacka_oblast}
-            <p>Method note: `Grad Novi Sad` appears as one city tile inside `Južnobačka oblast`; the other tiles are the remaining municipalities of the district.</p>
-          </div>
+          <h2>Growth Interpretation</h2>
+          <p>Growth charts show momentum, not absolute attractiveness.</p>
+          <p>The 2018–2025 view helps identify municipalities where earnings have increased the fastest over the long term. The Q3–Q4 2025 view is more volatile and should be treated as a short-term signal only.</p>
+          <p>For relocation decisions, these charts are useful as a supporting layer: they show where the market is changing, but they should be read together with current salary levels, employment volume, and job structure.</p>
         </section>
         <section class="panel block-header">
           <h2>Block 2. Professional Slice</h2>
@@ -1639,6 +1678,14 @@ def render_report() -> str:
         <section class="two-col">
           <div class="panel">{chart_activity_top}</div>
           <div class="panel">{chart_activity_bottom}</div>
+        </section>
+        <section class="panel block-header">
+          <h2>Appendix</h2>
+          <p>Reference materials and supporting structure used in the report.</p>
+        </section>
+        <section class="panel">
+          <h2>Territorial Hierarchy Reference</h2>
+          {territory_reference_html}
         </section>
       </div>
     </div>
