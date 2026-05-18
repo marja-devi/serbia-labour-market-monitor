@@ -31,6 +31,7 @@ REPUBLIC_NET_GROSS_TREND_FILE = "republic_net_gross_trend.csv"
 BELGRADE_NOVI_SAD_TREND_FILE = "belgrade_novi_sad_net_gross_trend.csv"
 TERRITORY_DICTIONARY_FILE = "territory_dictionary.csv"
 ANNUAL_ACTIVITY_NET_FILE = "annual_avg_monthly_net_earnings_activity_division.csv"
+ANNUAL_ACTIVITY_GROSS_FILE = "annual_avg_monthly_gross_earnings_activity_division.csv"
 BEOGRAD_DISTRICT_NAME = "Beogradska oblast"
 BEOGRAD_REGION_ALIAS = "Beogradski region"
 
@@ -106,6 +107,10 @@ def wrap_label_lines(text: str, max_line_len: int = 42, max_lines: int = 3) -> l
 
     merged = lines[: max_lines - 1] + [" ".join(lines[max_lines - 1 :])]
     return merged[:max_lines]
+
+
+def wrap_title_lines(text: str, max_line_len: int = 44, max_lines: int = 2) -> list[str]:
+    return wrap_label_lines(text, max_line_len=max_line_len, max_lines=max_lines)
 
 
 def normalize_territory_label(value: str) -> str:
@@ -296,6 +301,84 @@ def build_activity_division_rankings_2025(raw_rows: list[dict[str, str]]) -> lis
     return sorted(rows, key=lambda row: float(row["avg_2025_value_rsd"]), reverse=True)
 
 
+def build_activity_lookup(rows: list[dict[str, str]]) -> dict[tuple[str, str], dict[str, str]]:
+    lookup: dict[tuple[str, str], dict[str, str]] = {}
+    for row in rows:
+        year = str(row.get("god", "")).strip()
+        code = str(row.get("IDKD08", "")).strip()
+        if row.get("IDTer") != "RS" or not year or not code:
+            continue
+        lookup[(year, code)] = row
+    return lookup
+
+
+def build_activity_net_gross_trend(
+    annual_net_rows: list[dict[str, str]],
+    annual_gross_rows: list[dict[str, str]],
+    code: str = "62",
+) -> list[dict[str, str]]:
+    net_lookup = build_activity_lookup(annual_net_rows)
+    gross_lookup = build_activity_lookup(annual_gross_rows)
+    years = sorted({year for year, row_code in net_lookup if row_code == code} & {year for year, row_code in gross_lookup if row_code == code})
+    rows: list[dict[str, str]] = []
+    for year in years:
+        net_row = net_lookup[(year, code)]
+        gross_row = gross_lookup[(year, code)]
+        rows.append(
+            {
+                "year": year,
+                "net_value_rsd": net_row["vrednost"],
+                "gross_value_rsd": gross_row["vrednost"],
+                "gross_minus_net_rsd": str(float(gross_row["vrednost"]) - float(net_row["vrednost"])),
+            }
+        )
+    return rows
+
+
+def build_activity_peer_rows_2025(
+    raw_rows: list[dict[str, str]],
+    codes: list[str],
+    label_map: dict[str, str] | None = None,
+) -> list[dict[str, str]]:
+    lookup = build_activity_lookup(raw_rows)
+    rows: list[dict[str, str]] = []
+    for code in codes:
+        row = lookup.get(("2025", code))
+        if not row:
+            continue
+        name = str(row.get("nkd08", "")).strip()
+        effective_map = label_map or {}
+        rows.append(
+            {
+                "activity_code": code,
+                "activity_label": effective_map.get(code, name),
+                "avg_2025_value_rsd": row["vrednost"],
+            }
+        )
+    return sorted(rows, key=lambda row: float(row["avg_2025_value_rsd"]), reverse=True)
+
+
+def build_activity_premium_rows(
+    annual_net_rows: list[dict[str, str]],
+    activity_code: str = "62",
+    base_code: str = "0",
+) -> list[dict[str, str]]:
+    lookup = build_activity_lookup(annual_net_rows)
+    years = sorted({year for year, row_code in lookup if row_code == activity_code} & {year for year, row_code in lookup if row_code == base_code})
+    rows: list[dict[str, str]] = []
+    for year in years:
+        activity_value = float(lookup[(year, activity_code)]["vrednost"])
+        base_value = float(lookup[(year, base_code)]["vrednost"])
+        premium_pct = ((activity_value - base_value) / base_value) * 100 if base_value else 0.0
+        rows.append(
+            {
+                "year": year,
+                "premium_pct": f"{premium_pct:.2f}",
+            }
+        )
+    return rows
+
+
 def svg_bar_chart(
     rows: list[dict[str, str]],
     title: str,
@@ -317,6 +400,8 @@ def svg_bar_chart(
     multiline_labels: bool = False,
     label_line_height: int = 20,
     label_max_lines: int = 3,
+    multiline_title: bool = False,
+    title_line_height: int = 30,
     value_formatter=format_rsd,
 ) -> str:
     if not rows:
@@ -327,11 +412,28 @@ def svg_bar_chart(
     usable_width = width - left_pad - right_pad
     title_x = (left_pad + (usable_width / 2) if title_centered else left_pad) + title_shift_x
     title_anchor = "middle" if title_centered else "start"
+    title_lines = wrap_title_lines(title) if multiline_title else [title]
+    title_svg: str
+    if len(title_lines) == 1:
+        title_svg = (
+            f'<text x="{title_x:.2f}" y="42" text-anchor="{title_anchor}" fill="{SVG_TEXT}" '
+            f'font-size="{title_font_size}" font-weight="700" font-family="Arial, sans-serif">{html.escape(title_lines[0])}</text>'
+        )
+    else:
+        first_y = 32
+        tspans = [
+            f'<tspan x="{title_x:.2f}" y="{first_y + (line_index * title_line_height)}">{html.escape(part)}</tspan>'
+            for line_index, part in enumerate(title_lines)
+        ]
+        title_svg = (
+            f'<text x="{title_x:.2f}" text-anchor="{title_anchor}" fill="{SVG_TEXT}" '
+            f'font-size="{title_font_size}" font-weight="700" font-family="Arial, sans-serif">{"".join(tspans)}</text>'
+        )
 
     parts = [
         f'<svg viewBox="0 0 {width} {chart_height}" width="100%" role="img" aria-label="{html.escape(title)}">',
         f'<rect x="0" y="0" width="{width}" height="{chart_height}" rx="26" fill="{SVG_BG}"/>',
-        f'<text x="{title_x:.2f}" y="42" text-anchor="{title_anchor}" fill="{SVG_TEXT}" font-size="{title_font_size}" font-weight="700" font-family="Arial, sans-serif">{html.escape(title)}</text>',
+        title_svg,
     ]
 
     for index, row in enumerate(rows):
@@ -822,13 +924,22 @@ def svg_signed_change_chart(rows: list[dict[str, str]], title: str, width: int =
     return "".join(parts)
 
 
-def svg_net_gross_trend_chart(rows: list[dict[str, str]], title: str, width: int = 840, height: int = 500) -> str:
+def svg_net_gross_trend_chart(
+    rows: list[dict[str, str]],
+    title: str,
+    width: int = 840,
+    height: int = 500,
+    title_font_size: int = 34,
+    title_shift_x: int = 0,
+    title_max_lines: int = 2,
+) -> str:
     if not rows:
         return "<p>No data available.</p>"
 
     left_pad = 130
     right_pad = 84
-    top_pad = 72
+    title_lines = wrap_title_lines(title, max_lines=title_max_lines)
+    top_pad = 118 if len(title_lines) > 2 else 96 if len(title_lines) > 1 else 72
     bottom_pad = 146
     usable_width = width - left_pad - right_pad
     usable_height = height - top_pad - bottom_pad
@@ -855,8 +966,19 @@ def svg_net_gross_trend_chart(rows: list[dict[str, str]], title: str, width: int
     parts = [
         f'<svg viewBox="0 0 {width} {height}" width="100%" role="img" aria-label="{html.escape(title)}">',
         f'<rect x="0" y="0" width="{width}" height="{height}" rx="26" fill="{SVG_BG}"/>',
-        f'<text x="{left_pad}" y="42" fill="{SVG_TEXT}" font-size="34" font-weight="700" font-family="Arial, sans-serif">{html.escape(title)}</text>',
     ]
+    if len(title_lines) == 1:
+        parts.append(
+            f'<text x="{left_pad - 20 + title_shift_x}" y="42" fill="{SVG_TEXT}" font-size="{title_font_size}" font-weight="700" font-family="Arial, sans-serif">{html.escape(title_lines[0])}</text>'
+        )
+    else:
+        tspans = [
+            f'<tspan x="{left_pad - 20 + title_shift_x}" y="{32 + (i * 30)}">{html.escape(line)}</tspan>'
+            for i, line in enumerate(title_lines)
+        ]
+        parts.append(
+            f'<text x="{left_pad - 20 + title_shift_x}" fill="{SVG_TEXT}" font-size="{title_font_size}" font-weight="700" font-family="Arial, sans-serif">{"".join(tspans)}</text>'
+        )
 
     for step in range(5):
         fraction = step / 4
@@ -923,13 +1045,17 @@ def svg_percent_trend_chart(
     height: int = 500,
     color: str = PASTEL_CORAL,
     y_label_suffix: str = "%",
+    title_font_size: int = 34,
+    title_shift_x: int = 0,
+    title_max_lines: int = 2,
 ) -> str:
     if not rows:
         return "<p>No data available.</p>"
 
     left_pad = 130
     right_pad = 84
-    top_pad = 72
+    title_lines = wrap_title_lines(title, max_lines=title_max_lines)
+    top_pad = 118 if len(title_lines) > 2 else 96 if len(title_lines) > 1 else 72
     bottom_pad = 126
     usable_width = width - left_pad - right_pad
     usable_height = height - top_pad - bottom_pad
@@ -957,8 +1083,19 @@ def svg_percent_trend_chart(
     parts = [
         f'<svg viewBox="0 0 {width} {height}" width="100%" role="img" aria-label="{html.escape(title)}">',
         f'<rect x="0" y="0" width="{width}" height="{height}" rx="26" fill="{SVG_BG}"/>',
-        f'<text x="{left_pad}" y="42" fill="{SVG_TEXT}" font-size="34" font-weight="700" font-family="Arial, sans-serif">{html.escape(title)}</text>',
     ]
+    if len(title_lines) == 1:
+        parts.append(
+            f'<text x="{left_pad - 20 + title_shift_x}" y="42" fill="{SVG_TEXT}" font-size="{title_font_size}" font-weight="700" font-family="Arial, sans-serif">{html.escape(title_lines[0])}</text>'
+        )
+    else:
+        tspans = [
+            f'<tspan x="{left_pad - 20 + title_shift_x}" y="{32 + (i * 30)}">{html.escape(line)}</tspan>'
+            for i, line in enumerate(title_lines)
+        ]
+        parts.append(
+            f'<text x="{left_pad - 20 + title_shift_x}" fill="{SVG_TEXT}" font-size="{title_font_size}" font-weight="700" font-family="Arial, sans-serif">{"".join(tspans)}</text>'
+        )
 
     for step in range(5):
         fraction = step / 4
@@ -1131,6 +1268,7 @@ def render_report() -> str:
     republic_trend = read_csv(MARTS_DIR / REPUBLIC_NET_GROSS_TREND_FILE)
     belgrade_novi_sad_trend = read_csv(MARTS_DIR / BELGRADE_NOVI_SAD_TREND_FILE)
     activity_division_net_raw = read_csv(PROJECT_DIR / "data" / "raw" / ANNUAL_ACTIVITY_NET_FILE)
+    activity_division_gross_raw = read_csv(PROJECT_DIR / "data" / "raw" / ANNUAL_ACTIVITY_GROSS_FILE)
     net_rankings = [row for row in rankings if row["earnings_type"] == "net"]
     net_growth_rows = [row for row in growth if row["earnings_type"] == "net"]
 
@@ -1182,6 +1320,42 @@ def render_report() -> str:
     activity_division_rankings = build_activity_division_rankings_2025(activity_division_net_raw)
     activity_top_10 = activity_division_rankings[:10]
     activity_bottom_10 = sorted(activity_division_rankings, key=lambda row: float(row["avg_2025_value_rsd"]))[:10]
+    activity_62_trend = build_activity_net_gross_trend(activity_division_net_raw, activity_division_gross_raw, code="62")
+    activity_digital_peers_2025 = build_activity_peer_rows_2025(
+        activity_division_net_raw,
+        ["J", "61", "62", "63"],
+        label_map={
+            "J": "Information and communication",
+            "61": "Telecommunications",
+            "62": "Computer programming,\nconsultancy and related activities",
+            "63": "Information service activities",
+        },
+    )
+    activity_62_premium = build_activity_premium_rows(activity_division_net_raw, activity_code="62", base_code="0")
+    activity_85_trend = build_activity_net_gross_trend(activity_division_net_raw, activity_division_gross_raw, code="85")
+    activity_85_peers_2025 = build_activity_peer_rows_2025(
+        activity_division_net_raw,
+        ["72", "84", "85", "86"],
+        label_map={
+            "72": "Scientific research and\ndevelopment",
+            "84": "Public administration and defence;\ncompulsory social security",
+            "85": "Education",
+            "86": "Human health activities",
+        },
+    )
+    activity_85_premium = build_activity_premium_rows(activity_division_net_raw, activity_code="85", base_code="0")
+    activity_74_trend = build_activity_net_gross_trend(activity_division_net_raw, activity_division_gross_raw, code="74")
+    activity_74_peers_2025 = build_activity_peer_rows_2025(
+        activity_division_net_raw,
+        ["71", "73", "74", "90"],
+        label_map={
+            "71": "Architectural and engineering\nactivities",
+            "73": "Advertising and market research",
+            "74": "Other professional, scientific\nand technical activities",
+            "90": "Creative, arts and entertainment\nactivities",
+        },
+    )
+    activity_74_premium = build_activity_premium_rows(activity_division_net_raw, activity_code="74", base_code="0")
 
     city_member_chart_rows = [
         {**row, "drilldown_label": f"{row['city_group_name']} / {row['municipality_name']}"}
@@ -1345,6 +1519,120 @@ def render_report() -> str:
         label_line_height=18,
         label_max_lines=3,
     )
+    chart_activity_62_trend = svg_net_gross_trend_chart(
+        activity_62_trend,
+        "Computer Programming, Consultancy and Related Activities\nNet & Gross Trend, 2018-2025".replace("\n", ", "),
+        title_font_size=28,
+        title_shift_x=-20,
+        title_max_lines=3,
+    )
+    chart_activity_digital_peers = svg_bar_chart(
+        activity_digital_peers_2025,
+        "Digital Categories by Net Earnings, 2025",
+        "avg_2025_value_rsd",
+        "activity_label",
+        PASTEL_TEAL,
+        bar_height=54,
+        gap=24,
+        left_pad=360,
+        right_pad=124,
+        top_pad=94,
+        title_font_size=24,
+        title_centered=True,
+        title_shift_x=-20,
+        label_font_size=17,
+        value_font_size=18,
+        multiline_labels=True,
+        label_line_height=18,
+        label_max_lines=3,
+        multiline_title=True,
+        title_line_height=26,
+    )
+    chart_activity_62_premium = svg_percent_trend_chart(
+        activity_62_premium,
+        "Computer Programming Premium vs Republic Average, 2018-2025",
+        "premium_pct",
+        color=PASTEL_GOLD,
+        title_font_size=28,
+        title_shift_x=-20,
+        title_max_lines=3,
+    ).replace("Gap share of gross earnings", "Premium over republic average")
+    chart_activity_85_trend = svg_net_gross_trend_chart(
+        activity_85_trend,
+        "Education: Net & Gross Trend, 2018-2025",
+        title_font_size=28,
+        title_shift_x=-20,
+        title_max_lines=2,
+    )
+    chart_activity_85_peers = svg_bar_chart(
+        activity_85_peers_2025,
+        "Education and Neighboring Social Categories, 2025",
+        "avg_2025_value_rsd",
+        "activity_label",
+        PASTEL_SKY,
+        bar_height=54,
+        gap=24,
+        left_pad=360,
+        right_pad=124,
+        top_pad=94,
+        title_font_size=24,
+        title_centered=True,
+        title_shift_x=-20,
+        label_font_size=17,
+        value_font_size=18,
+        multiline_labels=True,
+        label_line_height=18,
+        label_max_lines=3,
+        multiline_title=True,
+        title_line_height=26,
+    )
+    chart_activity_85_premium = svg_percent_trend_chart(
+        activity_85_premium,
+        "Education Premium vs Serbia Average, 2018-2025",
+        "premium_pct",
+        color=PASTEL_SKY,
+        title_font_size=28,
+        title_shift_x=-20,
+        title_max_lines=3,
+    ).replace("Gap share of gross earnings", "Premium over republic average")
+    chart_activity_74_trend = svg_net_gross_trend_chart(
+        activity_74_trend,
+        "Design Proxy: Net & Gross Trend, 2018-2025",
+        title_font_size=28,
+        title_shift_x=-20,
+        title_max_lines=2,
+    )
+    chart_activity_74_peers = svg_bar_chart(
+        activity_74_peers_2025,
+        "Design-Adjacent Categories, 2025",
+        "avg_2025_value_rsd",
+        "activity_label",
+        PASTEL_PURPLE,
+        bar_height=54,
+        gap=24,
+        left_pad=360,
+        right_pad=124,
+        top_pad=94,
+        title_font_size=24,
+        title_centered=True,
+        title_shift_x=-20,
+        label_font_size=17,
+        value_font_size=18,
+        multiline_labels=True,
+        label_line_height=18,
+        label_max_lines=3,
+        multiline_title=True,
+        title_line_height=26,
+    )
+    chart_activity_74_premium = svg_percent_trend_chart(
+        activity_74_premium,
+        "Design Proxy Premium vs Serbia Average, 2018-2025",
+        "premium_pct",
+        color=PASTEL_PURPLE,
+        title_font_size=28,
+        title_shift_x=-20,
+        title_max_lines=3,
+    ).replace("Gap share of gross earnings", "Premium over republic average")
     territory_reference_html = build_territory_reference_html(territory_reference)
 
     return f"""<!DOCTYPE html>
@@ -1678,6 +1966,48 @@ def render_report() -> str:
         <section class="two-col">
           <div class="panel">{chart_activity_top}</div>
           <div class="panel">{chart_activity_bottom}</div>
+        </section>
+        <section class="panel">
+          <h2>IT Focus: Computer Programming, Consultancy and Related Activities</h2>
+          <p>This category is the clearest IT proxy available in the current open-data structure. The current files give us strong salary dynamics at the republic level, but not a regional split or employment headcount specifically for this category.</p>
+        </section>
+        <section class="three-col">
+          <div class="panel">{chart_activity_62_trend}</div>
+          <div class="panel">{chart_activity_digital_peers}</div>
+          <div class="panel">{chart_activity_62_premium}</div>
+        </section>
+        <section class="panel">
+          <h2>IT Interpretation</h2>
+          <p>The strongest thing we can say at this stage is that computer programming, consultancy and related activities are not just high-paying in one year: this category has maintained a very large premium over the republic average across the whole visible period.</p>
+          <p>We can also compare it with neighboring digital categories such as telecommunications, information services, and the broader information and communication sector. This helps show that core programming and consultancy sits at the top even within the digital economy.</p>
+          <p>What we still cannot show from the current files is the regional geography of this category itself or the number of employed people inside it by region. So for now this is a strong national-level IT salary view, but not yet a regional IT labor-market map.</p>
+        </section>
+        <section class="panel">
+          <h2>Education Focus</h2>
+          <p>Education is directly available in the current structure as its own category. This gives us a clean national-level salary series and a way to compare education with neighboring social and public-service categories.</p>
+        </section>
+        <section class="three-col">
+          <div class="panel">{chart_activity_85_trend}</div>
+          <div class="panel">{chart_activity_85_peers}</div>
+          <div class="panel">{chart_activity_85_premium}</div>
+        </section>
+        <section class="panel">
+          <h2>Education Interpretation</h2>
+          <p>This view helps place education in context: not only as a single salary level in 2025, but also as a category with its own trajectory versus the republic average and versus neighboring sectors like health, research, and public administration.</p>
+          <p>What it still does not show is regional variation inside education itself. So for now this remains a national activity-level view rather than a regional map of education jobs.</p>
+        </section>
+        <section class="panel">
+          <h2>Design Proxy Focus</h2>
+          <p>The current open-data structure does not contain a direct “design professions” category. The closest broad proxy is `Other professional, scientific and technical activities`, which should be treated carefully because it includes more than design alone.</p>
+        </section>
+        <section class="three-col">
+          <div class="panel">{chart_activity_74_trend}</div>
+          <div class="panel">{chart_activity_74_peers}</div>
+          <div class="panel">{chart_activity_74_premium}</div>
+        </section>
+        <section class="panel">
+          <h2>Design Proxy Interpretation</h2>
+          <p>This block is best read as an approximate design-adjacent salary view, not as a direct measurement of designers only. It is still useful for understanding whether the broader professional-creative cluster sits closer to education, advertising, engineering, or arts-related activities.</p>
         </section>
         <section class="panel block-header">
           <h2>Appendix</h2>
